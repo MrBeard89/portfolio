@@ -1,0 +1,7 @@
+@use '../src/sass/variables' as v;
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: v.$navy_blue;
+}
