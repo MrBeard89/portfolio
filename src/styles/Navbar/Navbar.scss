@@ -1,0 +1,91 @@
+@use '../../sass/variables' as v;
+
+.navbar-wrapper {
+  font-family: v.$text-font-family;
+
+  .navbar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    filter: blur();
+    border-top: 1px solid v.$yellow;
+
+    &:after {
+      position: absolute;
+      bottom: 0px;
+      content: '';
+      width: 100vw;
+      height: 1px;
+      background-color: v.$yellow;
+      box-shadow: 0px 8px 25px 1px v.$black;
+    }
+
+    .logo-container {
+      margin-left: 1.3rem;
+    }
+    .navlinks-container {
+      display: none;
+    }
+
+    .show-mobile-menu {
+      z-index: 3;
+      position: relative;
+    }
+
+    #closemenu,
+    #burgermenu {
+      z-index: 4;
+      position: absolute;
+      right: 1.3rem;
+      top: 1rem;
+      font-size: 35px;
+      color: v.$yellow;
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    .navlinks {
+      z-index: 3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      height: 100vh;
+      width: 180px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      list-style: none;
+      background-color: v.$light-navy;
+
+      animation: goleft 1.5s ease;
+
+      a {
+        text-transform: uppercase;
+        color: v.$pastel-yellow;
+        background-color: v.$light-navy;
+        font-size: v.$fz-xl;
+        text-decoration: none;
+        margin-top: 1rem;
+        letter-spacing: 2px;
+
+        &:nth-child(1) {
+          margin-top: 8rem;
+        }
+        &:hover {
+          color: v.$yellow;
+          text-decoration: overline;
+        }
+      }
+    }
+  }
+}
+
+//Mobile menu animation
+@keyframes goleft {
+  0% {
+    transform: translateX(12rem);
+  }
+}
