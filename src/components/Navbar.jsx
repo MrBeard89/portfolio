@@ -1,10 +1,13 @@
-import '../styles/Navbar.scss'
+import '../styles/Navbar/Navbar.scss'
+
+//Logo
+import { logo as Logo } from '../../src/components/Logo/logo'
 
 export const Navbar = () => {
   return (
     <div className='navbar-wrapper'>
       <div className='navbar-container'>
-        <div className='logo-container'></div>
+        <Logo />
       </div>
     </div>
   )
