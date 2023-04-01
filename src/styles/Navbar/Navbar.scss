@@ -15,7 +15,6 @@
     justify-content: space-between;
     height: 4rem;
     width: 100vw;
-    filter: blur();
     border-top: 1px solid v.$jet-black;
 
     //Navbar border-bottom
@@ -72,7 +71,7 @@
       list-style: none;
       background-color: v.$light-navy;
 
-      animation: goleft 0.5s ease;
+      animation: goleft 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 
       a {
         display: flex;
@@ -96,6 +95,12 @@
           color: v.$yellow;
           background-color: v.$lightest-navy;
         }
+      }
+
+      span {
+        color: v.$pastel-yellow;
+        border: 1px solid v.$yellow;
+        padding: 1rem;
       }
     }
   }

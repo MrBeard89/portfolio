@@ -31,7 +31,7 @@ export const Navbar = () => {
         {/* Navbar-mobile show depend on State */}
 
         <div className={`navlinks-container${navbarIsOpen ? 'show-mobile-menu' : ''}`}>
-          <ul className='navlinks'>
+          <ul className='navlinks' onClick={() => setNavbarIsOpen((prev) => !prev)}>
             <HashLink smooth to='#about'>
               About
             </HashLink>
@@ -44,6 +44,13 @@ export const Navbar = () => {
             <HashLink smooth to='#'>
               Contact
             </HashLink>
+            <Link
+              to='../../../public/Junior Frontend Developer CV Norbert Kovacs.pdf'
+              target='_blank'
+              download
+            >
+              <span>Resume</span>
+            </Link>
           </ul>
         </div>
       </div>
