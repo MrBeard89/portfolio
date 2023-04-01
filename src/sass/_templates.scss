@@ -1,0 +1,66 @@
+@use './variables' as v;
+
+////////////// Flexbox - Column //////////////
+///
+///
+//Flex:Align items center with column
+%flex-ai-column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+//Flex:Justify center with column
+%flex-jc-center-column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+//Flex:full center column
+%full-center-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+//Flex:column only
+%flex-column-only {
+  display: flex;
+  flex-direction: column;
+}
+//Flex:justify center only
+%flex-jc-center {
+  display: flex;
+  justify-content: center;
+}
+//Flex:align-items center only
+%flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+////////////// Flexbox - Row //////////////
+
+//Flex:justify center with Row
+%flex-jc-center-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+//Flex:row only
+%flex-row-only {
+  display: flex;
+  flex-direction: row;
+}
+//Flex:align-items center with Row
+%flex-ai-center-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+//Flex:full center row
+%full-center-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}

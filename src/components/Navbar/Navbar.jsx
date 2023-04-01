@@ -21,7 +21,6 @@ export const Navbar = () => {
             <Logo className='logo' />
           </Link>
         </div>
-        <div class='triangle-down'></div>
 
         {/* Hamburger Icons */}
 

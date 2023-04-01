@@ -3,6 +3,7 @@ import './Preloader.css'
 import ReactLoading from 'react-loading'
 
 import { Navbar } from '../Navbar/Navbar'
+import { Home } from '../Home/Home'
 
 function Preloader() {
   const [data, setData] = useState([])
@@ -27,7 +28,10 @@ function Preloader() {
       {!done ? (
         <ReactLoading className='loading' type={'bars'} color={'#03fc4e'} height={80} width={80} />
       ) : (
-        <Navbar />
+        <>
+          <Navbar />
+          <Home />
+        </>
       )}
     </>
   )
