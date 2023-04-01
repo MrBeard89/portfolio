@@ -55,7 +55,7 @@
       cursor: pointer;
     }
 
-    //Navbar links
+    //Navbar links container
 
     .navlinks {
       z-index: 3;
@@ -73,11 +73,12 @@
 
       animation: goleft 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 
+      //Links
+
       a {
         display: flex;
         align-items: center;
         justify-content: center;
-
         text-transform: uppercase;
         color: v.$pastel-yellow;
         background-color: v.$light-navy;
@@ -94,13 +95,27 @@
         &:hover {
           color: v.$yellow;
           background-color: v.$lightest-navy;
+
+          &:nth-child(5) {
+            background-color: v.$light-navy;
+          }
         }
       }
 
+      //Resume button
+
       span {
         color: v.$pastel-yellow;
-        border: 1px solid v.$yellow;
+        border: 1px solid v.$pastel-yellow;
+        background-color: v.$lightest-navy;
+        border-radius: 0.5rem;
         padding: 1rem;
+
+        &:hover {
+          color: v.$yellow;
+          background-color: v.$navy-blue;
+          border: 1px solid v.$yellow;
+        }
       }
     }
   }

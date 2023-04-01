@@ -77,10 +77,20 @@
   color: #ffff00;
   background-color: #233554;
 }
+.navbar-wrapper .navbar-container .navlinks a:hover:nth-child(5) {
+  background-color: #112240;
+}
 .navbar-wrapper .navbar-container .navlinks span {
   color: #fdfd96;
-  border: 1px solid #ffff00;
+  border: 1px solid #fdfd96;
+  background-color: #233554;
+  border-radius: 0.5rem;
   padding: 1rem;
+}
+.navbar-wrapper .navbar-container .navlinks span:hover {
+  color: #ffff00;
+  background-color: #0a192f;
+  border: 1px solid #ffff00;
 }
 
 @keyframes goleft {

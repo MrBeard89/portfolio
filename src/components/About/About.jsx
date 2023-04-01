@@ -1,10 +1,11 @@
 import '../../styles/About/About.scss'
 
-//Arrow icon
+//Arrow icon down
 import { AiFillCaretDown } from 'react-icons/ai'
 
 //About me img
 import Me from '../../assets/en.jpg'
+import { HashLink } from 'react-router-hash-link'
 
 export const About = () => {
   return (
@@ -30,7 +31,9 @@ export const About = () => {
           </p>
           <p className='text-last'>If you interested about me, please continue scrolling</p>
         </div>
-        <AiFillCaretDown className='animated-arrow' />
+        <HashLink smooth to='#skills'>
+          <AiFillCaretDown className='animated-arrow-down' />
+        </HashLink>
       </div>
     </div>
   )

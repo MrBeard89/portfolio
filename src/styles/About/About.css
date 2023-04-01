@@ -1,3 +1,15 @@
+.about-wrapper .about-container .animated-arrow-down {
+  position: absolute;
+  bottom: -7rem;
+  left: 8rem;
+  font-size: 40px;
+  color: #ffff00;
+  animation: arrow-fade 2s ease-in-out infinite;
+}
+.about-wrapper .about-container .animated-arrow-down:hover {
+  cursor: pointer;
+}
+
 .about-wrapper {
   z-index: 2;
   display: flex;
@@ -9,7 +21,6 @@
 .about-wrapper .about-container {
   position: relative;
   width: 300px;
-  background-color: transparent;
 }
 .about-wrapper .about-container .about-img-container {
   position: inherit;
@@ -63,21 +74,12 @@
   font-size: 20px;
   font-weight: 500;
 }
-.about-wrapper .about-container .about-text:hover {
+.about-wrapper .about-container .about-text:is(:hover, :focus-visible) {
   color: #45669e;
 }
 .about-wrapper .about-container .about-text .text-last {
   margin-top: 1rem;
 }
-.about-wrapper .about-container .animated-arrow {
-  position: absolute;
-  bottom: -5rem;
-  left: 8rem;
-  font-size: 40px;
-  color: #ffff00;
-  animation: arrow-fade 2s ease-in-out infinite;
-}
-
 @keyframes arrow-fade {
   0% {
     opacity: 0;

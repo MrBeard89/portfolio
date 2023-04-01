@@ -64,3 +64,20 @@
   align-items: center;
   flex-direction: row;
 }
+
+////////////// Animated Icon //////////////
+
+//Animated arrow down
+%animated-arrow-down {
+  position: absolute;
+  bottom: -7rem;
+  left: 8rem;
+  font-size: v.$fz-big-2;
+  color: v.$yellow;
+
+  animation: arrow-fade 2s ease-in-out infinite;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

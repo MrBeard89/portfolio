@@ -1,0 +1,73 @@
+.skills-wrapper .skills-container .animated-arrow-down {
+  position: absolute;
+  bottom: -7rem;
+  left: 8rem;
+  font-size: 40px;
+  color: #ffff00;
+  animation: arrow-fade 2s ease-in-out infinite;
+}
+.skills-wrapper .skills-container .animated-arrow-down:hover {
+  cursor: pointer;
+}
+
+.skills-wrapper {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.skills-wrapper .skills-container {
+  margin-top: 5rem;
+  position: relative;
+  width: 300px;
+}
+.skills-wrapper .skills-container .skills-title {
+  color: #5a83c9;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+.skills-wrapper .skills-container .skills-text-container {
+  color: #233554;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+.skills-wrapper .skills-container .skills-text-container:nth-child(1) {
+  margin-bottom: 1rem;
+}
+.skills-wrapper .skills-container .skills-text-container:is(:hover, :focus-visible) {
+  color: #45669e;
+}
+.skills-wrapper .skills-container .skills-text-container .python-text,
+.skills-wrapper .skills-container .skills-text-container .designer-text {
+  color: #45669e;
+}
+.skills-wrapper .skills-container .skills-skillset-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4rem;
+}
+.skills-wrapper .skills-container .skills-skillset-container .skill-element-container {
+  display: flex;
+  align-items: center;
+}
+.skills-wrapper .skills-container .skills-skillset-container .skill-element-container .right-arrow {
+  color: #fada5e;
+  padding-right: 0.5rem;
+}
+.skills-wrapper .skills-container .skills-skillset-container .skill-element-container li {
+  color: #45669e;
+  font-size: 18px;
+  font-weight: 700;
+}
+.skills-wrapper .skills-container .skills-skillset-container .skill-element-container .brighter {
+  color: #aac9ff;
+}
+.skills-wrapper .skills-container .skills-skillset-container .left-skillset,
+.skills-wrapper .skills-container .skills-skillset-container .right-skillset {
+  list-style: none;
+  line-height: 2rem;
+}/*# sourceMappingURL=Skills.css.map */

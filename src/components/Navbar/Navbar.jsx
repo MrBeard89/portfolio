@@ -17,9 +17,9 @@ export const Navbar = () => {
     <div className='navbar-wrapper'>
       <div className='navbar-container'>
         <div className='logo-container'>
-          <Link to='/home'>
+          <HashLink smooth to='#about'>
             <Logo className='logo' />
-          </Link>
+          </HashLink>
         </div>
 
         {/* Hamburger Icons */}
@@ -35,7 +35,7 @@ export const Navbar = () => {
             <HashLink smooth to='#about'>
               About
             </HashLink>
-            <HashLink smooth to='#'>
+            <HashLink smooth to='#skills'>
               Skills
             </HashLink>
             <HashLink smooth to='#'>

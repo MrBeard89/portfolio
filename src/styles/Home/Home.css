@@ -1,4 +1,9 @@
 .home-wrapper {
   font-family: "Genos", sans-serif;
   color: #233554;
+}
+.home-wrapper .home-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
 }/*# sourceMappingURL=Home.css.map */

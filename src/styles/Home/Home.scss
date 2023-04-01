@@ -3,4 +3,10 @@
 .home-wrapper {
   font-family: v.$text-font-family;
   color: v.$lightest-navy;
+
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
 }
