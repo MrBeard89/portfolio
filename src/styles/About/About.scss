@@ -1,0 +1,120 @@
+@use '../../sass/variables' as v;
+
+//Main wrapper
+
+.about-wrapper {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 8rem;
+
+  .about-container {
+    position: relative;
+    width: v.$content-mobile-width;
+    background-color: transparent;
+
+    .about-img-container {
+      position: inherit;
+
+      .img-me {
+        position: inherit;
+        z-index: inherit;
+        width: v.$content-mobile-img-me-width;
+        margin: 1.5rem 0 1rem 3rem;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+
+        &:hover {
+          filter: contrast(120%);
+        }
+      }
+
+      //Image border
+
+      .img-border {
+        position: absolute;
+        left: 4rem;
+        bottom: 1rem;
+        z-index: 0;
+        width: v.$content-mobile-img-me-width;
+        height: 200px;
+        border: 2px solid v.$yellow;
+        border-radius: 1rem;
+
+        &:hover {
+          filter: hue-rotate(90deg);
+        }
+      }
+    }
+    .about-introduction {
+      color: v.$xxl-light-navy;
+      font-size: v.$fz-lg;
+      font-weight: 400;
+    }
+
+    .about-name {
+      color: v.$bluis-white;
+      font-size: v.$fz-big-2;
+    }
+
+    .about-profession {
+      color: v.$very-light-navy;
+      font-size: v.$fz-xxxl;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+
+      span {
+        color: v.$xxl-light-navy;
+        letter-spacing: 2px;
+        margin-left: 0.5rem;
+      }
+    }
+
+    .about-text {
+      color: v.$lightest-navy;
+      font-size: v.$fz-xl;
+      font-weight: 500;
+
+      &:hover {
+        color: v.$very-light-navy;
+      }
+
+      .text-last {
+        margin-top: 1rem;
+      }
+    }
+
+    //Animated arrow icon
+
+    .animated-arrow {
+      position: absolute;
+      bottom: -5rem;
+      left: 8rem;
+      font-size: v.$fz-big-2;
+      color: v.$yellow;
+
+      animation: arrow-fade 2s ease-in-out infinite;
+    }
+  }
+}
+
+//Animation Arrow fade
+
+@keyframes arrow-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+//Animation border-move

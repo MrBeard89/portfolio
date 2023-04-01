@@ -32,7 +32,7 @@ export const Navbar = () => {
 
         <div className={`navlinks-container${navbarIsOpen ? 'show-mobile-menu' : ''}`}>
           <ul className='navlinks'>
-            <HashLink smooth to='#'>
+            <HashLink smooth to='#about'>
               About
             </HashLink>
             <HashLink smooth to='#'>

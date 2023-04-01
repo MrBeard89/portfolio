@@ -26,7 +26,7 @@ function Preloader() {
   return (
     <>
       {!done ? (
-        <ReactLoading className='loading' type={'bars'} color={'#03fc4e'} height={80} width={80} />
+        <ReactLoading className='loading' type={'bars'} color={'yellow'} height={80} width={80} />
       ) : (
         <>
           <Navbar />

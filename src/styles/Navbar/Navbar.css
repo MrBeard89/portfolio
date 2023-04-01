@@ -1,5 +1,8 @@
 .navbar-wrapper {
   font-family: "Genos", sans-serif;
+  position: fixed;
+  top: 0;
+  z-index: 3;
 }
 .navbar-wrapper .navbar-container {
   position: relative;
@@ -7,6 +10,7 @@
   align-items: center;
   justify-content: space-between;
   height: 4rem;
+  width: 100vw;
   filter: blur();
   border-top: 1px solid #343434;
 }
@@ -52,7 +56,7 @@
   right: 0;
   list-style: none;
   background-color: #112240;
-  animation: goleft 1.5s ease;
+  animation: goleft 0.5s ease;
 }
 .navbar-wrapper .navbar-container .navlinks a {
   display: flex;

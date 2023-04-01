@@ -1,5 +1,6 @@
 @use '../../sass/variables' as v;
 
 .home-wrapper {
+  font-family: v.$text-font-family;
   color: v.$lightest-navy;
 }

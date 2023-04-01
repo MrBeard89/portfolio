@@ -6,6 +6,8 @@ $dark-navy-blue: #020c1b;
 $navy-blue: #0a192f;
 $light-navy: #112240;
 $lightest-navy: #233554;
+$very-light-navy: #45669e;
+$xxl-light-navy: #5a83c9;
 $navy-shadow: rgba(2, 12, 27, 0.7);
 
 /////Yellow
@@ -18,6 +20,7 @@ $grain-yellow: #fada5e;
 /////Black&White
 
 $white: #fffafa;
+$bluis-white: #aac9ff;
 $azure-white: #f0ffff;
 
 //********************************************//
@@ -39,7 +42,17 @@ $fz-xxl: 22px;
 $fz-xxxl: 24px;
 $fz-xxxxl: 26px;
 
+$fz-big-1: 35px;
+$fz-big-2: 40px;
+$fz-big-3: 45px;
+
 //************ Font Families ************//
 
 $logo-font-family: 'Tourney', cursive;
 $text-font-family: 'Genos', sans-serif;
+
+//************ Variables ************//
+
+$content-mobile-img-me-width: 200px;
+$content-mobile-width: 300px;
+$content-mobile-max-width: 375px;

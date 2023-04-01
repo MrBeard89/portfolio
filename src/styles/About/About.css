@@ -1,0 +1,94 @@
+.about-wrapper {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 8rem;
+}
+.about-wrapper .about-container {
+  position: relative;
+  width: 300px;
+  background-color: transparent;
+}
+.about-wrapper .about-container .about-img-container {
+  position: inherit;
+}
+.about-wrapper .about-container .about-img-container .img-me {
+  position: inherit;
+  z-index: inherit;
+  width: 200px;
+  margin: 1.5rem 0 1rem 3rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.about-wrapper .about-container .about-img-container .img-me:hover {
+  filter: contrast(120%);
+}
+.about-wrapper .about-container .about-img-container .img-border {
+  position: absolute;
+  left: 4rem;
+  bottom: 1rem;
+  z-index: 0;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ffff00;
+  border-radius: 1rem;
+}
+.about-wrapper .about-container .about-img-container .img-border:hover {
+  filter: hue-rotate(90deg);
+}
+.about-wrapper .about-container .about-introduction {
+  color: #5a83c9;
+  font-size: 18px;
+  font-weight: 400;
+}
+.about-wrapper .about-container .about-name {
+  color: #aac9ff;
+  font-size: 40px;
+}
+.about-wrapper .about-container .about-profession {
+  color: #45669e;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.about-wrapper .about-container .about-profession span {
+  color: #5a83c9;
+  letter-spacing: 2px;
+  margin-left: 0.5rem;
+}
+.about-wrapper .about-container .about-text {
+  color: #233554;
+  font-size: 20px;
+  font-weight: 500;
+}
+.about-wrapper .about-container .about-text:hover {
+  color: #45669e;
+}
+.about-wrapper .about-container .about-text .text-last {
+  margin-top: 1rem;
+}
+.about-wrapper .about-container .animated-arrow {
+  position: absolute;
+  bottom: -5rem;
+  left: 8rem;
+  font-size: 40px;
+  color: #ffff00;
+  animation: arrow-fade 2s ease-in-out infinite;
+}
+
+@keyframes arrow-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=About.css.map */
