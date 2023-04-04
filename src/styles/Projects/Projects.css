@@ -5,6 +5,7 @@
 }
 
 .projects-wrapper .projects-container .cards-wrapper .animated-arrow-down {
+  z-index: 3;
   position: absolute;
   bottom: -7rem;
   left: 8rem;
@@ -52,7 +53,8 @@
 
 .projects-wrapper {
   z-index: 2;
-  height: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .projects-wrapper .projects-container {
   margin-top: 1rem;
@@ -60,7 +62,7 @@
   width: 300px;
 }
 .projects-wrapper .projects-container .projects-container-title {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 .projects-wrapper .projects-container .cards-wrapper {
   position: inherit;

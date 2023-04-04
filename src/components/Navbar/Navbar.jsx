@@ -54,7 +54,7 @@ export const Navbar = () => {
             <HashLink smooth to='#projects'>
               Projects
             </HashLink>
-            <HashLink smooth to='#'>
+            <HashLink smooth to='#contact'>
               Contact
             </HashLink>
             <Link

@@ -5,6 +5,7 @@
 }
 
 .skills-wrapper .skills-container .animated-arrow-down {
+  z-index: 3;
   position: absolute;
   bottom: -7rem;
   left: 8rem;

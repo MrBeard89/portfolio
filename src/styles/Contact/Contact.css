@@ -1,1 +1,91 @@
-/*# sourceMappingURL=Contact.css.map */
+.contact-wrapper .contact-container .email-container .contact-email-btn {
+  border: none;
+}
+.contact-wrapper .contact-container .email-container .contact-email-btn a {
+  font-family: "Genos", sans-serif;
+  color: #fdfd96;
+  border: 1px solid #fdfd96;
+  background-color: #233554;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 20px;
+}
+.contact-wrapper .contact-container .email-container .contact-email-btn a:hover {
+  color: #ffff00;
+  background-color: #0a192f;
+  border: 1px solid #ffff00;
+}
+
+.contact-wrapper .contact-container .email-container .contact-container-title {
+  color: #5a83c9;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+
+.contact-wrapper .contact-container .email-container .contact-text {
+  color: #233554;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  position: relative;
+  z-index: 1;
+  height: 70vh;
+}
+.contact-wrapper .contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+.contact-wrapper .contact-container .email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 1rem;
+}
+.contact-wrapper .contact-container .email-container .contact-intro-text {
+  color: #5a83c9;
+}
+.contact-wrapper .contact-container .email-container .contact-text {
+  font-weight: 700;
+}
+.contact-wrapper .contact-container .email-container .contact-text .highlighted {
+  color: #45669e;
+}
+.contact-wrapper .contact-container .email-container .contact-text:hover {
+  color: #45669e;
+}
+.contact-wrapper .contact-container .social-media {
+  position: absolute;
+  bottom: 1rem;
+}
+.contact-wrapper .contact-container .social-media .social-icons-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+.contact-wrapper .contact-container .social-media .social-icons-container .social-icons {
+  color: #fada5e;
+  font-size: 20px;
+}
+.contact-wrapper .contact-container .social-media .social-icons-container .social-icons:hover {
+  color: #ffff00;
+}
+.contact-wrapper .contact-container .social-media p {
+  color: #233554;
+  font-size: 18px;
+  font-weight: 700;
+}
+.contact-wrapper .contact-container .social-media p .full-name {
+  color: #45669e;
+}/*# sourceMappingURL=Contact.css.map */

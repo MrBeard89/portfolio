@@ -68,6 +68,7 @@
 
 //Animated arrow down
 %animated-arrow-down {
+  z-index: 3;
   position: absolute;
   bottom: -7rem;
   left: 8rem;
@@ -112,6 +113,27 @@
 }
 
 %more-btn {
+  border: none;
+
+  a {
+    font-family: v.$text-font-family;
+    color: v.$pastel-yellow;
+    border: 1px solid v.$pastel-yellow;
+    background-color: v.$lightest-navy;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: v.$fz-xl;
+
+    &:hover {
+      color: v.$yellow;
+      background-color: v.$navy-blue;
+      border: 1px solid v.$yellow;
+    }
+  }
+}
+
+%email-btn {
   border: none;
 
   a {

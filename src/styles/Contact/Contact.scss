@@ -1,2 +1,91 @@
 @use '../../sass/variables' as v;
 @forward '../../sass/templates';
+
+//main Wrapper
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  position: relative;
+  z-index: 1;
+  height: 70vh;
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: v.$content-mobile-width;
+
+    //Email Container
+    .email-container {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      gap: 1rem;
+
+      //Title
+      .contact-container-title {
+        @extend %title-style;
+      }
+
+      //Get in Touch text
+      .contact-intro-text {
+        color: v.$xxl-light-navy;
+      }
+
+      //email Text
+      .contact-text {
+        @extend %text-container-style;
+        font-weight: 700;
+
+        .highlighted {
+          color: v.$very-light-navy;
+        }
+
+        &:hover {
+          color: v.$very-light-navy;
+        }
+      }
+
+      //Send Email btn
+      .contact-email-btn {
+        @extend %email-btn;
+      }
+    }
+
+    //Social media container
+    .social-media {
+      position: absolute;
+      bottom: 1rem;
+
+      //Social Icons Container
+      .social-icons-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 2rem;
+
+        //icons
+        .social-icons {
+          color: v.$grain-yellow;
+          font-size: v.$fz-xl;
+
+          &:hover {
+            color: v.$yellow;
+          }
+        }
+      }
+
+      //Sign
+      p {
+        color: v.$lightest-navy;
+        font-size: v.$fz-lg;
+        font-weight: 700;
+
+        .full-name {
+          color: v.$very-light-navy;
+        }
+      }
+    }
+  }
+}

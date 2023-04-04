@@ -4,7 +4,7 @@
 .projects-wrapper {
   z-index: 2;
   @extend %flex-ai-column;
-  height: 100vh;
+  height: fit-content;
 
   .projects-container {
     margin-top: 1rem;
@@ -14,7 +14,7 @@
     //Main Title
     .projects-container-title {
       @extend %title-style;
-      margin-top: 3rem;
+      margin-top: 1rem;
     }
 
     //Wrapper for Cards
