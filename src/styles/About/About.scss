@@ -6,7 +6,7 @@
 .about-wrapper {
   z-index: 2;
   @extend %flex-ai-column;
-  height: 100vh;
+  height: fit-content;
   margin-top: 8rem;
 
   .about-container {

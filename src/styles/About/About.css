@@ -6,8 +6,8 @@
 
 .about-wrapper .about-container .animated-arrow-down {
   z-index: 3;
-  position: absolute;
-  bottom: -7rem;
+  position: relative;
+  bottom: -5rem;
   left: 8rem;
   font-size: 40px;
   color: #ffff00;
@@ -19,7 +19,8 @@
 
 .about-wrapper {
   z-index: 2;
-  height: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
   margin-top: 8rem;
 }
 .about-wrapper .about-container {

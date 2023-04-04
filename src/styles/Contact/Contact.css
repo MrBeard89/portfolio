@@ -10,6 +10,7 @@
   padding: 1rem;
   text-decoration: none;
   font-size: 20px;
+  margin-bottom: 3rem;
 }
 .contact-wrapper .contact-container .email-container .contact-email-btn a:hover {
   color: #ffff00;
@@ -39,7 +40,8 @@
   margin-top: 3rem;
   position: relative;
   z-index: 1;
-  height: 70vh;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .contact-wrapper .contact-container {
   display: flex;
@@ -52,6 +54,7 @@
   flex-direction: column;
   align-items: left;
   gap: 1rem;
+  margin-bottom: 8rem;
 }
 .contact-wrapper .contact-container .email-container .contact-intro-text {
   color: #5a83c9;
@@ -66,7 +69,7 @@
   color: #45669e;
 }
 .contact-wrapper .contact-container .social-media {
-  position: absolute;
+  position: relative;
   bottom: 1rem;
 }
 .contact-wrapper .contact-container .social-media .social-icons-container {

@@ -4,7 +4,7 @@
 .skills-wrapper {
   z-index: 2;
   @extend %flex-ai-column;
-  height: 100vh;
+  height: fit-content;
 
   .skills-container {
     margin-top: 5rem;

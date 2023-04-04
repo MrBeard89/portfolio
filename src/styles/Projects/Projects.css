@@ -6,8 +6,8 @@
 
 .projects-wrapper .projects-container .cards-wrapper .animated-arrow-down {
   z-index: 3;
-  position: absolute;
-  bottom: -7rem;
+  position: relative;
+  bottom: -5rem;
   left: 8rem;
   font-size: 40px;
   color: #ffff00;
