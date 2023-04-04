@@ -1,3 +1,9 @@
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .about-wrapper .about-container .animated-arrow-down {
   position: absolute;
   bottom: -7rem;
@@ -12,9 +18,6 @@
 
 .about-wrapper {
   z-index: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   height: 100vh;
   margin-top: 8rem;
 }

@@ -1,0 +1,172 @@
+@use '../../sass/variables' as v;
+@forward '../../sass/templates';
+
+.projects-wrapper {
+  z-index: 2;
+  @extend %flex-ai-column;
+  height: 100vh;
+
+  .projects-container {
+    margin-top: 1rem;
+    position: relative;
+    width: v.$content-mobile-width;
+
+    //Main Title
+    .projects-container-title {
+      @extend %title-style;
+    }
+
+    //Wrapper for Cards
+    .cards-wrapper {
+      position: inherit;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      //Container for Card
+      .project-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 3;
+        position: relative;
+        border-radius: 1rem;
+        border: 2px solid v.$pastel-yellow;
+        height: 396px;
+
+        &:hover {
+          border: 2px solid v.$yellow;
+        }
+
+        //Card title
+        .card-title {
+          background-color: transparent;
+          text-align: center;
+          background-color: v.$lightest-navy;
+          color: v.$xxl-light-navy;
+          border-top-left-radius: 1rem;
+          border-top-right-radius: 1rem;
+          margin-bottom: 1rem;
+          width: 296px;
+          font-size: v.$fz-xxl;
+        }
+
+        //Card Image
+        .card-image {
+          z-index: -1;
+          position: absolute;
+          top: 0;
+          width: 296px;
+          height: 396px;
+          object-fit: cover;
+          object-position: 0% 0%;
+
+          filter: opacity(0.05);
+          border-radius: 1rem;
+        }
+
+        //Card Description
+        .card-description {
+          z-index: 3;
+          @extend %card-text-style;
+          width: v.$cardtext-width;
+          background-color: transparent;
+        }
+
+        //Card Note
+        .card-note {
+          color: v.$very-light-navy;
+          width: v.$cardtext-width;
+          margin-bottom: 1rem;
+          font-weight: 500;
+          background-color: transparent;
+        }
+
+        //Card Techstack
+        .card-techstack {
+          position: absolute;
+          bottom: 4rem;
+          width: v.$cardtext-width;
+          background-color: transparent;
+          color: v.$bluis-white;
+          font-size: v.$fz-xl;
+          text-align: left;
+          line-height: 1rem;
+
+          &:hover {
+            color: v.$yellow;
+          }
+        }
+
+        //Button/Icon Container
+        .icon-container {
+          position: absolute;
+          bottom: 0;
+          background-color: transparent;
+          width: 296px;
+          display: flex;
+          justify-content: center;
+
+          border-bottom-left-radius: 1rem;
+          border-bottom-right-radius: 1rem;
+
+          .github,
+          .external-link {
+            color: v.$grain-yellow;
+            font-size: v.$fz-xxxl;
+
+            &:hover {
+              color: v.$yellow;
+              background-color: v.$xxl-light-navy;
+            }
+          }
+
+          //Github Link SVG
+          .github {
+            text-align: center;
+            background-color: v.$lightest-navy;
+            width: calc(296px / 2);
+            border-bottom-left-radius: 1rem;
+
+            .github-svg {
+              padding-top: 0.5rem;
+              background-color: transparent;
+            }
+          }
+
+          //External link SVG
+          .external-link {
+            text-align: center;
+            background-color: v.$lightest-navy;
+            width: calc(296px / 2);
+
+            border-bottom-right-radius: 1rem;
+
+            .external-link-svg {
+              padding-top: 0.5rem;
+              background-color: transparent;
+            }
+          }
+        }
+      }
+
+      //More projects btn
+
+      .more-to-see-container {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+
+        .more-btn {
+          @extend %more-btn;
+        }
+      }
+
+      //Animated arrow down
+
+      .animated-arrow-down {
+        @extend %animated-arrow-down;
+      }
+    }
+  }
+}

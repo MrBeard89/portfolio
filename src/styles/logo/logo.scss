@@ -1,36 +1,11 @@
 @use '../../sass/variables' as v;
+@forward '../../sass/templates';
 @import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,300;1,400;1,500&display=swap');
 
 .logo-wrapper {
   position: relative;
 
-  //Logo -border animation
-
-  .logo-border {
-    width: 40px;
-    height: 40px;
-    border: 2px dashed v.$yellow;
-    border-radius: 50%;
-
-    animation: spin 8s linear infinite;
-
-    &:hover {
-      background-color: v.$light-navy;
-      cursor: pointer;
-    }
-  }
-
-  //NK text
-
-  .logo {
-    font-family: 'Tourney', cursive;
-    font-weight: 300;
-    font-size: v.$fz-xxxl;
-    position: absolute;
-    top: 0.55rem;
-    left: 1rem;
-    color: v.$yellow;
-  }
+  @extend %logo;
 }
 
 //Animation: Spin

@@ -1,4 +1,5 @@
 @use '../../sass/variables' as v;
+@forward '../../sass/templates';
 
 //Main wrapper
 
@@ -7,11 +8,11 @@
   position: fixed;
   top: 0;
   z-index: 3;
+  transition: top 0.3s;
 
   .navbar-container {
     position: relative;
-    display: flex;
-    align-items: center;
+    @extend %flex-align-center;
     justify-content: space-between;
     height: 4rem;
     width: 100vw;
@@ -24,9 +25,9 @@
       bottom: 0px;
       content: '';
       width: 100vw;
-      height: 2px;
-      background-color: v.$jet-black;
-      box-shadow: 0px 11px 25px 1px v.$black;
+      height: 11px;
+      background-image: linear-gradient(180deg, v.$navy-blue, v.$lightest-navy 475%);
+      box-shadow: 0px 25px 35px 1px v.$black;
     }
 
     .logo-container {
@@ -43,25 +44,13 @@
 
     // Mobile-Icons
 
-    #closemenu,
-    #burgermenu {
-      z-index: 4;
-      position: absolute;
-      right: 1.3rem;
-      top: 1rem;
-      font-size: 35px;
-      color: v.$yellow;
-      background-color: transparent;
-      cursor: pointer;
-    }
+    @extend %mobile-navbar-icons;
 
     //Navbar links container
 
     .navlinks {
       z-index: 3;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      @extend %flex-ai-column;
 
       height: 100vh;
       width: 180px;
@@ -76,9 +65,7 @@
       //Links
 
       a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @extend %full-center-row;
         text-transform: uppercase;
         color: v.$pastel-yellow;
         background-color: v.$light-navy;
@@ -104,19 +91,7 @@
 
       //Resume button
 
-      span {
-        color: v.$pastel-yellow;
-        border: 1px solid v.$pastel-yellow;
-        background-color: v.$lightest-navy;
-        border-radius: 0.5rem;
-        padding: 1rem;
-
-        &:hover {
-          color: v.$yellow;
-          background-color: v.$navy-blue;
-          border: 1px solid v.$yellow;
-        }
-      }
+      @extend %resume-btn;
     }
   }
 }

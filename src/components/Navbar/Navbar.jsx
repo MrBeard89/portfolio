@@ -13,6 +13,19 @@ import { logo as Logo } from '../Logo/logo'
 export const Navbar = () => {
   const [navbarIsOpen, setNavbarIsOpen] = useState('false')
 
+  //When scrolling hide Navbar
+
+  var prevScrollpos = window.pageYOffset
+  window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset
+    if (prevScrollpos > currentScrollPos) {
+      document.querySelector('.navbar-wrapper').style.top = '0'
+    } else {
+      document.querySelector('.navbar-wrapper').style.top = '-70px'
+    }
+    prevScrollpos = currentScrollPos
+  }
+
   return (
     <div className='navbar-wrapper'>
       <div className='navbar-container'>
@@ -38,7 +51,7 @@ export const Navbar = () => {
             <HashLink smooth to='#skills'>
               Skills
             </HashLink>
-            <HashLink smooth to='#'>
+            <HashLink smooth to='#projects'>
               Projects
             </HashLink>
             <HashLink smooth to='#'>

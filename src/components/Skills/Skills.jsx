@@ -11,7 +11,7 @@ export const Skills = () => {
   return (
     //Main Wrapper
 
-    <div className='skills-wrapper'>
+    <div className='skills-wrapper' id='skills'>
       <div className='skills-container'>
         <h3 className='skills-title'>Skills</h3>
 
@@ -31,7 +31,7 @@ export const Skills = () => {
 
         {/* Skill tree list Container */}
 
-        <div className='skills-skillset-container' id='skills'>
+        <div className='skills-skillset-container'>
           <ul className='left-skillset'>
             {/* Left Skill tree */}
 

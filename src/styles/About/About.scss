@@ -5,9 +5,7 @@
 
 .about-wrapper {
   z-index: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @extend %flex-ai-column;
   height: 100vh;
   margin-top: 8rem;
 

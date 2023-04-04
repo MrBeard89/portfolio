@@ -3,9 +3,7 @@
 
 .skills-wrapper {
   z-index: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @extend %flex-ai-column;
   height: 100vh;
 
   .skills-container {
@@ -14,18 +12,11 @@
     width: v.$content-mobile-width;
 
     .skills-title {
-      color: v.$xxl-light-navy;
-      font-size: v.$fz-xxxl;
-      font-weight: 700;
-      letter-spacing: 2px;
-      margin-bottom: 1.5rem;
+      @extend %title-style;
     }
 
     .skills-text-container {
-      color: v.$lightest-navy;
-      font-size: v.$fz-xl;
-      font-weight: 500;
-      margin-bottom: 3rem;
+      @extend %text-container-style;
 
       &:nth-child(1) {
         margin-bottom: 1rem;

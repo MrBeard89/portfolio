@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,300;1,400;1,500&display=swap");
-.logo-wrapper {
-  position: relative;
-}
 .logo-wrapper .logo-border {
   width: 40px;
   height: 40px;
@@ -9,7 +6,7 @@
   border-radius: 50%;
   animation: spin 8s linear infinite;
 }
-.logo-wrapper .logo-border:hover {
+.logo-wrapper .logo-border:hover + .logo {
   background-color: #112240;
   cursor: pointer;
 }
@@ -21,6 +18,10 @@
   top: 0.55rem;
   left: 1rem;
   color: #ffff00;
+}
+
+.logo-wrapper {
+  position: relative;
 }
 
 @keyframes spin {

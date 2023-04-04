@@ -62,10 +62,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
 }
 
-////////////// Animated Icon //////////////
+////////////// Animated Icons //////////////
 
 //Animated arrow down
 %animated-arrow-down {
@@ -80,4 +79,113 @@
   &:hover {
     cursor: pointer;
   }
+}
+
+%mobile-navbar-icons {
+  #closemenu,
+  #burgermenu {
+    z-index: 4;
+    position: absolute;
+    right: 1.3rem;
+    top: 1rem;
+    font-size: 35px;
+    color: v.$yellow;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+%resume-btn {
+  span {
+    color: v.$pastel-yellow;
+    border: 1px solid v.$pastel-yellow;
+    background-color: v.$lightest-navy;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+    &:hover {
+      color: v.$yellow;
+      background-color: v.$navy-blue;
+      border: 1px solid v.$yellow;
+    }
+  }
+}
+
+%more-btn {
+  border: none;
+
+  a {
+    font-family: v.$text-font-family;
+    color: v.$pastel-yellow;
+    border: 1px solid v.$pastel-yellow;
+    background-color: v.$lightest-navy;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: v.$fz-xl;
+
+    &:hover {
+      color: v.$yellow;
+      background-color: v.$navy-blue;
+      border: 1px solid v.$yellow;
+    }
+  }
+}
+
+////////////// Logo //////////////
+
+%logo {
+  //Logo -border animation
+
+  .logo-border {
+    width: 40px;
+    height: 40px;
+    border: 2px dashed v.$yellow;
+    border-radius: 50%;
+
+    animation: spin 8s linear infinite;
+
+    &:hover + .logo {
+      background-color: v.$light-navy;
+      cursor: pointer;
+    }
+  }
+
+  //NK text
+
+  .logo {
+    font-family: 'Tourney', cursive;
+    font-weight: 300;
+    font-size: v.$fz-xxxl;
+    position: absolute;
+    top: 0.55rem;
+    left: 1rem;
+    color: v.$yellow;
+  }
+}
+
+////////////// Title Styles //////////////
+
+%title-style {
+  color: v.$xxl-light-navy;
+  font-size: v.$fz-xxxl;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+}
+
+////////////// Text Styles //////////////
+
+%text-container-style {
+  color: v.$lightest-navy;
+  font-size: v.$fz-xl;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+%card-text-style {
+  color: v.$very-light-navy;
+  font-size: v.$fz-xl;
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
