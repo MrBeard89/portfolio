@@ -6,4 +6,10 @@
   display: flex;
   flex-direction: column;
   gap: 5rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .home-container {
+    gap: 10rem !important;
+  }
 }/*# sourceMappingURL=Home.css.map */

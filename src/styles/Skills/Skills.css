@@ -91,4 +91,45 @@
   .skills-container .animated-arrow-down {
     left: 13rem !important;
   }
+}
+@media only screen and (min-width: 992px) {
+  .skills-container {
+    width: 550px !important;
+    margin-top: 0 !important;
+  }
+  .skills-container::before {
+    position: absolute;
+    left: 20vw;
+    top: 2rem;
+    content: "";
+    width: 366.6666666667px;
+    height: 2px;
+    background-color: #fada5e;
+    box-shadow: 0px 0px 85px 5px #ffff00;
+    border-radius: 50%;
+    animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+  }
+  .skills-container .skill-element-container .right-arrow {
+    transition: 1s ease;
+    font-size: 24px;
+  }
+  .skills-container .skills-title {
+    transition: 1s ease;
+    font-size: 45px !important;
+  }
+  .skills-container .skills-text-container {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+  }
+  .skills-container .skills-skillset-container {
+    gap: 8rem !important;
+  }
+  .skills-container .skills-skillset-container li {
+    font-size: 24px !important;
+  }
+  .skills-container .skills-skillset-container .left-skillset,
+  .skills-container .skills-skillset-container .right-skillset {
+    transition: 1s ease;
+    line-height: 3.5rem !important;
+  }
 }/*# sourceMappingURL=Skills.css.map */

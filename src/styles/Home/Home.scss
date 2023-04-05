@@ -10,3 +10,10 @@
     gap: v.$component-gap-mobile;
   }
 }
+
+//Media Queries
+@media only screen and (min-width: 992px) {
+  .home-container {
+    gap: v.$component-gap-desktop992 !important;
+  }
+}
