@@ -162,7 +162,7 @@
   .contact-container .email-container::before {
     position: absolute;
     left: 40vw;
-    top: 1rem;
+    top: 2rem;
     content: "";
     width: 366.6666666667px;
     height: 2px;
@@ -171,7 +171,13 @@
     border-radius: 50%;
     animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
   }
+  .contact-container .email-container .contact-container-title {
+    font-size: 45px !important;
+  }
   .contact-container .email-container .contact-intro-text {
     font-size: 35px;
+  }
+  .contact-container .email-container .contact-text {
+    font-size: 24px !important;
   }
 }/*# sourceMappingURL=Contact.css.map */

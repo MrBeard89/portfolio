@@ -214,4 +214,9 @@
   .projects-container .animated-arrow-down {
     left: 13rem !important;
   }
+}
+@media only screen and (min-width: 992px) {
+  .animated-arrow-down {
+    display: none;
+  }
 }/*# sourceMappingURL=Projects.css.map */
