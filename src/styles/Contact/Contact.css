@@ -65,7 +65,7 @@
 .contact-wrapper .contact-container .email-container .contact-text .highlighted {
   color: #45669e;
 }
-.contact-wrapper .contact-container .email-container .contact-text:hover {
+.contact-wrapper .contact-container .email-container .contact-text:is(:hover, :active) {
   color: #45669e;
 }
 .contact-wrapper .contact-container .social-media {
@@ -73,6 +73,7 @@
   bottom: 1rem;
 }
 .contact-wrapper .contact-container .social-media .social-icons-container {
+  transition: 1s ease-in-out;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 2rem;
@@ -81,7 +82,38 @@
   color: #fada5e;
   font-size: 20px;
 }
-.contact-wrapper .contact-container .social-media .social-icons-container .social-icons:hover {
+.contact-wrapper .contact-container .social-media .social-icons-container .social-icons:is(:hover, :active) {
+  color: #ffff00;
+}
+.contact-wrapper .contact-container .social-media .only-desktop-email-line {
+  transform: rotate(90deg);
+  height: -moz-fit-content;
+  height: fit-content;
+  position: fixed;
+  right: -5rem;
+  bottom: 14.5rem;
+  display: none;
+  opacity: 0;
+  flex-direction: column;
+}
+.contact-wrapper .contact-container .social-media .only-desktop-email-line::before {
+  position: inherit;
+  bottom: -2.2rem;
+  right: -5rem;
+  transform: rotate(90deg);
+  content: "";
+  width: 2px;
+  height: 85px;
+  background-color: #fada5e;
+  margin-right: 0.5rem;
+}
+.contact-wrapper .contact-container .social-media .only-desktop-email-line .email-line a {
+  letter-spacing: 3px;
+  color: #fada5e;
+  display: inline-block;
+  text-decoration: none;
+}
+.contact-wrapper .contact-container .social-media .only-desktop-email-line .email-line a:is(:hover, :active) {
   color: #ffff00;
 }
 .contact-wrapper .contact-container .social-media p {
@@ -91,4 +123,35 @@
 }
 .contact-wrapper .contact-container .social-media p .full-name {
   color: #45669e;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-container {
+    transition: 1s ease-in-out;
+    width: 450px !important;
+  }
+  .social-icons-container {
+    transition: 1s ease-in-out;
+    z-index: 4 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem;
+    position: fixed !important;
+    left: 0 !important;
+    bottom: 0;
+    margin-left: 2rem;
+  }
+  .social-icons-container::after {
+    content: "";
+    width: 2px;
+    height: 85px;
+    background-color: #fada5e;
+    margin-left: 0.5rem;
+  }
+  .only-desktop-email-line {
+    transition: 1s ease-in-out;
+    opacity: 1 !important;
+    right: -3rem !important;
+    display: flex !important;
+  }
 }/*# sourceMappingURL=Contact.css.map */

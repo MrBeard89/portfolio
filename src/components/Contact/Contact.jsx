@@ -46,6 +46,14 @@ export const Contact = () => {
             </Link>
           </div>
 
+          <div className='only-desktop-email-line'>
+            <p className='email-line'>
+              <Link to='mailto:k.n.89@outlook.hu' rel='noopener noreferrer' target='_blank'>
+                k.n.89@outlook.hu
+              </Link>
+            </p>
+          </div>
+
           {/* Sign */}
           <p>
             Designed & built by <span className='full-name'>Norbert Kovács</span>

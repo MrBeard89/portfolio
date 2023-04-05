@@ -2,7 +2,7 @@
 @forward '../../sass/templates';
 
 .projects-wrapper {
-  z-index: 2;
+  z-index: 1;
   @extend %flex-ai-column;
   height: fit-content;
 

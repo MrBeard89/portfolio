@@ -33,7 +33,7 @@
 }
 
 .skills-wrapper {
-  z-index: 2;
+  z-index: 1;
   height: -moz-fit-content;
   height: fit-content;
 }
