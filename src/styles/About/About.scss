@@ -37,7 +37,7 @@
         bottom: 1rem;
         z-index: 0;
         width: v.$content-mobile-img-me-width;
-        height: 200px;
+        height: v.$content-mobile-img-me-border-height;
         border: 2px solid v.$yellow;
         border-radius: 1rem;
 
@@ -106,5 +106,31 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+//Media Queries
+
+//*********************** Tablet 768px ***********************//
+@media only screen and (min-width: 768px) {
+  .about-container {
+    transition: 1s ease-in-out;
+    width: v.$content-tablet-width !important;
+
+    .about-img-container {
+      .img-me {
+        width: v.$content-tablet-img-me-width !important;
+      }
+
+      .img-border {
+        width: v.$content-tablet-img-me-width !important;
+        height: v.$content-tablet-img-me-border-height !important;
+      }
+    }
+
+    .animated-arrow-down {
+      transition: 1s ease-in-out;
+      left: 13rem !important;
+    }
   }
 }

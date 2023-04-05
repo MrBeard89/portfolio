@@ -33,7 +33,7 @@
 .about-wrapper .about-container .about-img-container .img-me {
   position: inherit;
   z-index: inherit;
-  width: 296px;
+  width: 200px;
   margin: 1.5rem 0 1rem 3rem;
   border-radius: 1rem;
   margin-bottom: 2rem;
@@ -46,7 +46,7 @@
   left: 4rem;
   bottom: 1rem;
   z-index: 0;
-  width: 296px;
+  width: 200px;
   height: 200px;
   border: 2px solid #ffff00;
   border-radius: 1rem;
@@ -97,5 +97,22 @@
   }
   100% {
     opacity: 1;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .about-container {
+    transition: 1s ease-in-out;
+    width: 450px !important;
+  }
+  .about-container .about-img-container .img-me {
+    width: 350px !important;
+  }
+  .about-container .about-img-container .img-border {
+    width: 350px !important;
+    height: 350px !important;
+  }
+  .about-container .animated-arrow-down {
+    transition: 1s ease-in-out;
+    left: 13rem !important;
   }
 }/*# sourceMappingURL=About.css.map */

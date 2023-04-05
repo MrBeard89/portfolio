@@ -188,7 +188,7 @@
   }
   .projects-container .card-image {
     transition: 1s ease-in-out;
-    width: 446px !important;
+    width: 350px !important;
   }
   .projects-container .card-description {
     transition: 1s ease-in-out;
