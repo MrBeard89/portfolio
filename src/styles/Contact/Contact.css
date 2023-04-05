@@ -12,7 +12,7 @@
   font-size: 20px;
   margin-bottom: 3rem;
 }
-.contact-wrapper .contact-container .email-container .contact-email-btn a:hover {
+.contact-wrapper .contact-container .email-container .contact-email-btn a:is(:hover, :active) {
   color: #ffff00;
   background-color: #0a192f;
   border: 1px solid #ffff00;

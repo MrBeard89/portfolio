@@ -79,7 +79,7 @@
         &:nth-child(1) {
           margin-top: 8rem;
         }
-        &:hover {
+        &:is(:hover, :active) {
           color: v.$yellow;
           background-color: v.$lightest-navy;
 
