@@ -93,6 +93,7 @@
           line-height: 1rem;
 
           &:hover {
+            transition: none;
             color: v.$yellow;
           }
         }
@@ -124,6 +125,7 @@
           .github {
             text-align: center;
             background-color: v.$lightest-navy;
+            transition: none;
             width: calc(v.$project-card-inner-width-mobile / 2);
             border-bottom-left-radius: 1rem;
 
@@ -136,6 +138,7 @@
           //External link SVG
           .external-link {
             text-align: center;
+            transition: none;
             background-color: v.$lightest-navy;
             width: calc(v.$project-card-inner-width-mobile / 2);
 
@@ -165,6 +168,52 @@
 
       .animated-arrow-down {
         @extend %animated-arrow-down;
+      }
+    }
+  }
+}
+
+//Media Queries
+
+//*********************** Tablet 768px ***********************//
+@media only screen and (min-width: 768px) {
+  .projects-container {
+    transition: 1s ease-in-out;
+    width: v.$content-tablet-width !important;
+
+    .card-title {
+      transition: 1s ease-in-out;
+      width: v.$project-card-inner-width-tablet !important;
+    }
+
+    .card-image {
+      transition: 1s ease-in-out;
+      width: v.$content-tablet-img-me-width !important;
+    }
+
+    .card-description {
+      transition: 1s ease-in-out;
+      width: v.$cardtext-width-tablet !important;
+    }
+
+    .card-note {
+      transition: 1s ease-in-out;
+      width: v.$cardtext-width-tablet !important;
+    }
+
+    .card-techstack {
+      transition: 1s ease-in-out !important;
+      width: v.$cardtext-width-tablet !important;
+    }
+
+    .icon-container {
+      transition: 1s ease-in-out;
+      width: v.$project-card-inner-width-tablet !important;
+
+      .github,
+      .external-link {
+        transition: 1s ease-in-out;
+        width: calc(v.$project-card-inner-width-tablet / 2) !important;
       }
     }
   }

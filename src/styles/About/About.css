@@ -33,7 +33,7 @@
 .about-wrapper .about-container .about-img-container .img-me {
   position: inherit;
   z-index: inherit;
-  width: 200px;
+  width: 296px;
   margin: 1.5rem 0 1rem 3rem;
   border-radius: 1rem;
   margin-bottom: 2rem;
@@ -46,7 +46,7 @@
   left: 4rem;
   bottom: 1rem;
   z-index: 0;
-  width: 200px;
+  width: 296px;
   height: 200px;
   border: 2px solid #ffff00;
   border-radius: 1rem;
