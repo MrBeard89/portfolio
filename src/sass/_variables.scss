@@ -53,7 +53,7 @@ $text-font-family: 'Genos', sans-serif;
 
 //************ Variables ************//
 
-//Mobile *********
+//Mobile *********375px
 
 $content-mobile-img-me-border-height: 200px;
 $content-mobile-img-me-width: 200px;
@@ -67,7 +67,7 @@ $cardtext-width-mobile: 280px;
 $project-card-height-mobile: 396px;
 $project-card-inner-width-mobile: 296px;
 
-//Tablet *********
+//Tablet *********768px
 
 $content-tablet-img-me-border-height: 350px;
 $content-tablet-img-me-width: 350px;
@@ -77,4 +77,12 @@ $content-tablet-max-width: 768px;
 $project-card-inner-width-tablet: 446px;
 $cardtext-width-tablet: 430px;
 
-//Desktop*********
+//Desktop*********992px
+
+$content-desktop992-img-me-border-height: 350px;
+$content-desktop992-img-me-width: 350px;
+$content-desktop992-width: 550px;
+$content-desktop992-max-width: 768px;
+
+$project-card-inner-width-desktop992: 446px;
+$cardtext-width-desktop992: 430px;

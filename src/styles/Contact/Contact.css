@@ -154,4 +154,24 @@
     right: -3rem !important;
     display: flex !important;
   }
+}
+@media only screen and (min-width: 992px) {
+  .contact-container {
+    width: 550px !important;
+  }
+  .contact-container .email-container::before {
+    position: absolute;
+    left: 40vw;
+    top: 1rem;
+    content: "";
+    width: 366.6666666667px;
+    height: 2px;
+    background-color: #fada5e;
+    box-shadow: 0px 0px 85px 5px #ffff00;
+    border-radius: 50%;
+    animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+  }
+  .contact-container .email-container .contact-intro-text {
+    font-size: 35px;
+  }
 }/*# sourceMappingURL=Contact.css.map */
