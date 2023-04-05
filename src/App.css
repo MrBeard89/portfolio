@@ -4,4 +4,27 @@
   padding: 0;
   margin: 0;
   background-color: #0a192f;
+}
+
+/* Firefox */
+html {
+  scrollbar-color: #ffff00 #0a192f;
+  scrollbar-width: thin;
+  scrollbar-arrow-color: #ffff00;
+  scroll-behavior: smooth;
+  scrollbar-darkshadow-color: #fada5e;
+}
+
+/* WebKit and Chromiums */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+  background-color: #0a192f;
+  color: #ffff00;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0a192f;
+  color: #ffff00;
+  border-radius: 5px;
 }/*# sourceMappingURL=App.css.map */

@@ -11,3 +11,28 @@
   margin: 0;
   background-color: v.$navy_blue;
 }
+
+/////Scrollbar Color set
+///
+/* Firefox */
+html {
+  scrollbar-color: v.$yellow v.$navy_blue;
+  scrollbar-width: thin;
+  scrollbar-arrow-color: v.$yellow;
+  scroll-behavior: smooth;
+  scrollbar-darkshadow-color: v.$grain-yellow;
+}
+
+/* WebKit and Chromiums */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 8px;
+  background-color: v.$navy-blue;
+  color: v.$yellow;
+}
+
+::-webkit-scrollbar-thumb {
+  background: v.$navy-blue;
+  color: v.$yellow;
+  border-radius: 5px;
+}
