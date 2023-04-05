@@ -115,4 +115,53 @@
     transition: 1s ease-in-out;
     left: 13rem !important;
   }
+}
+@media only screen and (min-width: 992px) {
+  .about-container {
+    width: 550px !important;
+  }
+  .about-container .about-img-container .img-me {
+    transition: 0.2s ease;
+    width: 450px !important;
+  }
+  .about-container .about-img-container .img-border {
+    transition: 0.2s ease;
+    width: 450px !important;
+    height: 450px !important;
+  }
+  .about-container .animated-arrow-down {
+    display: none;
+  }
+  .about-container .about-introduction {
+    transition: 1s ease;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+  }
+  .about-container .about-introduction::before {
+    position: absolute;
+    left: 20vw;
+    top: 1rem;
+    content: "";
+    width: 366.6666666667px;
+    height: 2px;
+    background-color: #fada5e;
+    box-shadow: 0px 0px 85px 5px #ffff00;
+    border-radius: 50%;
+    animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+  }
+  .about-container .about-name {
+    transition: 1s ease;
+    font-size: 45px !important;
+  }
+  .about-container .about-profession {
+    transition: 1s ease;
+    font-size: 35px !important;
+    font-weight: 600 !important;
+    margin-bottom: 2.5rem !important;
+  }
+  .about-container .about-text {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    margin-bottom: 6rem;
+  }
 }/*# sourceMappingURL=About.css.map */

@@ -134,3 +134,64 @@
     }
   }
 }
+
+//*********************** Desktop 992px ***********************//
+@media only screen and (min-width: 992px) {
+  .about-container {
+    width: v.$content-desktop992-width !important;
+
+    .about-img-container {
+      .img-me {
+        transition: 0.2s ease;
+        width: v.$content-desktop992-img-me-width !important;
+      }
+
+      .img-border {
+        transition: 0.2s ease;
+        width: v.$content-desktop992-img-me-width !important;
+        height: v.$content-desktop992-img-me-border-height !important;
+      }
+    }
+
+    .animated-arrow-down {
+      display: none;
+    }
+
+    .about-introduction {
+      transition: 1s ease;
+      font-size: v.$fz-xxl !important;
+      font-weight: 500 !important;
+
+      &::before {
+        position: absolute;
+        left: 20vw;
+        top: 1rem;
+        content: '';
+        width: calc(v.$content-desktop992-width/1.5);
+        height: 2px;
+        background-color: v.$grain-yellow;
+        box-shadow: 0px 0px 85px 5px v.$yellow;
+        border-radius: 50%;
+        animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+      }
+    }
+
+    .about-name {
+      transition: 1s ease;
+      font-size: v.$fz-big-3 !important;
+    }
+
+    .about-profession {
+      transition: 1s ease;
+      font-size: v.$fz-big-1 !important ;
+      font-weight: 600 !important;
+      margin-bottom: 2.5rem !important;
+    }
+
+    .about-text {
+      font-size: v.$fz-xxxl !important;
+      font-weight: 700 !important;
+      margin-bottom: 6rem;
+    }
+  }
+}

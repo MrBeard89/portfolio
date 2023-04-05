@@ -161,7 +161,7 @@
   }
   .contact-container .email-container::before {
     position: absolute;
-    left: 40vw;
+    left: 50vw;
     top: 2rem;
     content: "";
     width: 366.6666666667px;
