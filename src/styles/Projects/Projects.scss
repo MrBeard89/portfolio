@@ -216,5 +216,9 @@
         width: calc(v.$project-card-inner-width-tablet / 2) !important;
       }
     }
+
+    .animated-arrow-down {
+      left: 13rem !important;
+    }
   }
 }

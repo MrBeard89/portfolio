@@ -211,4 +211,7 @@
     transition: 1s ease-in-out;
     width: 223px !important;
   }
+  .projects-container .animated-arrow-down {
+    left: 13rem !important;
+  }
 }/*# sourceMappingURL=Projects.css.map */

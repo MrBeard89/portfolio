@@ -26,7 +26,8 @@
       }
 
       .python-text,
-      .designer-text {
+      .designer-text,
+      .brighter {
         color: v.$very-light-navy;
       }
     }
@@ -71,6 +72,24 @@
 
     .animated-arrow-down {
       @extend %animated-arrow-down;
+    }
+  }
+}
+
+//Media Queries
+
+//*********************** Tablet 768px ***********************//
+@media only screen and (min-width: 768px) {
+  .skills-container {
+    transition: 1s ease-in-out;
+    width: v.$content-tablet-width !important;
+    .skills-skillset-container {
+      transition: 1s ease-in-out;
+      justify-content: center !important;
+    }
+
+    .animated-arrow-down {
+      left: 13rem !important;
     }
   }
 }

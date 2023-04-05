@@ -27,8 +27,9 @@ export const Skills = () => {
             somewhere to be a <span className='designer-text'>Webdesigner</span> also.
           </p>
           <p>
-            Little Photoshoping , MS Office knowledge , Fast typing.I'm improving myself, and doing
-            projects every day!
+            Little <span className='brighter'>Photoshoping</span> ,
+            <span className='brighter'>MS Office</span> knowledge , Fast typing.I'm improving
+            myself, and doing projects every day!
           </p>
         </div>
 
@@ -85,6 +86,11 @@ export const Skills = () => {
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
               <li className='brighter'>Git, Github</li>
+            </div>
+
+            <div className='skill-element-container'>
+              <AiFillCaretRight className='right-arrow' />
+              <li className='brighter'>Firebase</li>
             </div>
           </ul>
         </div>

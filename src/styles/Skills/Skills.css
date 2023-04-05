@@ -49,7 +49,8 @@
   color: #45669e;
 }
 .skills-wrapper .skills-container .skills-text-container .python-text,
-.skills-wrapper .skills-container .skills-text-container .designer-text {
+.skills-wrapper .skills-container .skills-text-container .designer-text,
+.skills-wrapper .skills-container .skills-text-container .brighter {
   color: #45669e;
 }
 .skills-wrapper .skills-container .skills-skillset-container {
@@ -77,4 +78,17 @@
 .skills-wrapper .skills-container .skills-skillset-container .right-skillset {
   list-style: none;
   line-height: 2rem;
+}
+@media only screen and (min-width: 768px) {
+  .skills-container {
+    transition: 1s ease-in-out;
+    width: 450px !important;
+  }
+  .skills-container .skills-skillset-container {
+    transition: 1s ease-in-out;
+    justify-content: center !important;
+  }
+  .skills-container .animated-arrow-down {
+    left: 13rem !important;
+  }
 }/*# sourceMappingURL=Skills.css.map */
