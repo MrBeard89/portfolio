@@ -41,6 +41,7 @@ export const Skills = () => {
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
+              <span className='tech-icon-desktop-only'></span>
               <li className='brighter'>Javascript</li>
             </div>
 

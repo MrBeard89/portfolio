@@ -110,8 +110,7 @@
     animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
   }
   .skills-container .skill-element-container .right-arrow {
-    transition: 1s ease;
-    font-size: 24px;
+    display: none;
   }
   .skills-container .skills-title {
     transition: 1s ease;
