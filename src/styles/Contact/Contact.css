@@ -159,9 +159,9 @@
   .contact-container {
     width: 750px !important;
   }
-  .contact-container .email-container::before {
+  .contact-container::after {
     position: absolute;
-    left: 35vw;
+    left: 32vw;
     top: 2rem;
     content: "";
     width: 500px;

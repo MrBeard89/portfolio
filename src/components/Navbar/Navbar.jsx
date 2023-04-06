@@ -12,6 +12,7 @@ import { logo as Logo } from '../Logo/logo'
 
 export const Navbar = () => {
   const [navbarIsOpen, setNavbarIsOpen] = useState('false')
+  console.log(navbarIsOpen)
 
   //When scrolling hide Navbar
 
@@ -43,8 +44,8 @@ export const Navbar = () => {
 
         {/* Navbar-mobile show depend on State */}
 
-        <div className={`navlinks-container${navbarIsOpen ? 'show-mobile-menu' : ''}`}>
-          <ul className='navlinks' onClick={() => setNavbarIsOpen((prev) => !prev)}>
+        <div className={`${navbarIsOpen ? '' : 'navlinks-container'}`}>
+          <ul className='navlinks' onClick={() => setNavbarIsOpen(false)}>
             <HashLink smooth to='#about'>
               About
             </HashLink>

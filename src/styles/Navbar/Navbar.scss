@@ -38,10 +38,12 @@
     }
 
     .show-mobile-menu {
-      z-index: 3;
-      position: relative;
+      display: flex;
     }
 
+    .hide {
+      display: none;
+    }
     // Mobile-Icons
 
     @extend %mobile-navbar-icons;
@@ -100,5 +102,60 @@
 @keyframes goleft {
   0% {
     transform: translateX(12rem);
+  }
+}
+
+//Media Queries
+
+//*********************** Desktop 992px ***********************//
+@media only screen and (min-width: 992px) {
+  //Mobile icons off
+
+  #closemenu,
+  #burgermenu {
+    display: none;
+  }
+
+  .navbar-container {
+    justify-content: space-between !important;
+    gap: 5rem !important;
+
+    .navlinks-container {
+      display: flex !important;
+      width: fit-content !important;
+
+      //Desktop Menu
+      .navlinks {
+        position: relative !important;
+        flex-direction: row !important;
+        gap: 2rem !important;
+        background-color: transparent !important;
+        height: fit-content !important;
+        width: fit-content !important;
+        right: 2rem !important;
+
+        animation: none !important;
+
+        //Links
+        a {
+          background-color: transparent !important;
+          height: 65px !important;
+          width: fit-content !important;
+
+          &:nth-child(1) {
+            margin-top: 0 !important;
+          }
+          &:is(:hover, :active) {
+            background-color: transparent !important;
+            text-decoration: underline;
+          }
+        }
+
+        //Resume
+        span {
+          padding: 0.5rem 1rem 0.5rem 1rem;
+        }
+      }
+    }
   }
 }

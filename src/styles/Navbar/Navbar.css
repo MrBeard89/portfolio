@@ -70,8 +70,10 @@
   display: none;
 }
 .navbar-wrapper .navbar-container .show-mobile-menu {
-  z-index: 3;
-  position: relative;
+  display: flex;
+}
+.navbar-wrapper .navbar-container .hide {
+  display: none;
 }
 .navbar-wrapper .navbar-container .navlinks {
   z-index: 3;
@@ -108,5 +110,48 @@
 @keyframes goleft {
   0% {
     transform: translateX(12rem);
+  }
+}
+@media only screen and (min-width: 992px) {
+  #closemenu,
+  #burgermenu {
+    display: none;
+  }
+  .navbar-container {
+    justify-content: space-between !important;
+    gap: 5rem !important;
+  }
+  .navbar-container .navlinks-container {
+    display: flex !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
+  .navbar-container .navlinks-container .navlinks {
+    position: relative !important;
+    flex-direction: row !important;
+    gap: 2rem !important;
+    background-color: transparent !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+    right: 2rem !important;
+    animation: none !important;
+  }
+  .navbar-container .navlinks-container .navlinks a {
+    background-color: transparent !important;
+    height: 65px !important;
+    width: -moz-fit-content !important;
+    width: fit-content !important;
+  }
+  .navbar-container .navlinks-container .navlinks a:nth-child(1) {
+    margin-top: 0 !important;
+  }
+  .navbar-container .navlinks-container .navlinks a:is(:hover, :active) {
+    background-color: transparent !important;
+    text-decoration: underline;
+  }
+  .navbar-container .navlinks-container .navlinks span {
+    padding: 0.5rem 1rem 0.5rem 1rem;
   }
 }/*# sourceMappingURL=Navbar.css.map */
