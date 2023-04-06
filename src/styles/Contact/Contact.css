@@ -188,4 +188,12 @@
   .contact-container::after {
     left: 39vw;
   }
+}
+@media only screen and (min-width: 1440px) {
+  .contact-container {
+    width: 1046px !important;
+  }
+  .contact-container::after {
+    left: 50vw;
+  }
 }/*# sourceMappingURL=Contact.css.map */

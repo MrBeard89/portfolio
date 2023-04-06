@@ -377,3 +377,17 @@
     }
   }
 }
+
+//*********************** Desktop 1440px ***********************//
+@media only screen and (min-width: 1440px) {
+  .projects-container {
+    transition: 1s ease;
+    width: v.$content-desktop1440-width !important;
+    //Dekor yellow line
+
+    .cards-wrapper {
+      transition: 1s ease;
+      width: v.$content-desktop1440-width !important;
+    }
+  }
+}

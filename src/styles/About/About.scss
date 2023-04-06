@@ -150,7 +150,7 @@
       }
 
       .img-border {
-        border: 3px solid v.$yellow !important;
+        border: 3px solid v.$xxl-light-navy !important;
         bottom: 2.15rem !important;
         left: 2.8rem !important;
         border-radius: 50% !important;
@@ -158,7 +158,7 @@
         width: v.$content-desktop992-img-me-width !important;
         height: v.$content-desktop992-img-me-border-height !important;
 
-        box-shadow: 0px 0px 85px 2px v.$yellow;
+        box-shadow: 0px 0px 85px 15px v.$xxl-light-navy;
         opacity: 0.3;
       }
     }
@@ -172,6 +172,7 @@
       font-size: v.$fz-xxl !important;
       font-weight: 500 !important;
 
+      //Dekor yellow line
       &::before {
         position: absolute;
         left: 20vw;
@@ -203,6 +204,41 @@
       font-size: v.$fz-xxxl !important;
       font-weight: 700 !important;
       margin-bottom: 6rem;
+    }
+  }
+}
+
+//*********************** Desktop 1440px ***********************//
+@media only screen and (min-width: 1440px) {
+  .about-wrapper {
+    align-items: center !important;
+    flex-direction: column !important;
+
+    .about-container {
+      width: v.$content-tablet-width !important;
+      margin-left: -35rem;
+
+      .about-introduction {
+        //Dekor yellow line
+        &::before {
+          position: absolute;
+          left: 18vw;
+          top: 1rem;
+        }
+      }
+
+      .about-img-container {
+        position: absolute !important;
+        top: 2rem;
+        right: -5rem;
+
+        .img-border {
+          position: absolute;
+          left: 4rem;
+          top: 1.34rem;
+          box-shadow: 0px 0px 85px 15px v.$xxl-light-navy !important;
+        }
+      }
     }
   }
 }

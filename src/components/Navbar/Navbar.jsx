@@ -11,7 +11,7 @@ import { AiOutlineClose } from 'react-icons/ai'
 import { logo as Logo } from '../Logo/logo'
 
 export const Navbar = () => {
-  const [navbarIsOpen, setNavbarIsOpen] = useState('false')
+  const [navbarIsOpen, setNavbarIsOpen] = useState(false)
 
   //When scrolling hide Navbar
 
