@@ -26,14 +26,26 @@ export const Projects = () => {
               //Card Container
               <div className='project-card' key={index}>
                 <h3 className='card-title'>{data.title}</h3>
+                <div className='desktop-img'>
+                  <Link to={data.livelink} target='_blank'>
+                    <img
+                      className='desktop-card-image'
+                      src={require(`../../assets/card-images/desktop/${data.imglinkdesktop}`)}
+                      alt='card-preview'
+                    />
+                  </Link>
+                </div>
                 <img
                   className='card-image'
                   src={require(`../../assets/card-images/mobile/${data.imglinkmobile}`)}
                   alt='card-preview'
                 />
 
-                <p className='card-description'>{data.description}</p>
-                <p className='card-note'>Note: {data.note}</p>
+                <span className='desktop-info-bar'>
+                  <p className='card-description'>{data.description}</p>
+                  <p className='card-note'>Note: {data.note}</p>
+                </span>
+
                 <p className='card-techstack'>{data.tech}</p>
 
                 <div className='icon-container'>

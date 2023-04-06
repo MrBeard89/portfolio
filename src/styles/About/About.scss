@@ -142,6 +142,7 @@
 
     .about-img-container {
       margin-left: 3rem;
+      margin-bottom: 3rem;
       .img-me {
         border-radius: 50% !important;
         transition: 0.2s ease;
@@ -188,6 +189,7 @@
     .about-name {
       transition: 1s ease;
       font-size: v.$fz-big-3 !important;
+      margin-bottom: 3rem;
     }
 
     .about-profession {

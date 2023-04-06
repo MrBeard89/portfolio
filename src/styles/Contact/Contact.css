@@ -157,14 +157,14 @@
 }
 @media only screen and (min-width: 992px) {
   .contact-container {
-    width: 550px !important;
+    width: 750px !important;
   }
   .contact-container .email-container::before {
     position: absolute;
-    left: 50vw;
+    left: 35vw;
     top: 2rem;
     content: "";
-    width: 366.6666666667px;
+    width: 500px;
     height: 2px;
     background-color: #fada5e;
     box-shadow: 0px 0px 85px 5px #ffff00;

@@ -79,12 +79,18 @@ $cardtext-width-tablet: 430px;
 
 //Desktop*********992px
 
-$content-desktop992-img-me-border-height: 550px;
-$content-desktop992-img-me-width: 550px;
+$content-desktop992-img-me-border-height: 520px;
+$content-desktop992-img-me-width: 520px;
 $content-desktop992-width: 750px;
 $content-desktop992-max-width: 992px;
 
 $component-gap-desktop992: 10rem;
 
-$project-card-inner-width-desktop992: 446px;
-$cardtext-width-desktop992: 430px;
+$project-card-height-desktop992: 496px;
+$project-card-inner-width-desktop992: 746px;
+$cardtext-width-desktop992: 540px;
+
+////Desktop background img set 992px
+///
+$project-card-desktopimg-height: 350px;
+$project-card-desktopimg-width: 550px;

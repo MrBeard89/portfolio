@@ -94,7 +94,7 @@
 }
 @media only screen and (min-width: 992px) {
   .skills-container {
-    width: 550px !important;
+    width: 750px !important;
     margin-top: 0 !important;
   }
   .skills-container::before {
@@ -102,7 +102,7 @@
     left: 20vw;
     top: 2rem;
     content: "";
-    width: 366.6666666667px;
+    width: 500px;
     height: 2px;
     background-color: #fada5e;
     box-shadow: 0px 0px 85px 5px #ffff00;
@@ -122,7 +122,8 @@
     font-weight: 700 !important;
   }
   .skills-container .skills-skillset-container {
-    gap: 8rem !important;
+    margin-top: 8rem;
+    gap: 11rem !important;
   }
   .skills-container .skills-skillset-container li {
     font-size: 24px !important;

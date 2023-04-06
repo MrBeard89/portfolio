@@ -50,6 +50,15 @@
           font-size: v.$fz-xxl;
         }
 
+        //Only at Desktop size, background-image
+        .desktop-img {
+          display: none;
+
+          .desktop-card-image {
+            display: none;
+          }
+        }
+
         //Card Image
         .card-image {
           z-index: -1;
@@ -64,6 +73,9 @@
           border-radius: 1rem;
         }
 
+        .desktop-info-bar {
+          background-color: transparent;
+        }
         //Card Description
         .card-description {
           z-index: 3;
@@ -227,6 +239,121 @@
 @media only screen and (min-width: 992px) {
   .projects-container {
     width: v.$content-desktop992-width !important;
+
+    //Dekor yellow line
+
+    &::before {
+      position: absolute;
+      left: 21vw;
+      top: 3rem;
+      content: '';
+      width: calc(v.$content-desktop992-width/1.5);
+      height: 2px;
+      background-color: v.$grain-yellow;
+      box-shadow: 0px 0px 85px 5px v.$yellow;
+      border-radius: 50%;
+      animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+    }
+
+    .projects-container-title {
+      transition: 1s ease;
+      font-size: v.$fz-big-3 !important;
+      margin-bottom: 5rem !important;
+    }
+
+    .cards-wrapper {
+      gap: 8rem !important;
+
+      .project-card {
+        height: v.$project-card-height-desktop992 !important;
+        border: none !important;
+        align-items: flex-start !important;
+        box-shadow: 0px 0px 15px 2px v.$navy-shadow;
+        padding: 1rem;
+
+        .card-title {
+          width: v.$cardtext-width-desktop992 !important;
+          background-color: transparent !important;
+          color: v.$bluis-white !important;
+          text-align: left !important;
+          margin-bottom: 6.5rem !important;
+          font-size: v.$fz-xxxxl !important;
+        }
+
+        .card-description {
+          width: v.$cardtext-width-desktop992 !important;
+          font-size: v.$fz-xxl !important;
+        }
+
+        .card-note {
+          width: v.$cardtext-width-desktop992 !important;
+          color: v.$bluis-white !important;
+        }
+
+        .card-techstack {
+          bottom: 4.5rem !important;
+          width: v.$cardtext-width-desktop992 !important;
+        }
+
+        .desktop-info-bar {
+          background-color: v.$light-navy !important;
+          display: flex;
+          flex-direction: column;
+          padding-left: 1rem;
+          padding-top: 0.5rem;
+          border-radius: 1rem;
+        }
+
+        //Only Desktop screen project Card image
+        .desktop-img {
+          height: v.$project-card-height-desktop992;
+          z-index: -1;
+          position: absolute;
+          right: 1rem;
+          display: flex !important;
+          align-items: center;
+          border-radius: 1rem;
+
+          .desktop-card-image {
+            height: v.$project-card-desktopimg-height;
+            width: v.$project-card-desktopimg-width;
+            display: flex !important;
+            object-fit: cover;
+            object-position: 75% 0%;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+
+            opacity: 0.4;
+            filter: grayscale(55);
+
+            &:is(:hover, :active) {
+              transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+              filter: grayscale(0);
+              opacity: 1;
+              cursor: pointer;
+            }
+          }
+        }
+
+        //Mobile image off
+        .card-image {
+          display: none;
+        }
+
+        .icon-container {
+          width: 150px !important;
+          bottom: 1rem !important;
+
+          .github {
+            border-top-left-radius: 1rem !important;
+          }
+
+          .external-link {
+            border-top-right-radius: 1rem !important;
+          }
+        }
+      }
+    }
   }
   .animated-arrow-down {
     display: none;
