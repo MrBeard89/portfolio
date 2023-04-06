@@ -161,9 +161,9 @@
   //Logo -border animation
 
   .logo-border {
-    width: 40px;
-    height: 40px;
-    border: 2px dashed v.$yellow;
+    width: 35px;
+    height: 35px;
+    border: 2px dotted v.$yellow;
     border-radius: 50%;
 
     animation: spin 8s linear infinite;
@@ -181,7 +181,7 @@
     font-weight: 300;
     font-size: v.$fz-xxxl;
     position: absolute;
-    top: 0.55rem;
+    top: 0.45rem;
     left: 1rem;
     color: v.$yellow;
   }

@@ -141,15 +141,24 @@
     width: v.$content-desktop992-width !important;
 
     .about-img-container {
+      margin-left: 3rem;
       .img-me {
+        border-radius: 50% !important;
         transition: 0.2s ease;
         width: v.$content-desktop992-img-me-width !important;
       }
 
       .img-border {
+        border: 3px solid v.$yellow !important;
+        bottom: 2.15rem !important;
+        left: 2.8rem !important;
+        border-radius: 50% !important;
         transition: 0.2s ease;
         width: v.$content-desktop992-img-me-width !important;
         height: v.$content-desktop992-img-me-border-height !important;
+
+        box-shadow: 0px 0px 85px 2px v.$yellow;
+        opacity: 0.2;
       }
     }
 

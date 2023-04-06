@@ -7,7 +7,8 @@
     "tech": "HTML, CSS, SCSS, ReactJs, React Router, Hash Link, Boxicon Icons",
     "projectlink": "https://github.com/MrBeard89/insure-landing-page-react",
     "livelink": "https://mrbeard89.github.io/insure-landing-page-react/",
-    "imglinkmobile": "insure-mobile.png"
+    "imglinkmobile": "insure-mobile.png",
+    "imglinkdesktop": "insure-desktop.png"
   },
 
   {
@@ -18,7 +19,8 @@
     "tech": "HTML, CSS, SCSS, ReactJs, React Router,Link, ",
     "projectlink": "https://github.com/MrBeard89/dragonball-fanpage",
     "livelink": "https://mrbeard89.github.io/dragonball-fanpage/",
-    "imglinkmobile": "dragonball-mobile.png"
+    "imglinkmobile": "dragonball-mobile.png",
+    "imglinkdesktop": "dragonball-desktop.png"
   },
 
   {
@@ -29,7 +31,8 @@
     "tech": "HTML5, CSS3, Bootstrap5, React",
     "projectlink": "https://github.com/MrBeard89/todoapp-react",
     "livelink": "https://mrbeard89.github.io/todoapp-react/",
-    "imglinkmobile": "react-todo-mobile.png"
+    "imglinkmobile": "react-todo-mobile.png",
+    "imglinkdesktop": "todoapp-desktop.png"
   },
 
   {
@@ -40,7 +43,8 @@
     "tech": "React, React Router, Scss, CopytoClipboard library, Axios to API call",
     "projectlink": "https://github.com/MrBeard89/url-shortening-api-react",
     "livelink": "https://mrbeard89.github.io/url-shortening-api-react/",
-    "imglinkmobile": "url-shortening-mobile.png"
+    "imglinkmobile": "url-shortening-mobile.png",
+    "imglinkdesktop": "url-shortening-desktop.png"
   },
 
   {
@@ -51,6 +55,7 @@
     "tech": "React, React Router, Css, React - Context API, Axios to API call",
     "projectlink": "https://github.com/MrBeard89/sufni_gsm",
     "livelink": "https://mrbeard89.github.io/sufni_gsm/",
-    "imglinkmobile": "sufnigsm.png"
+    "imglinkmobile": "sufnigsm.png",
+    "imglinkdesktop": "sufnigsm-desktop.png"
   }
 ]
