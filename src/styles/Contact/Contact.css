@@ -171,6 +171,9 @@
     border-radius: 50%;
     animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
   }
+  .contact-container .email-container {
+    margin-bottom: 12rem !important;
+  }
   .contact-container .email-container .contact-container-title {
     font-size: 45px !important;
   }
@@ -179,5 +182,10 @@
   }
   .contact-container .email-container .contact-text {
     font-size: 24px !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .contact-container::after {
+    left: 39vw;
   }
 }/*# sourceMappingURL=Contact.css.map */

@@ -41,9 +41,6 @@
       display: flex;
     }
 
-    .hide {
-      display: none;
-    }
     // Mobile-Icons
 
     @extend %mobile-navbar-icons;
@@ -56,7 +53,7 @@
 
       height: 110vh;
       width: 180px;
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       list-style: none;

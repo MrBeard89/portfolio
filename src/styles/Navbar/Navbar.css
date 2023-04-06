@@ -72,14 +72,11 @@
 .navbar-wrapper .navbar-container .show-mobile-menu {
   display: flex;
 }
-.navbar-wrapper .navbar-container .hide {
-  display: none;
-}
 .navbar-wrapper .navbar-container .navlinks {
   z-index: 3;
   height: 110vh;
   width: 180px;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   list-style: none;

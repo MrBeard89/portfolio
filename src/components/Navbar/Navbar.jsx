@@ -12,7 +12,6 @@ import { logo as Logo } from '../Logo/logo'
 
 export const Navbar = () => {
   const [navbarIsOpen, setNavbarIsOpen] = useState('false')
-  console.log(navbarIsOpen)
 
   //When scrolling hide Navbar
 

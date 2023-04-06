@@ -192,6 +192,7 @@
     }
 
     .email-container {
+      margin-bottom: 12rem !important;
       .contact-container-title {
         font-size: v.$fz-big-3 !important;
       }
@@ -203,6 +204,17 @@
       .contact-text {
         font-size: v.$fz-xxxl !important;
       }
+    }
+  }
+}
+
+//*********************** Desktop 1200px ***********************//
+@media only screen and (min-width: 1200px) {
+  .contact-container {
+    //Dekor yellow line
+
+    &::after {
+      left: 39vw;
     }
   }
 }
