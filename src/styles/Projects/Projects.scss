@@ -363,10 +363,17 @@
 //*********************** Desktop 1200px ***********************//
 @media only screen and (min-width: 1200px) {
   .projects-container {
+    transition: 1s ease;
+    width: v.$content-desktop1200-width !important;
     //Dekor yellow line
 
     &::before {
       left: 20vw;
+    }
+
+    .cards-wrapper {
+      transition: 1s ease;
+      width: v.$content-desktop1200-width !important;
     }
   }
 }

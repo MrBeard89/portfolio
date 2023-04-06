@@ -329,7 +329,15 @@
   }
 }
 @media only screen and (min-width: 1200px) {
+  .projects-container {
+    transition: 1s ease;
+    width: 846px !important;
+  }
   .projects-container::before {
     left: 20vw;
+  }
+  .projects-container .cards-wrapper {
+    transition: 1s ease;
+    width: 846px !important;
   }
 }/*# sourceMappingURL=Projects.css.map */
