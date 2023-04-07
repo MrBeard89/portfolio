@@ -265,6 +265,7 @@
       gap: 8rem !important;
 
       .project-card {
+        background-color: v.$light-navy;
         height: v.$project-card-height-desktop992 !important;
         border: none !important;
         align-items: flex-start !important;
@@ -296,7 +297,7 @@
         }
 
         .desktop-info-bar {
-          background-color: v.$light-navy !important;
+          background-color: v.$navy-blue !important;
           display: flex;
           flex-direction: column;
           padding-left: 1rem;
