@@ -79,11 +79,7 @@ export const Navbar = () => {
             <HashLink smooth to='#contact'>
               Contact
             </HashLink>
-            <Link
-              to='../../../public/Junior Frontend Developer CV Norbert Kovacs.pdf'
-              target='_blank'
-              download
-            >
+            <Link to='/NorbertKovacsCv.pdf' target='_blank' rel='noopener noreferrer' download>
               <span>Resume</span>
             </Link>
 
