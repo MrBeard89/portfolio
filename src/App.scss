@@ -9,7 +9,10 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: v.$navy_blue;
+}
+
+body {
+  background-color: v.$navy-blue;
 }
 
 /////Scrollbar Color set
@@ -35,4 +38,13 @@ html {
   background: v.$navy-blue;
   color: v.$yellow;
   border-radius: 5px;
+}
+
+//Theme Colors
+.dark {
+  background-color: v.$dark-navy-blue;
+}
+
+.light {
+  background-color: v.$navy-blue;
 }

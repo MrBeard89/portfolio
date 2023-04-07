@@ -135,6 +135,7 @@
 
 %email-btn {
   border: none;
+  background-color: transparent;
 
   a {
     font-family: v.$text-font-family;
@@ -161,15 +162,15 @@
   //Logo -border animation
 
   .logo-border {
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     border: 2px dotted v.$yellow;
     border-radius: 50%;
 
     animation: spin 8s linear infinite;
 
     &:hover + .logo {
-      background-color: v.$light-navy;
+      background-color: transparent;
       cursor: pointer;
     }
   }
@@ -182,7 +183,7 @@
     font-size: v.$fz-xxxl;
     position: absolute;
     top: 0.45rem;
-    left: 1rem;
+    left: 0.3rem;
     color: v.$yellow;
   }
 }

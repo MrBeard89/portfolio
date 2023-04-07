@@ -7,9 +7,19 @@
   font-family: v.$text-font-family;
   position: fixed;
   top: 0;
-  z-index: 3;
+  z-index: 4;
   transition: top 0.3s;
 
+  //navbar border bottom
+  &:after {
+    position: absolute;
+    bottom: 0px;
+    content: '';
+    width: 100vw;
+    height: 11px;
+    background-image: linear-gradient(180deg, transparent, v.$lightest-navy 275%) !important;
+    box-shadow: 0px 17px 15px 3px v.$navy-shadow;
+  }
   .navbar-container {
     position: relative;
     @extend %flex-align-center;
@@ -17,18 +27,6 @@
     height: 4rem;
     width: 100vw;
     border-top: 1px solid v.$jet-black;
-
-    //Navbar border-bottom
-
-    &:after {
-      position: absolute;
-      bottom: 0px;
-      content: '';
-      width: 100vw;
-      height: 11px;
-      background-image: linear-gradient(180deg, v.$navy-blue, v.$lightest-navy 475%);
-      box-shadow: 0px 25px 35px 1px v.$black;
-    }
 
     .logo-container {
       margin-left: 1.3rem;
@@ -91,6 +89,47 @@
       //Resume button
 
       @extend %resume-btn;
+
+      //Theme Toggle button
+      #theme-toggle {
+        position: absolute;
+        bottom: 16rem;
+        border: 1px solid v.$grain-yellow;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+        background-color: v.$lightest-navy;
+
+        &::before {
+          position: absolute;
+          top: 4rem;
+          left: -2.8rem;
+          content: '';
+          width: 130px;
+          height: 1px;
+          background-color: v.$yellow;
+          color: v.$yellow;
+          border-radius: 2px;
+          box-shadow: 0px 0px 10px 1px v.$yellow;
+        }
+
+        &:is(:hover, :focus-visible) {
+          cursor: pointer;
+          border: 1px solid v.$yellow;
+          background-color: v.$navy-blue;
+        }
+
+        #darktheme-icon {
+          font-size: v.$fz-xxl;
+          background-color: transparent;
+          color: v.$yellow;
+        }
+
+        #lighttheme-icon {
+          font-size: v.$fz-xxl;
+          background-color: transparent;
+          color: v.$yellow;
+        }
+      }
     }
   }
 }
@@ -115,6 +154,7 @@
 
   .navbar-container {
     justify-content: space-between !important;
+    align-items: center !important;
     gap: 5rem !important;
 
     .navlinks-container {
@@ -132,6 +172,18 @@
         right: 2rem !important;
 
         animation: none !important;
+
+        #theme-toggle {
+          position: relative !important;
+          bottom: 0 !important;
+
+          &::before {
+            top: -5px !important;
+            left: -17px !important;
+            width: 1px !important;
+            height: 45px !important;
+          }
+        }
 
         //Links
         a {

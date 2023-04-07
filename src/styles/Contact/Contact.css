@@ -1,5 +1,6 @@
 .contact-wrapper .contact-container .email-container .contact-email-btn {
   border: none;
+  background-color: transparent;
 }
 .contact-wrapper .contact-container .email-container .contact-email-btn a {
   font-family: "Genos", sans-serif;

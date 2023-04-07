@@ -2,7 +2,10 @@ import '../../styles/Navbar/Navbar.scss'
 
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
-import { useState } from 'react'
+import { useState, useContext, useEffect } from 'react'
+
+//Context
+import { Themecontext } from '../../context/Themecontext'
 
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineClose } from 'react-icons/ai'
@@ -10,8 +13,27 @@ import { AiOutlineClose } from 'react-icons/ai'
 //Logo
 import { logo as Logo } from '../Logo/logo'
 
+//Theme toggler icons
+import { BsLightbulbFill, BsLightbulbOff } from 'react-icons/bs'
+
+//
+//
+//
 export const Navbar = () => {
+  //Context
+  const { theme, setTheme, localStorage, toggleTheme } = useContext(Themecontext)
+  //Navbar open state
   const [navbarIsOpen, setNavbarIsOpen] = useState(false)
+
+  //Theme icon state
+
+  const [themeIcon, setThemeIcon] = useState(theme)
+  console.log(theme, themeIcon)
+
+  //Toggle theme icon
+  const toggleIcon = () => {
+    themeIcon === 'light' ? setThemeIcon('dark') : setThemeIcon('light')
+  }
 
   //When scrolling hide Navbar
 
@@ -27,7 +49,7 @@ export const Navbar = () => {
   }
 
   return (
-    <div className='navbar-wrapper'>
+    <div className={`navbar-wrapper ${theme === 'light' ? 'light' : 'dark'}`}>
       <div className='navbar-container'>
         <div className='logo-container'>
           <HashLink smooth to='#about'>
@@ -64,6 +86,20 @@ export const Navbar = () => {
             >
               <span>Resume</span>
             </Link>
+
+            <button
+              id='theme-toggle'
+              onClick={() => {
+                toggleIcon()
+                toggleTheme()
+              }}
+            >
+              {themeIcon === 'dark' ? (
+                <BsLightbulbOff id='darktheme-icon' />
+              ) : (
+                <BsLightbulbFill id='lighttheme-icon' />
+              )}
+            </button>
           </ul>
         </div>
       </div>

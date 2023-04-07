@@ -4,8 +4,11 @@ import ReactLoading from 'react-loading'
 
 import { Navbar } from '../Navbar/Navbar'
 import { Home } from '../Home/Home'
+import { useContext } from 'react'
+import { Themecontext } from '../../context/Themecontext'
 
 function Preloader() {
+  const { theme, setTheme } = useContext(Themecontext)
   const [data, setData] = useState([])
 
   const [done, setDone] = useState(undefined)
