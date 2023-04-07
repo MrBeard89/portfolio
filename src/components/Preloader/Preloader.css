@@ -10,3 +10,9 @@
     left: 45% !important;
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .loading {
+    left: 50% !important;
+  }
+}

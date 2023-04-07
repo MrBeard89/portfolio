@@ -41,6 +41,12 @@
         display: flex;
         align-items: center;
 
+        //Desktop tech icon Off
+
+        .desktop-tech-icon-left,
+        .desktop-tech-icon-right {
+          display: none;
+        }
         //Arrow icon
 
         .right-arrow {
@@ -117,6 +123,33 @@
     }
 
     .skill-element-container {
+      //Desktop icon on
+
+      .desktop-tech-icon-left {
+        position: absolute;
+        left: 1rem;
+        display: block !important;
+        width: 35px;
+        border-radius: 50%;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .desktop-tech-icon-right {
+        position: absolute;
+        right: 1rem;
+        display: block !important;
+        width: 35px;
+        border-radius: 50%;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      //Mobile arrow off
       .right-arrow {
         display: none;
       }
