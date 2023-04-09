@@ -5,5 +5,14 @@
   "navbar_projects": "Projects",
   "navbar_contact": "Contact",
   "navbar_resume_btn": "Resume",
-  "routing_404": "This menu unfortunatelly not available yet."
+  "routing_404": "This menu unfortunatelly not available yet.",
+
+  "about_title": "Hi, my name is",
+  "about_name": "Norbert Kovács",
+  "about_profession_1": "I'm a",
+  "about_profession_2": "",
+  "about_developer": "Developer",
+  "about_text": "Welcome to my personal portfolio!",
+  "about_text_2": "I'm coming from the CNC industrie , where i was a programmer. 12 years past away with programming in Fanuc and Siemens, but I always wanted to be an IT guy, so last year i assigned to a bootcamp, at Webler, and i taught many things. I'm very excited about this new direction.",
+  "about_text_3": "If you interested about me, please continue scrolling"
 }

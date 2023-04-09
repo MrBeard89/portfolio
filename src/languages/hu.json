@@ -5,5 +5,14 @@
   "navbar_projects": "Projektek",
   "navbar_contact": "Kapcsolat",
   "navbar_resume_btn": "Önéletrajz",
-  "routing_404": "Ez a menüpont jelenleg még nem érhető el."
+  "routing_404": "Ez a menüpont jelenleg még nem érhető el.",
+
+  "about_title": "Hello, az én nevem",
+  "about_name": "Kovács Norbert",
+  "about_profession_1": "Én egy",
+  "about_profession_2": " vagyok",
+  "about_developer": "Fejlesztő",
+  "about_text": "Üdvözzölek a személyes portfóliómon!",
+  "about_text_2": "Én a CNC iparágból jövök, ahol programozó voltam.Eltelt 12 év , amit Fanuc és Siemens programozással töltöttem, de mindig IT srác akartam lenni, igy tavaly beiratkoztam egy kurzusra a Weblernél, és elég sok mindent tanultam.Nagyon izgatott vagyok ezzel az új irányal kapcsolatban.",
+  "about_text_3": "Ha kiváncsi vagy rám, kérlek görgess tovább"
 }

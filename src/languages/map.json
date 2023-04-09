@@ -8,9 +8,11 @@
   "routing_404": "routing_404",
 
   "about_title": "about_title",
+  "about_name": "about_name",
   "about_profession_1": "about_profession_1",
   "about_profession_2": "about_profession_2",
-  "about_profession_3": "about_profession_3",
   "about_developer": "about_developer",
-  "about_text": "about_text"
+  "about_text": "about_text",
+  "about_text_2": "about_text_2",
+  "about_text_3": "about_text_3"
 }

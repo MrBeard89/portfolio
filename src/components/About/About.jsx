@@ -1,4 +1,5 @@
 import '../../styles/About/About.scss'
+import { useContext } from 'react'
 
 //Arrow icon down
 import { AiFillCaretDown } from 'react-icons/ai'
@@ -6,30 +7,32 @@ import { AiFillCaretDown } from 'react-icons/ai'
 //About me img
 import Me from '../../assets/en.jpg'
 import { HashLink } from 'react-router-hash-link'
+import { LanguageContext } from '../../context/LanguageContext'
+
+//Import Language Library
+const i18n = require('../../utils/i18n')
 
 export const About = () => {
+  const { language, toggleLanguage } = useContext(LanguageContext)
   return (
     <div className='about-wrapper' id='about'>
       <div className='about-container'>
-        <h1 className='about-introduction'>Hi, my name is</h1>
-        <h2 className='about-name'>Norbert Kovács.</h2>
+        <h1 className='about-introduction'>{i18n.text(language, i18n.MAP.about_title)}</h1>
+        <h2 className='about-name'>{i18n.text(language, i18n.MAP.about_name)}.</h2>
         <div className='about-img-container'>
           <div className='img-border'></div>
           <img className='img-me' src={Me} alt="It's me" />
         </div>
 
         <h3 className='about-profession'>
-          I'm a <span>Junior Frontend Developer</span>
+          {i18n.text(language, i18n.MAP.about_profession_1)}{' '}
+          <span>Junior Frontend {i18n.text(language, i18n.MAP.about_developer)}</span>
+          {i18n.text(language, i18n.MAP.about_profession_2)}
         </h3>
         <div className='about-text'>
-          <p>Welcome to my personal portfolio!</p>
-          <p>
-            I'm coming from the CNC industrie , where i was a programmer. 12 years past away with
-            programming in Fanuc and Siemens, but I always wanted to be an IT guy, so last year i
-            assigned to a bootcamp, at Webler, and i taught many things. I'm very excited about this
-            new direction.
-          </p>
-          <p className='text-last'>If you interested about me, please continue scrolling</p>
+          <p>{i18n.text(language, i18n.MAP.about_text)}</p>
+          <p>{i18n.text(language, i18n.MAP.about_text_2)}</p>
+          <p className='text-last'>{i18n.text(language, i18n.MAP.about_text_3)}</p>
         </div>
         <HashLink smooth to='#skills'>
           <AiFillCaretDown className='animated-arrow-down' />
