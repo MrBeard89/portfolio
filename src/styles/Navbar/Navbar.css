@@ -103,15 +103,15 @@
 .navbar-wrapper .navbar-container .navlinks a:is(:hover, :active):nth-child(5) {
   background-color: #112240;
 }
-.navbar-wrapper .navbar-container .navlinks #theme-toggle {
-  position: absolute;
-  bottom: 16rem;
+.navbar-wrapper .navbar-container .navlinks .theme-toggle {
+  position: relative;
+  bottom: -6rem;
   border: 1px solid #fada5e;
   border-radius: 0.5rem;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
   background-color: #233554;
 }
-.navbar-wrapper .navbar-container .navlinks #theme-toggle::before {
+.navbar-wrapper .navbar-container .navlinks .theme-toggle::before {
   position: absolute;
   top: 4rem;
   left: -2.8rem;
@@ -123,20 +123,35 @@
   border-radius: 2px;
   box-shadow: 0px 0px 10px 1px #ffff00;
 }
-.navbar-wrapper .navbar-container .navlinks #theme-toggle:is(:hover, :focus-visible) {
+.navbar-wrapper .navbar-container .navlinks .theme-toggle:is(:hover, :focus-visible) {
   cursor: pointer;
   border: 1px solid #ffff00;
   background-color: #0a192f;
 }
-.navbar-wrapper .navbar-container .navlinks #theme-toggle #darktheme-icon {
+.navbar-wrapper .navbar-container .navlinks .theme-toggle #darktheme-icon {
   font-size: 22px;
   background-color: transparent;
   color: #ffff00;
 }
-.navbar-wrapper .navbar-container .navlinks #theme-toggle #lighttheme-icon {
+.navbar-wrapper .navbar-container .navlinks .theme-toggle #lighttheme-icon {
   font-size: 22px;
   background-color: transparent;
   color: #ffff00;
+}
+.navbar-wrapper .navbar-container .navlinks .flag-toggle {
+  height: 2.2rem;
+  width: 2.5rem;
+  position: relative;
+  bottom: -9.5rem;
+  border: 1px solid #fada5e;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  background-color: #233554;
+}
+.navbar-wrapper .navbar-container .navlinks .flag-toggle:is(:hover, :focus-visible) {
+  cursor: pointer;
+  border: 1px solid #ffff00;
+  background-color: #0a192f;
 }
 
 @keyframes goleft {
@@ -171,15 +186,20 @@
     right: 2rem !important;
     animation: none !important;
   }
-  .navbar-container .navlinks-container .navlinks #theme-toggle {
+  .navbar-container .navlinks-container .navlinks .theme-toggle,
+  .navbar-container .navlinks-container .navlinks .flag-toggle {
     position: relative !important;
     bottom: 0 !important;
   }
-  .navbar-container .navlinks-container .navlinks #theme-toggle::before {
+  .navbar-container .navlinks-container .navlinks .theme-toggle::before,
+  .navbar-container .navlinks-container .navlinks .flag-toggle::before {
     top: -5px !important;
     left: -17px !important;
     width: 1px !important;
     height: 45px !important;
+  }
+  .navbar-container .navlinks-container .navlinks .flag-toggle {
+    margin-left: -1rem;
   }
   .navbar-container .navlinks-container .navlinks a {
     background-color: transparent !important;
@@ -202,5 +222,8 @@
   .navbar-container .navlinks-container .navlinks {
     transition: 1s ease;
     gap: 4rem !important;
+  }
+  .navbar-container .navlinks-container .navlinks .flag-toggle {
+    margin-left: -3rem;
   }
 }/*# sourceMappingURL=Navbar.css.map */
