@@ -26,5 +26,8 @@
   "skills_little": "skills_little",
   "skills_photoshop": "skills_photoshop",
   "skills_msoffice": "skills_msoffice",
-  "skills_text_5": "skills_text_5"
+  "skills_text_5": "skills_text_5",
+
+  "projects_title": "projects_title",
+  "projects_more_btn": "projects_more_btn"
 }

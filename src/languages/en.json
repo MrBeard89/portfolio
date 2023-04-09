@@ -26,5 +26,70 @@
   "skills_little": "Little ",
   "skills_photoshop": "Photoshopping",
   "skills_msoffice": "MS Office",
-  "skills_text_5": " knowledge , Fast typing.I'm improving myself, and doing projects every day!"
+  "skills_text_5": " knowledge , Fast typing.I'm improving myself, and doing projects every day!",
+
+  "projects_title": "Projects",
+  "projects_more_btn": "More projects here",
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "Insure Landing Page",
+      "description": "This project is based on Frontend mentors design.This was my first project that i used ReactJs and Sass preprocessor.The design was challenging and learned a lot from it.",
+      "note": "This Project was created to match the resolution for 375px and 1440px.",
+      "tech": "HTML, CSS, SCSS, ReactJs, React Router, Hash Link, Boxicon Icons",
+      "projectlink": "https://github.com/MrBeard89/insure-landing-page-react",
+      "livelink": "https://mrbeard89.github.io/insure-landing-page-react/",
+      "imglinkmobile": "insure-mobile.png",
+      "imglinkdesktop": "insure-desktop.png"
+    },
+
+    {
+      "id": 2,
+      "title": "Dragon Ball Fanpage",
+      "description": "This project was my module final test at my school for SCSS.The rules was simple , write an SPA with your favorite brand. Well i really like dragonball, and I choose that.",
+      "note": "This Project is responsive on all screen sizes",
+      "tech": "HTML, CSS, SCSS, ReactJs, React Router,Link, ",
+      "projectlink": "https://github.com/MrBeard89/dragonball-fanpage",
+      "livelink": "https://mrbeard89.github.io/dragonball-fanpage/",
+      "imglinkmobile": "dragonball-mobile.png",
+      "imglinkdesktop": "dragonball-desktop.png"
+    },
+
+    {
+      "id": 3,
+      "title": "Todo App with React",
+      "description": "This is a Todo app with React.You can add Todo, select Todo, you can delete Todo",
+      "note": "I created this project to be responsive overall all screens",
+      "tech": "HTML5, CSS3, Bootstrap5, React",
+      "projectlink": "https://github.com/MrBeard89/todoapp-react",
+      "livelink": "https://mrbeard89.github.io/todoapp-react/",
+      "imglinkmobile": "react-todo-mobile.png",
+      "imglinkdesktop": "todoapp-desktop.png"
+    },
+
+    {
+      "id": 4,
+      "title": "Url Shortening Api with React",
+      "description": "This Project uses an Api , that shorts all url that is inserted in the input field,and displays the original and the shortened link.You can copy itt to the Clipborad with one button click !",
+      "note": "This Project was created to match the resolution for 375px and 1440px, but overall, its responsive.",
+      "tech": "React, React Router, Scss, CopytoClipboard library, Axios to API call",
+      "projectlink": "https://github.com/MrBeard89/url-shortening-api-react",
+      "livelink": "https://mrbeard89.github.io/url-shortening-api-react/",
+      "imglinkmobile": "url-shortening-mobile.png",
+      "imglinkdesktop": "url-shortening-desktop.png"
+    },
+
+    {
+      "id": 5,
+      "title": "Sufni Gsm with Context Api",
+      "description": "This Project uses an Api call, for data from different currency , you can select your phone , and take that data to the Calculation page where you can calculate the price , depending on the phones.json data. For this i use Context API.",
+      "note": "Responsive overall, mobile screen optimalization is currently in progress",
+      "tech": "React, React Router, Css, React - Context API, Axios to API call",
+      "projectlink": "https://github.com/MrBeard89/sufni_gsm",
+      "livelink": "https://mrbeard89.github.io/sufni_gsm/",
+      "imglinkmobile": "sufnigsm.png",
+      "imglinkdesktop": "sufnigsm-desktop.png"
+    }
+  ]
 }

@@ -26,5 +26,70 @@
   "skills_little": "Kis ",
   "skills_photoshop": "Photoshop",
   "skills_msoffice": "és MS Office",
-  "skills_text_5": " tudásom van, és gyorsan gépelek.Fejlesztem magam és csinálom a projekteket minden nap!"
+  "skills_text_5": " tudásom van, és gyorsan gépelek.Fejlesztem magam és csinálom a projekteket minden nap!",
+
+  "projects_title": "Projektek",
+  "projects_more_btn": "Több projekt itt",
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "Insure Landing Page",
+      "description": "Ez a project egy Frontend mentor design.Ez volt az első projektem ahol ReactJs-t és Sass preproceszort használtam.Nagy kihivás volt, és sokat tanultam belöle.",
+      "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg.",
+      "tech": "HTML, CSS, SCSS, ReactJs, React Router, Hash Link, Boxicon Icons",
+      "projectlink": "https://github.com/MrBeard89/insure-landing-page-react",
+      "livelink": "https://mrbeard89.github.io/insure-landing-page-react/",
+      "imglinkmobile": "insure-mobile.png",
+      "imglinkdesktop": "insure-desktop.png"
+    },
+
+    {
+      "id": 2,
+      "title": "Dragon Ball Fan oldal",
+      "description": "Ez a project volt a modulzáróm Scssből.A szabályok egyszerűek voltak, irj egy SPA-t a kedvenc márkáddal, igy hát mivel nagyon szerettem a dragonball-t, ezért ezt választottam.",
+      "note": "Ez a projekt minden felbontáson reszponziv",
+      "tech": "HTML, CSS, SCSS, ReactJs, React Router,Link, ",
+      "projectlink": "https://github.com/MrBeard89/dragonball-fanpage",
+      "livelink": "https://mrbeard89.github.io/dragonball-fanpage/",
+      "imglinkmobile": "dragonball-mobile.png",
+      "imglinkdesktop": "dragonball-desktop.png"
+    },
+
+    {
+      "id": 3,
+      "title": "Todo App Reactal",
+      "description": "Ez egy 'TodoApp' Reactal.Létretudsz hozni egy teendőt, kitudod választani, és törölni.",
+      "note": "Ez a projekt minden felbontáson reszponziv",
+      "tech": "HTML5, CSS3, Bootstrap5, React",
+      "projectlink": "https://github.com/MrBeard89/todoapp-react",
+      "livelink": "https://mrbeard89.github.io/todoapp-react/",
+      "imglinkmobile": "react-todo-mobile.png",
+      "imglinkdesktop": "todoapp-desktop.png"
+    },
+
+    {
+      "id": 4,
+      "title": "Url Rövidítő Api Reactal",
+      "description": "Ez a projekt egy Api-t használ, ami lerövidit minden linket amit bemásolunk, és megjeleniti az eredetit és a röviditett linket.Kitudod másolni a vágólapra egy gombnyomással!",
+      "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg, de alapjánvéve minden felbontáson reszponziv",
+      "tech": "React, React Router, Scss, CopytoClipboard library, Axios to API call",
+      "projectlink": "https://github.com/MrBeard89/url-shortening-api-react",
+      "livelink": "https://mrbeard89.github.io/url-shortening-api-react/",
+      "imglinkmobile": "url-shortening-mobile.png",
+      "imglinkdesktop": "url-shortening-desktop.png"
+    },
+
+    {
+      "id": 5,
+      "title": "Sufni Gsm Context Apival",
+      "description": "Ebben a projektben Api hivással kapjuk meg a valuta értékeket, majd kiválasztva a telefont, a Kalkulációs oldalra tudjuk vinni ezt az adatott, ahol kitudjuk számolni a használt telefon jelenlegi értékét.Erre a Context Apit használom.",
+      "note": "Reszponziv, de a mobil felbontás optimalizáció jelenleg még tart",
+      "tech": "React, React Router, Css, React - Context API, Axios to API call",
+      "projectlink": "https://github.com/MrBeard89/sufni_gsm",
+      "livelink": "https://mrbeard89.github.io/sufni_gsm/",
+      "imglinkmobile": "sufnigsm.png",
+      "imglinkdesktop": "sufnigsm-desktop.png"
+    }
+  ]
 }
