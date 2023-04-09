@@ -10,9 +10,6 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 //Arrow icon down
 import { AiFillCaretDown } from 'react-icons/ai'
 
-//Import Cardstext.json
-import CardData from '../../utils/Cardstext.json'
-
 //Import Language Library
 const i18n = require('../../utils/i18n')
 const languageHu = require('../../languages/hu.json')
