@@ -14,5 +14,17 @@
   "about_developer": "about_developer",
   "about_text": "about_text",
   "about_text_2": "about_text_2",
-  "about_text_3": "about_text_3"
+  "about_text_3": "about_text_3",
+
+  "skills_title": "skills_title",
+  "skills_text_1": "skills_text_1",
+  "skills_text_2": "skills_text_2",
+  "skills_text_3": "skills_text_3",
+  "skills_text_4": "skills_text_4",
+  "skills_python": "skills_python",
+  "skills_webdesigner": "skills_webdesigner",
+  "skills_little": "skills_little",
+  "skills_photoshop": "skills_photoshop",
+  "skills_msoffice": "skills_msoffice",
+  "skills_text_5": "skills_text_5"
 }

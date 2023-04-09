@@ -13,7 +13,7 @@ import { LanguageContext } from '../../context/LanguageContext'
 const i18n = require('../../utils/i18n')
 
 export const About = () => {
-  const { language, toggleLanguage } = useContext(LanguageContext)
+  const { language } = useContext(LanguageContext)
   return (
     <div className='about-wrapper' id='about'>
       <div className='about-container'>

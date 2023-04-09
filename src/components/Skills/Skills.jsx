@@ -20,30 +20,39 @@ import Express from '../../assets/tech-icons/express.png'
 import Mongodb from '../../assets/tech-icons/mongodb_80756.png'
 import Git from '../../assets/tech-icons/git.jpg'
 import Firebase from '../../assets/tech-icons/firebase.png'
+import { useContext } from 'react'
+import { LanguageContext } from '../../context/LanguageContext'
+
+//Import Language Library
+const i18n = require('../../utils/i18n')
 
 export const Skills = () => {
+  const { language } = useContext(LanguageContext)
   return (
     //Main Wrapper
 
     <div className='skills-wrapper' id='skills'>
       <div className='skills-container'>
-        <h3 className='skills-title'>Skills</h3>
+        <h3 className='skills-title'>{i18n.text(language, i18n.MAP.skills_title)}</h3>
 
         {/* Text Container  */}
 
         <div className='skills-text-container'>
+          <p>{i18n.text(language, i18n.MAP.skills_text_1)}</p>
           <p>
-            Web development for me, is passion.I like creating sites, user environments, and overall
-            designing the page, however i'm not a webdesigner.
+            {i18n.text(language, i18n.MAP.skills_text_2)}
+            <span className='python-text'>{i18n.text(language, i18n.MAP.skills_python)}</span>
+            {i18n.text(language, i18n.MAP.skills_text_3)}
+            <span className='designer-text'>
+              {i18n.text(language, i18n.MAP.skills_webdesigner)}
+            </span>
+            {i18n.text(language, i18n.MAP.skills_text_4)}
           </p>
           <p>
-            My future plans are, learning <span className='python-text'>Python</span> , and assign
-            somewhere to be a <span className='designer-text'>Webdesigner</span> also.
-          </p>
-          <p>
-            Little <span className='brighter'>Photoshoping</span> ,
-            <span className='brighter'>MS Office</span> knowledge , Fast typing.I'm improving
-            myself, and doing projects every day!
+            {i18n.text(language, i18n.MAP.skills_little)}
+            <span className='brighter'>{i18n.text(language, i18n.MAP.skills_photoshop)}</span> ,
+            <span className='brighter'>{i18n.text(language, i18n.MAP.skills_msoffice)}</span>
+            {i18n.text(language, i18n.MAP.skills_text_5)}
           </p>
         </div>
 

@@ -14,5 +14,17 @@
   "about_developer": "Developer",
   "about_text": "Welcome to my personal portfolio!",
   "about_text_2": "I'm coming from the CNC industrie , where i was a programmer. 12 years past away with programming in Fanuc and Siemens, but I always wanted to be an IT guy, so last year i assigned to a bootcamp, at Webler, and i taught many things. I'm very excited about this new direction.",
-  "about_text_3": "If you interested about me, please continue scrolling"
+  "about_text_3": "If you interested about me, please continue scrolling",
+
+  "skills_title": "Skills",
+  "skills_text_1": "Web development for me, is passion.I like creating sites, user environments, and overall designing the page, however i'm not a webdesigner.",
+  "skills_text_2": "My future plans are, learning ",
+  "skills_text_3": " , and assign somewhere to be a ",
+  "skills_text_4": " also.",
+  "skills_python": "Python",
+  "skills_webdesigner": "Webdesigner",
+  "skills_little": "Little ",
+  "skills_photoshop": "Photoshopping",
+  "skills_msoffice": "MS Office",
+  "skills_text_5": " knowledge , Fast typing.I'm improving myself, and doing projects every day!"
 }

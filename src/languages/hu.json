@@ -14,5 +14,17 @@
   "about_developer": "Fejlesztő",
   "about_text": "Üdvözzölek a személyes portfóliómon!",
   "about_text_2": "Én a CNC iparágból jövök, ahol programozó voltam.Eltelt 12 év , amit Fanuc és Siemens programozással töltöttem, de mindig IT srác akartam lenni, igy tavaly beiratkoztam egy kurzusra a Weblernél, és elég sok mindent tanultam.Nagyon izgatott vagyok ezzel az új irányal kapcsolatban.",
-  "about_text_3": "Ha kiváncsi vagy rám, kérlek görgess tovább"
+  "about_text_3": "Ha kiváncsi vagy rám, kérlek görgess tovább",
+
+  "skills_title": "Készségek",
+  "skills_text_1": "A webfejlesztés nekem szenvedély.Szeretek létrehozni oldalakat, felhasználói környezetett, és összeségében megkreálni a kinézetett, már ha nem vagyok webdesigner.",
+  "skills_text_2": "A jövőben szeretném megtanulni a ",
+  "skills_text_3": " , és jelentkezni valahova , hogy ",
+  "skills_text_4": "legyek.",
+  "skills_python": "Pythont",
+  "skills_webdesigner": "Webdesigner is ",
+  "skills_little": "Kis ",
+  "skills_photoshop": "Photoshop",
+  "skills_msoffice": "és MS Office",
+  "skills_text_5": " tudásom van, és gyorsan gépelek.Fejlesztem magam és csinálom a projekteket minden nap!"
 }
