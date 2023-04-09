@@ -1,0 +1,9 @@
+{
+  "code": "hu",
+  "navbar_about": "Rólam",
+  "navbar_skills": "Készségek",
+  "navbar_projects": "Projektek",
+  "navbar_contact": "Kapcsolat",
+  "navbar_resume_btn": "Önéletrajz",
+  "routing_404": "Ez a menüpont jelenleg még nem érhető el."
+}

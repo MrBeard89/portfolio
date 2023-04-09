@@ -28,7 +28,6 @@ export const Navbar = () => {
   //Theme icon state
 
   const [themeIcon, setThemeIcon] = useState(theme)
-  console.log(theme, themeIcon)
 
   //Toggle theme icon
   const toggleIcon = () => {

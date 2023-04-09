@@ -1,0 +1,9 @@
+{
+  "code": "en",
+  "navbar_about": "About",
+  "navbar_skills": "Skills",
+  "navbar_projects": "Projects",
+  "navbar_contact": "Contact",
+  "navbar_resume_btn": "Resume",
+  "routing_404": "This menu unfortunatelly not available yet."
+}
