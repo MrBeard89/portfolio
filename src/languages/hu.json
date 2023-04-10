@@ -93,7 +93,7 @@
     {
       "id": 5,
       "title": "Sufni Gsm Context Apival",
-      "description": "Ebben a projektben Api hivással kapjuk meg a valuta értékeket, majd kiválasztva a telefont, a Kalkulációs oldalra tudjuk vinni ezt az adatott, ahol kitudjuk számolni a használt telefon jelenlegi értékét.Erre a Context Apit használom.",
+      "description": "Ebben a projektben Api hivással kapjuk meg a valuta értékeket, majd kiválasztva a telefont, a Kalkulációs oldalra tudunk menni, ahol kitudjuk számolni a használt telefon értékét.Erre a Context Apit használom.",
       "note": "Reszponziv, de a mobil felbontás optimalizáció jelenleg még tart",
       "tech": "React, React Router, Css, React - Context API, Axios to API call",
       "projectlink": "https://github.com/MrBeard89/sufni_gsm",

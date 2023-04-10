@@ -94,7 +94,7 @@
       "id": 5,
       "title": "Sufni Gsm with Context Api",
       "description": "This Project uses an Api call, for data from different currency , you can select your phone , and take that data to the Calculation page where you can calculate the price , depending on the phones.json data. For this i use Context API.",
-      "note": "Responsive overall, mobile screen optimalization is currently in progress",
+      "note": "Responsive, mobile screen optimalization is currently in progress",
       "tech": "React, React Router, Css, React - Context API, Axios to API call",
       "projectlink": "https://github.com/MrBeard89/sufni_gsm",
       "livelink": "https://mrbeard89.github.io/sufni_gsm/",
