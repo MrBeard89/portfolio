@@ -100,14 +100,14 @@ export const Navbar = () => {
               {language === 'hu' ? (
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
-                  shape-rendering='geometricPrecision'
-                  text-rendering='geometricPrecision'
-                  image-rendering='optimizeQuality'
-                  fill-rule='evenodd'
-                  clip-rule='evenodd'
+                  shapeRendering='geometricPrecision'
+                  textRendering='geometricPrecision'
+                  imageRendering='optimizeQuality'
+                  fillRule='evenodd'
+                  clipRule='evenodd'
                   viewBox='0 0 512 512'
                 >
-                  <g fill-rule='nonzero'>
+                  <g fillRule='nonzero'>
                     <path
                       fill='#4D4D4D'
                       d='M256-.002c70.684 0 134.689 28.664 181.013 74.987C483.336 121.31 512 185.316 512 256c0 70.684-28.664 134.69-74.987 181.014-46.324 46.324-110.329 74.988-181.013 74.988-70.676 0-134.689-28.664-181.013-74.988C28.664 390.69 0 326.677 0 256c0-70.684 28.664-134.69 74.987-181.015C121.311 28.662 185.316-.002 256-.002z'
@@ -129,14 +129,14 @@ export const Navbar = () => {
               ) : (
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
-                  shape-rendering='geometricPrecision'
-                  text-rendering='geometricPrecision'
-                  image-rendering='optimizeQuality'
-                  fill-rule='evenodd'
-                  clip-rule='evenodd'
+                  shapeRendering='geometricPrecision'
+                  textRendering='geometricPrecision'
+                  imageRendering='optimizeQuality'
+                  fillRule='evenodd'
+                  clipRule='evenodd'
                   viewBox='0 0 512 512'
                 >
-                  <g fill-rule='nonzero'>
+                  <g fillRule='nonzero'>
                     <path
                       fill='#999'
                       d='M256 0c70.68 0 134.69 28.66 181.01 74.99C483.34 121.31 512 185.32 512 256c0 70.68-28.66 134.69-74.99 181.01C390.69 483.34 326.68 512 256 512c-70.68 0-134.69-28.66-181.01-74.99C28.66 390.69 0 326.68 0 256c0-70.68 28.66-134.69 74.99-181.01C121.31 28.66 185.32 0 256 0z'
