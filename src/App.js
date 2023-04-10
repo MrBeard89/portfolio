@@ -28,7 +28,7 @@ function App() {
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, toggleLanguage }}>
-      <div className={`App ${theme}`}>
+      <div className={`App ${theme}`} basename={process.env.PUBLIC_URL}>
         <Themecontext.Provider value={{ theme, setTheme, localStorage, toggleTheme }}>
           <Router>
             <Preloader>
