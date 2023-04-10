@@ -162,7 +162,7 @@
   }
   .contact-container::after {
     position: absolute;
-    left: 32vw;
+    left: 37vw;
     top: 2rem;
     content: "";
     width: 500px;
