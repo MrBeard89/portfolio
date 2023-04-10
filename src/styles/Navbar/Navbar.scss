@@ -70,11 +70,11 @@
         text-decoration: none;
 
         letter-spacing: 2px;
-        height: 6rem;
+        height: 5rem;
         width: 180px;
 
         &:nth-child(1) {
-          margin-top: 8rem;
+          margin-top: 5rem;
         }
         &:is(:hover, :active) {
           color: v.$yellow;
@@ -93,7 +93,7 @@
       //Toggle theme buttons
       .theme-toggle {
         position: relative;
-        bottom: -6rem;
+        bottom: -2rem;
         border: 1px solid v.$grain-yellow;
         border-radius: 0.5rem;
         padding: 0.25rem 0.5rem 0.25rem 0.5rem;
@@ -101,7 +101,7 @@
 
         &::before {
           position: absolute;
-          top: 4rem;
+          top: 3rem;
           left: -2.8rem;
           content: '';
           width: 130px;
@@ -135,7 +135,7 @@
         height: 2.2rem;
         width: 2.5rem;
         position: relative;
-        bottom: -9.5rem;
+        bottom: -4rem;
         border: 1px solid v.$grain-yellow;
         border-radius: 0.5rem;
         padding: 0.25rem 0.5rem 0.25rem 0.5rem;

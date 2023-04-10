@@ -82,7 +82,7 @@
       "id": 4,
       "title": "Url Shortening Api with React",
       "description": "This Project uses an Api , that shorts all url that is inserted in the input field,and displays the original and the shortened link.You can copy itt to the Clipborad with one button click !",
-      "note": "This Project was created to match the resolution for 375px and 1440px, but overall, its responsive.",
+      "note": "This Project was created to match the resolution for 375px and 1440px.",
       "tech": "React, React Router, Scss, CopytoClipboard library, Axios to API call",
       "projectlink": "https://github.com/MrBeard89/url-shortening-api-react",
       "livelink": "https://mrbeard89.github.io/url-shortening-api-react/",

@@ -27,6 +27,7 @@
       //Container for Card
       .project-card {
         @extend %flex-ai-column;
+
         z-index: 3;
         position: relative;
         border-radius: 1rem;
@@ -86,6 +87,7 @@
 
         //Card Note
         .card-note {
+          position: relative;
           color: v.$very-light-navy;
           width: v.$cardtext-width-mobile;
           margin-bottom: 1rem;
@@ -95,8 +97,8 @@
 
         //Card Techstack
         .card-techstack {
-          position: absolute;
-          bottom: 4rem;
+          position: relative;
+          bottom: 0;
           width: v.$cardtext-width-mobile;
           background-color: transparent;
           color: v.$bluis-white;
@@ -292,15 +294,18 @@
         }
 
         .card-techstack {
+          margin-left: 1rem;
           bottom: 4.5rem !important;
-          width: v.$cardtext-width-desktop992 !important;
+          min-width: v.$cardtext-width-desktop992 !important;
         }
 
         .desktop-info-bar {
           background-color: v.$navy-blue !important;
           display: flex;
           flex-direction: column;
+          gap: 1rem;
           padding-left: 1rem;
+          padding-right: 1rem;
           padding-top: 0.5rem;
           border-radius: 1rem;
         }

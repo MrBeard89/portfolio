@@ -41,7 +41,7 @@
 }
 
 .navbar-wrapper {
-  font-family: "Genos", sans-serif;
+  font-family: "Genos", "Comic Sans MS", sans-serif;
   position: fixed;
   top: 0;
   z-index: 4;
@@ -90,11 +90,11 @@
   font-size: 20px;
   text-decoration: none;
   letter-spacing: 2px;
-  height: 6rem;
+  height: 5rem;
   width: 180px;
 }
 .navbar-wrapper .navbar-container .navlinks a:nth-child(1) {
-  margin-top: 8rem;
+  margin-top: 5rem;
 }
 .navbar-wrapper .navbar-container .navlinks a:is(:hover, :active) {
   color: #ffff00;
@@ -105,7 +105,7 @@
 }
 .navbar-wrapper .navbar-container .navlinks .theme-toggle {
   position: relative;
-  bottom: -6rem;
+  bottom: -2rem;
   border: 1px solid #fada5e;
   border-radius: 0.5rem;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
@@ -113,7 +113,7 @@
 }
 .navbar-wrapper .navbar-container .navlinks .theme-toggle::before {
   position: absolute;
-  top: 4rem;
+  top: 3rem;
   left: -2.8rem;
   content: "";
   width: 130px;
@@ -142,7 +142,7 @@
   height: 2.2rem;
   width: 2.5rem;
   position: relative;
-  bottom: -9.5rem;
+  bottom: -4rem;
   border: 1px solid #fada5e;
   border-radius: 0.5rem;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
