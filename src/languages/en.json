@@ -31,6 +31,16 @@
   "projects_title": "Projects",
   "projects_more_btn": "More projects here",
 
+  "contact_title": "Contact",
+  "contact_intro_text": "get in Touch",
+  "contact_text_1": ", so if you interested about me, and you want me to",
+  "contact_text_2": ", please send me an email !",
+  "contact_highlighted_text_1": "I'm looking for a Frontend job",
+  "contact_highlighted_text_2": "join your team",
+  "contact_email_btn": "Send Email",
+  "contact_footer_text": "Designed & built by ",
+  "contact_sign": "Norbert Kovács",
+
   "projects": [
     {
       "id": 1,

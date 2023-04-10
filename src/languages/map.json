@@ -29,5 +29,15 @@
   "skills_text_5": "skills_text_5",
 
   "projects_title": "projects_title",
-  "projects_more_btn": "projects_more_btn"
+  "projects_more_btn": "projects_more_btn",
+
+  "contact_title": "contact_title",
+  "contact_intro_text": "contact_intro_text",
+  "contact_text_1": "contact_text_1",
+  "contact_text_2": "contact_text_2",
+  "contact_highlighted_text_1": "contact_highlighted_text_1",
+  "contact_highlighted_text_2": "contact_highlighted_text_2",
+  "contact_email_btn": "contact_email_btn",
+  "contact_footer_text": "contact_footer_text",
+  "contact_sign": "contact_sign"
 }

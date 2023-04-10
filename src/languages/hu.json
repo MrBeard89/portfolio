@@ -31,6 +31,16 @@
   "projects_title": "Projektek",
   "projects_more_btn": "Több projekt itt",
 
+  "contact_title": "Kapcsolat",
+  "contact_intro_text": "Vedd fel a kapcsolatott",
+  "contact_text_1": ", szóval ha felkeltettem az érdeklődésed, és szeretnéd ha ",
+  "contact_text_2": ", akkor kérlek küldj nekem egy emailt !",
+  "contact_highlighted_text_1": "Én Frontend állást keresek ",
+  "contact_highlighted_text_2": "csatlakoznék a csapatodba ",
+  "contact_email_btn": "Küldj Emailt",
+  "contact_footer_text": "Megtervezve és leprogramozva, ",
+  "contact_sign": "Kovács Norbert",
+
   "projects": [
     {
       "id": 1,
