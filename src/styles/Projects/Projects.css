@@ -48,7 +48,7 @@
   color: #45669e;
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .projects-wrapper {
@@ -132,7 +132,7 @@
   width: 280px;
   background-color: transparent;
   color: #aac9ff;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   line-height: 1rem;
 }
@@ -266,6 +266,7 @@
     font-size: 26px !important;
   }
   .projects-container .cards-wrapper .project-card .card-description {
+    margin-bottom: 2rem !important;
     width: 540px !important;
     font-size: 22px !important;
   }

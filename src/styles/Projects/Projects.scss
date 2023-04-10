@@ -102,7 +102,7 @@
           width: v.$cardtext-width-mobile;
           background-color: transparent;
           color: v.$bluis-white;
-          font-size: v.$fz-xl;
+          font-size: v.$fz-lg;
           text-align: left;
           line-height: 1rem;
 
@@ -284,6 +284,7 @@
         }
 
         .card-description {
+          margin-bottom: 2rem !important;
           width: v.$cardtext-width-desktop992 !important;
           font-size: v.$fz-xxl !important;
         }

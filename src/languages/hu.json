@@ -82,7 +82,7 @@
       "id": 4,
       "title": "Url Rövidítő Api Reactal",
       "description": "Ez a projekt egy Api-t használ, ami lerövidit minden linket amit bemásolunk, és megjeleniti az eredetit és a röviditett linket.Kitudod másolni a vágólapra egy gombnyomással!",
-      "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg, de alapjánvéve minden felbontáson reszponziv",
+      "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg",
       "tech": "React, React Router, Scss, CopytoClipboard library, Axios to API call",
       "projectlink": "https://github.com/MrBeard89/url-shortening-api-react",
       "livelink": "https://mrbeard89.github.io/url-shortening-api-react/",
