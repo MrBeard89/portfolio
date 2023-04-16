@@ -79,7 +79,7 @@ export const Navbar = () => {
             <HashLink smooth to='#contact'>
               {i18n.text(language, i18n.MAP.navbar_contact)}
             </HashLink>
-            <Link to='/NorbertKovacsCv.pdf' target='_blank' rel='noopener noreferrer' download>
+            <Link to='/NorbertKovacsCv_en.pdf' target='_blank' rel='noopener noreferrer' download>
               <span>{i18n.text(language, i18n.MAP.navbar_resume_btn)}</span>
             </Link>
 
