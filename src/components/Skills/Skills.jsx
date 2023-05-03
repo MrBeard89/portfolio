@@ -11,7 +11,7 @@ import { AiFillCaretDown } from 'react-icons/ai'
 /////Left
 import Js from '../../assets/tech-icons/js-icon-24.jpg'
 import React from '../../assets/tech-icons/react.png'
-import Angular from '../../assets/tech-icons/angularjs-icon-14.jpg'
+import Css from '../../assets/tech-icons/css3.png'
 import Scss from '../../assets/tech-icons/sass_icon-512.png'
 import Bootstrap from '../../assets/tech-icons/bootstrap.png'
 ////Right
@@ -76,14 +76,14 @@ export const Skills = () => {
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
-              <img className='desktop-tech-icon-left' src={Angular} alt='tech-icon for desktop' />
-              <li>Angular</li>
+              <img className='desktop-tech-icon-left' src={Css} alt='tech-icon for desktop' />
+              <li className='brighter'>Css3</li>
             </div>
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
               <img className='desktop-tech-icon-left' src={Scss} alt='tech-icon for desktop' />
-              <li className='brighter'>Css3, Scss</li>
+              <li className='brighter'>Scss</li>
             </div>
 
             <div className='skill-element-container'>
