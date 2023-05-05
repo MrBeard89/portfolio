@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9e776fa4.css",
-    "main.js": "/portfolio/static/js/main.e0175f15.js",
+    "main.js": "/portfolio/static/js/main.20305609.js",
     "static/media/sufnigsm.png": "/portfolio/static/media/sufnigsm.185151ea4864b58d3d92.png",
     "static/media/dragonball-desktop.png": "/portfolio/static/media/dragonball-desktop.675def12b782426fe5cc.png",
     "static/media/sufnigsm-desktop.png": "/portfolio/static/media/sufnigsm-desktop.4320f4e2b5c9908401ac.png",
@@ -10,7 +10,7 @@
     "static/media/insure-mobile.png": "/portfolio/static/media/insure-mobile.28102f5d2d43ec6c1169.png",
     "static/media/en.jpg": "/portfolio/static/media/en.71cf4a86bac68b3bcec2.jpg",
     "static/media/url-shortening-desktop.png": "/portfolio/static/media/url-shortening-desktop.742edfdca20c8f8eac5b.png",
-    "static/media/angularjs-icon-14.jpg": "/portfolio/static/media/angularjs-icon-14.9b24048292a8ef74838c.jpg",
+    "static/media/css3.png": "/portfolio/static/media/css3.19c8605d6b2861f5fbe0.png",
     "static/media/todoapp-desktop.png": "/portfolio/static/media/todoapp-desktop.7ef876056809d8d24c72.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.988aa399b587899851b7.png",
     "static/media/url-shortening-mobile.png": "/portfolio/static/media/url-shortening-mobile.2aba1fe22a095e81130e.png",
@@ -24,10 +24,10 @@
     "static/media/js-icon-24.jpg": "/portfolio/static/media/js-icon-24.cbebc4d6d38df2fbcd08.jpg",
     "index.html": "/portfolio/index.html",
     "main.9e776fa4.css.map": "/portfolio/static/css/main.9e776fa4.css.map",
-    "main.e0175f15.js.map": "/portfolio/static/js/main.e0175f15.js.map"
+    "main.20305609.js.map": "/portfolio/static/js/main.20305609.js.map"
   },
   "entrypoints": [
     "static/css/main.9e776fa4.css",
-    "static/js/main.e0175f15.js"
+    "static/js/main.20305609.js"
   ]
 }
