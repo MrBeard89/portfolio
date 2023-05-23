@@ -44,6 +44,18 @@
   "projects": [
     {
       "id": 1,
+      "title": "Portfolio 2.0",
+      "description": "A projektet egy munkalehetőség próba feladata kapcsán irtam meg, törekedtem egy másik , letisztult design megalkotására",
+      "note": "Ez a projekt reszponziv az összes felbontáson",
+      "tech": "HTML, CSS3, SCSS, ReactJs, React Router, Hash Link, React Icons library, Context Api, String format",
+      "projectlink": "https://github.com/MrBeard89/portfolio_2.0",
+      "livelink": "https://mrbeard89.github.io/portfolio_2.0/",
+      "imglinkmobile": "portfolio2-mobile.png",
+      "imglinkdesktop": "portfolio2-desktop.png"
+    },
+
+    {
+      "id": 2,
       "title": "Insure Landing Page",
       "description": "Ez a project egy Frontend mentor design.Ez volt az első projektem ahol ReactJs-t és Sass preproceszort használtam.Nagy kihivás volt, és sokat tanultam belöle.",
       "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg.",
@@ -55,7 +67,7 @@
     },
 
     {
-      "id": 2,
+      "id": 3,
       "title": "Dragon Ball Fan oldal",
       "description": "Ez a project volt a modulzáróm Scssből.A szabályok egyszerűek voltak, irj egy SPA-t a kedvenc márkáddal, igy hát mivel nagyon szerettem a dragonball-t, ezért ezt választottam.",
       "note": "Ez a projekt minden felbontáson reszponziv",
@@ -67,7 +79,7 @@
     },
 
     {
-      "id": 3,
+      "id": 4,
       "title": "Todo App Reactal",
       "description": "Ez egy 'TodoApp' Reactal.Létretudsz hozni egy teendőt, kitudod választani, és törölni.",
       "note": "Ez a projekt minden felbontáson reszponziv",
@@ -79,7 +91,7 @@
     },
 
     {
-      "id": 4,
+      "id": 5,
       "title": "Url Rövidítő Api Reactal",
       "description": "Ez a projekt egy Api-t használ, ami lerövidit minden linket amit bemásolunk, és megjeleniti az eredetit és a röviditett linket.Kitudod másolni a vágólapra egy gombnyomással!",
       "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg",
@@ -91,7 +103,7 @@
     },
 
     {
-      "id": 5,
+      "id": 6,
       "title": "Sufni Gsm Context Apival",
       "description": "Ebben a projektben Api hivással kapjuk meg a valuta értékeket, majd kiválasztva a telefont, a Kalkulációs oldalra tudunk menni, ahol kitudjuk számolni a használt telefon értékét.Erre a Context Apit használom.",
       "note": "Reszponziv, de a mobil felbontás optimalizáció jelenleg még tart",
