@@ -6,7 +6,7 @@
   font-family: "Genos", "Calibri", sans-serif;
   color: #fdfd96;
   border: 1px solid #fdfd96;
-  background-color: #233554;
+  background-color: #324972;
   border-radius: 0.5rem;
   padding: 1rem;
   text-decoration: none;
@@ -28,7 +28,7 @@
 }
 
 .contact-wrapper .contact-container .email-container .contact-text {
-  color: #233554;
+  color: #324972;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 3rem;
@@ -116,7 +116,7 @@
   color: #ffff00;
 }
 .contact-wrapper .contact-container .social-media p {
-  color: #233554;
+  color: #324972;
   font-size: 18px;
   font-weight: 700;
 }

@@ -30,7 +30,7 @@
 .navbar-wrapper .navbar-container .navlinks span {
   color: #fdfd96;
   border: 1px solid #fdfd96;
-  background-color: #233554;
+  background-color: #324972;
   border-radius: 0.5rem;
   padding: 1rem;
 }
@@ -53,7 +53,7 @@
   content: "";
   width: 100vw;
   height: 11px;
-  background-image: linear-gradient(180deg, transparent, #233554 275%) !important;
+  background-image: linear-gradient(180deg, transparent, #324972 275%) !important;
   box-shadow: 0px 17px 15px 3px rgba(2, 12, 27, 0.7);
 }
 .navbar-wrapper .navbar-container {
@@ -98,7 +98,7 @@
 }
 .navbar-wrapper .navbar-container .navlinks a:is(:hover, :active) {
   color: #ffff00;
-  background-color: #233554;
+  background-color: #324972;
 }
 .navbar-wrapper .navbar-container .navlinks a:is(:hover, :active):nth-child(5) {
   background-color: #112240;
@@ -109,7 +109,7 @@
   border: 1px solid #fada5e;
   border-radius: 0.5rem;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
-  background-color: #233554;
+  background-color: #324972;
 }
 .navbar-wrapper .navbar-container .navlinks .theme-toggle::before {
   position: absolute;
@@ -146,7 +146,7 @@
   border: 1px solid #fada5e;
   border-radius: 0.5rem;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
-  background-color: #233554;
+  background-color: #324972;
 }
 .navbar-wrapper .navbar-container .navlinks .flag-toggle:is(:hover, :focus-visible) {
   cursor: pointer;
