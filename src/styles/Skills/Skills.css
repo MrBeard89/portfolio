@@ -34,7 +34,6 @@
 
 .skills-wrapper {
   z-index: 1;
-  height: -moz-fit-content;
   height: fit-content;
 }
 .skills-wrapper .skills-container {

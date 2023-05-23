@@ -19,7 +19,6 @@
 
 .about-wrapper {
   z-index: 1;
-  height: -moz-fit-content;
   height: fit-content;
   margin-top: 8rem;
 }

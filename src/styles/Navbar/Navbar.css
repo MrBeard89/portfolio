@@ -36,7 +36,7 @@
 }
 .navbar-wrapper .navbar-container .navlinks span:is(:hover, :active) {
   color: #ffff00;
-  background-color: #0a192f;
+  background-color: #0c1e3a;
   border: 1px solid #ffff00;
 }
 
@@ -126,7 +126,7 @@
 .navbar-wrapper .navbar-container .navlinks .theme-toggle:is(:hover, :focus-visible) {
   cursor: pointer;
   border: 1px solid #ffff00;
-  background-color: #0a192f;
+  background-color: #0c1e3a;
 }
 .navbar-wrapper .navbar-container .navlinks .theme-toggle #darktheme-icon {
   font-size: 22px;
@@ -151,7 +151,7 @@
 .navbar-wrapper .navbar-container .navlinks .flag-toggle:is(:hover, :focus-visible) {
   cursor: pointer;
   border: 1px solid #ffff00;
-  background-color: #0a192f;
+  background-color: #0c1e3a;
 }
 
 @keyframes goleft {
@@ -171,7 +171,6 @@
   }
   .navbar-container .navlinks-container {
     display: flex !important;
-    width: -moz-fit-content !important;
     width: fit-content !important;
   }
   .navbar-container .navlinks-container .navlinks {
@@ -179,9 +178,7 @@
     flex-direction: row !important;
     gap: 2rem !important;
     background-color: transparent !important;
-    height: -moz-fit-content !important;
     height: fit-content !important;
-    width: -moz-fit-content !important;
     width: fit-content !important;
     right: 2rem !important;
     animation: none !important;
@@ -204,7 +201,6 @@
   .navbar-container .navlinks-container .navlinks a {
     background-color: transparent !important;
     height: 65px !important;
-    width: -moz-fit-content !important;
     width: fit-content !important;
   }
   .navbar-container .navlinks-container .navlinks a:nth-child(1) {
