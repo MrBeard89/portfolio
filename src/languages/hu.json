@@ -45,7 +45,7 @@
     {
       "id": 1,
       "title": "Portfolio 2.0",
-      "description": "A projektet egy munkalehetőség próba feladata kapcsán irtam meg, törekedtem egy másik , letisztult design megalkotására",
+      "description": "A projektet egy munkalehetőség próba feladata kapcsán irtam meg, törekedtem egy másik , letisztult design megalkotására.Az űrlapon frontend validációt használtam",
       "note": "Ez a projekt reszponziv az összes felbontáson",
       "tech": "HTML, CSS3, SCSS, ReactJs, React Router, Hash Link, React Icons library, Context Api, String format",
       "projectlink": "https://github.com/MrBeard89/portfolio_2.0",

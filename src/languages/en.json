@@ -45,7 +45,7 @@
     {
       "id": 1,
       "title": "Portfolio 2.0",
-      "description": "The project was created for applying a job offer.I tried to approuch a different design",
+      "description": "The project was created for applying a job offer.I tried to approuch a different design.Uses Frontend validation on Contact form",
       "note": "This Project is responsive on all screen sizes",
       "tech": "HTML, CSS3, SCSS, ReactJs, React Router, Hash Link, React Icons library, Context Api, String format",
       "projectlink": "https://github.com/MrBeard89/portfolio_2.0",
