@@ -41,10 +41,10 @@ export const Skills = () => {
           <p>{i18n.text(language, i18n.MAP.skills_text_1)}</p>
           <p>
             {i18n.text(language, i18n.MAP.skills_text_2)}
-            <span className='python-text'>{i18n.text(language, i18n.MAP.skills_python)}</span>
+            <span className='python-text'>{i18n.text(language, i18n.MAP.skills_node)}</span>
             {i18n.text(language, i18n.MAP.skills_text_3)}
             <span className='designer-text'>
-              {i18n.text(language, i18n.MAP.skills_webdesigner)}
+              {i18n.text(language, i18n.MAP.skills_webdeveloper)}
             </span>
             {i18n.text(language, i18n.MAP.skills_text_4)}
           </p>
