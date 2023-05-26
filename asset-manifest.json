@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.49ce3816.css",
+    "main.css": "/portfolio/static/css/main.d2359391.css",
     "main.js": "/portfolio/static/js/main.06c8dade.js",
     "static/media/sufnigsm.png": "/portfolio/static/media/sufnigsm.185151ea4864b58d3d92.png",
     "static/media/dragonball-desktop.png": "/portfolio/static/media/dragonball-desktop.675def12b782426fe5cc.png",
@@ -25,11 +25,11 @@
     "static/media/mongodb_80756.png": "/portfolio/static/media/mongodb_80756.88bb1433293143f7b248.png",
     "static/media/js-icon-24.jpg": "/portfolio/static/media/js-icon-24.cbebc4d6d38df2fbcd08.jpg",
     "index.html": "/portfolio/index.html",
-    "main.49ce3816.css.map": "/portfolio/static/css/main.49ce3816.css.map",
+    "main.d2359391.css.map": "/portfolio/static/css/main.d2359391.css.map",
     "main.06c8dade.js.map": "/portfolio/static/js/main.06c8dade.js.map"
   },
   "entrypoints": [
-    "static/css/main.49ce3816.css",
+    "static/css/main.d2359391.css",
     "static/js/main.06c8dade.js"
   ]
 }
