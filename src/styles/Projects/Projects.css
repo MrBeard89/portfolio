@@ -75,6 +75,7 @@
   border-radius: 1rem;
   border: 2px solid #fdfd96;
   height: 396px;
+  overflow: hidden;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card:hover {
   border: 2px solid #ffff00;
