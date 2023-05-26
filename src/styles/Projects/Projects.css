@@ -21,7 +21,7 @@
   border: none;
 }
 .projects-wrapper .projects-container .cards-wrapper .more-to-see-container .more-btn a {
-  font-family: "Genos", "Calibri", sans-serif;
+  font-family: "Genos", Calibri, Ruda, sans-serif;
   color: #fdfd96;
   border: 1px solid #fdfd96;
   background-color: #324972;
@@ -46,7 +46,7 @@
 
 .projects-wrapper .projects-container .cards-wrapper .project-card .card-description {
   color: #45669e;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
