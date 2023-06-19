@@ -122,6 +122,10 @@
   .skills-container .skill-element-container .desktop-tech-icon-left:hover {
     cursor: pointer;
   }
+  .skills-container .skill-element-container .angular {
+    width: 50px;
+    left: 0.5rem;
+  }
   .skills-container .skill-element-container .desktop-tech-icon-right {
     position: absolute;
     right: 1rem;
