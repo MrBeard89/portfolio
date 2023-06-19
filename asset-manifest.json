@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d2359391.css",
-    "main.js": "/portfolio/static/js/main.06c8dade.js",
+    "main.css": "/portfolio/static/css/main.74172c2f.css",
+    "main.js": "/portfolio/static/js/main.869a00ee.js",
     "static/media/sufnigsm.png": "/portfolio/static/media/sufnigsm.185151ea4864b58d3d92.png",
     "static/media/dragonball-desktop.png": "/portfolio/static/media/dragonball-desktop.675def12b782426fe5cc.png",
     "static/media/sufnigsm-desktop.png": "/portfolio/static/media/sufnigsm-desktop.4320f4e2b5c9908401ac.png",
@@ -11,7 +11,6 @@
     "static/media/insure-mobile.png": "/portfolio/static/media/insure-mobile.28102f5d2d43ec6c1169.png",
     "static/media/en.jpg": "/portfolio/static/media/en.71cf4a86bac68b3bcec2.jpg",
     "static/media/url-shortening-desktop.png": "/portfolio/static/media/url-shortening-desktop.742edfdca20c8f8eac5b.png",
-    "static/media/css3.png": "/portfolio/static/media/css3.19c8605d6b2861f5fbe0.png",
     "static/media/todoapp-desktop.png": "/portfolio/static/media/todoapp-desktop.7ef876056809d8d24c72.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.988aa399b587899851b7.png",
     "static/media/url-shortening-mobile.png": "/portfolio/static/media/url-shortening-mobile.2aba1fe22a095e81130e.png",
@@ -25,11 +24,11 @@
     "static/media/mongodb_80756.png": "/portfolio/static/media/mongodb_80756.88bb1433293143f7b248.png",
     "static/media/js-icon-24.jpg": "/portfolio/static/media/js-icon-24.cbebc4d6d38df2fbcd08.jpg",
     "index.html": "/portfolio/index.html",
-    "main.d2359391.css.map": "/portfolio/static/css/main.d2359391.css.map",
-    "main.06c8dade.js.map": "/portfolio/static/js/main.06c8dade.js.map"
+    "main.74172c2f.css.map": "/portfolio/static/css/main.74172c2f.css.map",
+    "main.869a00ee.js.map": "/portfolio/static/js/main.869a00ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2359391.css",
-    "static/js/main.06c8dade.js"
+    "static/css/main.74172c2f.css",
+    "static/js/main.869a00ee.js"
   ]
 }
