@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.74172c2f.css",
-    "main.js": "/portfolio/static/js/main.869a00ee.js",
+    "main.js": "/portfolio/static/js/main.55ac4be0.js",
+    "static/media/parteshirts-desktop.png": "/portfolio/static/media/parteshirts-desktop.5bd3853643c507fec1c9.png",
     "static/media/sufnigsm.png": "/portfolio/static/media/sufnigsm.185151ea4864b58d3d92.png",
     "static/media/dragonball-desktop.png": "/portfolio/static/media/dragonball-desktop.675def12b782426fe5cc.png",
     "static/media/sufnigsm-desktop.png": "/portfolio/static/media/sufnigsm-desktop.4320f4e2b5c9908401ac.png",
     "static/media/insure-desktop.png": "/portfolio/static/media/insure-desktop.7da98d9aebc5c989cb12.png",
+    "static/media/parteshirts-mobile.png": "/portfolio/static/media/parteshirts-mobile.76d8d98bee20b94c7f45.png",
     "static/media/portfolio2-desktop.png": "/portfolio/static/media/portfolio2-desktop.b89592beff1a78facf7a.png",
     "static/media/dragonball-mobile.png": "/portfolio/static/media/dragonball-mobile.ba2ae8a8bba739910459.png",
     "static/media/insure-mobile.png": "/portfolio/static/media/insure-mobile.28102f5d2d43ec6c1169.png",
@@ -25,10 +27,10 @@
     "static/media/js-icon-24.jpg": "/portfolio/static/media/js-icon-24.cbebc4d6d38df2fbcd08.jpg",
     "index.html": "/portfolio/index.html",
     "main.74172c2f.css.map": "/portfolio/static/css/main.74172c2f.css.map",
-    "main.869a00ee.js.map": "/portfolio/static/js/main.869a00ee.js.map"
+    "main.55ac4be0.js.map": "/portfolio/static/js/main.55ac4be0.js.map"
   },
   "entrypoints": [
     "static/css/main.74172c2f.css",
-    "static/js/main.869a00ee.js"
+    "static/js/main.55ac4be0.js"
   ]
 }
