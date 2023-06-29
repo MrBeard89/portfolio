@@ -44,6 +44,17 @@
   "projects": [
     {
       "id": 1,
+      "title": "ParteShirts Webshop UI",
+      "description": "Ez a projekt egy designerrel együtt készült.Van kosár funkcionalitás, és mindent egy Json fájlból kezel.Menj nézd meg !",
+      "note": "Full reszponzív",
+      "tech": "HTML, CSS3, SCSS, ReactJs, React Router, Hash Link, React Icons library, Context Api, React Select ",
+      "projectlink": "https://github.com/MrBeard89/parteshirts_webshop_ui",
+      "livelink": "https://mrbeard89.github.io/parteshirts_webshop_ui/",
+      "imglinkmobile": "parteshirts-mobile.png",
+      "imglinkdesktop": "parteshirts-desktop.png"
+    },
+    {
+      "id": 2,
       "title": "Portfolio 2.0",
       "description": "A projektet egy munkalehetőség próba feladata kapcsán irtam meg, törekedtem egy másik , letisztult design megalkotására.Az űrlapon frontend validációt használtam",
       "note": "Ez a projekt reszponziv az összes felbontáson",
@@ -52,18 +63,6 @@
       "livelink": "https://mrbeard89.github.io/portfolio_2.0/",
       "imglinkmobile": "portfolio2-mobile.png",
       "imglinkdesktop": "portfolio2-desktop.png"
-    },
-
-    {
-      "id": 2,
-      "title": "Insure Landing Page",
-      "description": "Ez a project egy Frontend mentor design.Ez volt az első projektem ahol ReactJs-t és Sass preproceszort használtam.Nagy kihivás volt, és sokat tanultam belöle.",
-      "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg.",
-      "tech": "HTML, CSS, SCSS, ReactJs, React Router, Hash Link, Boxicon Icons",
-      "projectlink": "https://github.com/MrBeard89/insure-landing-page-react",
-      "livelink": "https://mrbeard89.github.io/insure-landing-page-react/",
-      "imglinkmobile": "insure-mobile.png",
-      "imglinkdesktop": "insure-desktop.png"
     },
 
     {
@@ -104,14 +103,14 @@
 
     {
       "id": 6,
-      "title": "Sufni Gsm Context Apival",
-      "description": "Ebben a projektben Api hivással kapjuk meg a valuta értékeket, majd kiválasztva a telefont, a Kalkulációs oldalra tudunk menni, ahol kitudjuk számolni a használt telefon értékét.Erre a Context Apit használom.",
-      "note": "Reszponziv, de a mobil felbontás optimalizáció jelenleg még tart",
-      "tech": "React, React Router, Css, React - Context API, Axios to API call",
-      "projectlink": "https://github.com/MrBeard89/sufni_gsm",
-      "livelink": "https://mrbeard89.github.io/sufni_gsm/",
-      "imglinkmobile": "sufnigsm.png",
-      "imglinkdesktop": "sufnigsm-desktop.png"
+      "title": "Insure Landing Page",
+      "description": "Ez a project egy Frontend mentor design.Ez volt az első projektem ahol ReactJs-t és Sass preproceszort használtam.Nagy kihivás volt, és sokat tanultam belöle.",
+      "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg.",
+      "tech": "HTML, CSS, SCSS, ReactJs, React Router, Hash Link, Boxicon Icons",
+      "projectlink": "https://github.com/MrBeard89/insure-landing-page-react",
+      "livelink": "https://mrbeard89.github.io/insure-landing-page-react/",
+      "imglinkmobile": "insure-mobile.png",
+      "imglinkdesktop": "insure-desktop.png"
     }
   ]
 }

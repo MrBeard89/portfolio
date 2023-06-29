@@ -44,6 +44,17 @@
   "projects": [
     {
       "id": 1,
+      "title": "ParteShirts Webshop UI",
+      "description": "This project is based on a collaboration with a designer.It has cart functionality and reads all info from a Json.Go check it out!",
+      "note": "Full responsive",
+      "tech": "HTML, CSS3, SCSS, ReactJs, React Router, Hash Link, React Icons library, Context Api, React Select ",
+      "projectlink": "https://github.com/MrBeard89/parteshirts_webshop_ui",
+      "livelink": "https://mrbeard89.github.io/parteshirts_webshop_ui/",
+      "imglinkmobile": "parteshirts-mobile.png",
+      "imglinkdesktop": "parteshirts-desktop.png"
+    },
+    {
+      "id": 2,
       "title": "Portfolio 2.0",
       "description": "The project was created for applying a job offer.I tried to approuch a different design.Uses Frontend validation on Contact form",
       "note": "This Project is responsive on all screen sizes",
@@ -52,18 +63,6 @@
       "livelink": "https://mrbeard89.github.io/portfolio_2.0/",
       "imglinkmobile": "portfolio2-mobile.png",
       "imglinkdesktop": "portfolio2-desktop.png"
-    },
-
-    {
-      "id": 2,
-      "title": "Insure Landing Page",
-      "description": "This project is based on Frontend mentors design.This was my first project that i used ReactJs and Sass preprocessor.The design was challenging and learned a lot from it.",
-      "note": "This Project was created to match the resolution for 375px and 1440px.",
-      "tech": "HTML, CSS, SCSS, ReactJs, React Router, Hash Link, Boxicon Icons",
-      "projectlink": "https://github.com/MrBeard89/insure-landing-page-react",
-      "livelink": "https://mrbeard89.github.io/insure-landing-page-react/",
-      "imglinkmobile": "insure-mobile.png",
-      "imglinkdesktop": "insure-desktop.png"
     },
 
     {
@@ -104,14 +103,14 @@
 
     {
       "id": 6,
-      "title": "Sufni Gsm with Context Api",
-      "description": "This Project uses an Api call, for data from different currency , you can select your phone , and take that data to the Calculation page where you can calculate the price , depending on the phones.json data. For this i use Context API.",
-      "note": "Responsive, mobile screen optimalization is currently in progress",
-      "tech": "React, React Router, Css, React - Context API, Axios to API call",
-      "projectlink": "https://github.com/MrBeard89/sufni_gsm",
-      "livelink": "https://mrbeard89.github.io/sufni_gsm/",
-      "imglinkmobile": "sufnigsm.png",
-      "imglinkdesktop": "sufnigsm-desktop.png"
+      "title": "Insure Landing Page",
+      "description": "This project is based on Frontend mentors design.This was my first project that i used ReactJs and Sass preprocessor.The design was challenging and learned a lot from it.",
+      "note": "This Project was created to match the resolution for 375px and 1440px.",
+      "tech": "HTML, CSS, SCSS, ReactJs, React Router, Hash Link, Boxicon Icons",
+      "projectlink": "https://github.com/MrBeard89/insure-landing-page-react",
+      "livelink": "https://mrbeard89.github.io/insure-landing-page-react/",
+      "imglinkmobile": "insure-mobile.png",
+      "imglinkdesktop": "insure-desktop.png"
     }
   ]
 }
