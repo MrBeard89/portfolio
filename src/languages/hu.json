@@ -29,9 +29,6 @@
   "skills_text_5": " tudásom van, és gyorsan gépelek.Fejlesztem magam és csinálom a projekteket minden nap!",
   "skills_text_6": "Elkezdtem tanulni a Figmát, és a NextJs-t Typescript használatával - 2023.07.01",
 
-  "projects_title": "Projektek",
-  "projects_more_btn": "Több projekt itt",
-
   "contact_title": "Kapcsolat",
   "contact_intro_text": "Vedd fel a kapcsolatott",
   "contact_text_1": ", szóval ha felkeltettem az érdeklődésed, és szeretnéd ha ",
@@ -41,6 +38,11 @@
   "contact_email_btn": "Küldj Emailt",
   "contact_footer_text": "Megtervezve és leprogramozva, ",
   "contact_sign": "Kovács Norbert",
+
+  "projects_title": "Projektek",
+  "projects_more_btn": "Több projekt itt",
+  "projects_teaser_title": "Világűr turismus weboldal",
+  "projects_teaser_note": "Hamarosan érkezik NextJS és Typescript használatával.",
 
   "projects": [
     {

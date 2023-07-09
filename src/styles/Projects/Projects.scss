@@ -6,6 +6,36 @@
   @extend %flex-ai-column;
   height: fit-content;
 
+  .project-card-teaser {
+    &::before {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: v.$pastel-yellow;
+
+      animation: arrow-fade 2s ease-in-out infinite;
+    }
+
+    z-index: 3;
+    position: relative;
+    border-radius: 1rem;
+    border: 2px solid v.$pastel-yellow;
+    padding: 0.5rem;
+
+    color: v.$xxl-light-navy;
+    h3 {
+      color: v.$bluis-white;
+      font-size: v.$fz-xxxl;
+    }
+    p {
+      font-size: v.$fz-lg;
+    }
+  }
+
   .projects-container {
     margin-top: 1rem;
     position: relative;
@@ -268,6 +298,21 @@
 
     .cards-wrapper {
       gap: 8rem !important;
+
+      .project-card-teaser {
+        background-color: v.$light-navy;
+
+        border: none !important;
+        align-items: flex-start !important;
+        box-shadow: 0px 0px 15px 2px v.$navy-shadow;
+        padding: 1rem;
+        h3 {
+          font-size: v.$fz-xxxxl !important;
+        }
+        p {
+          font-size: v.$fz-xxxl !important;
+        }
+      }
 
       .project-card {
         background-color: v.$light-navy;

@@ -29,9 +29,6 @@
   "skills_text_5": " knowledge , Fast typing.I'm improving myself, and doing projects every day!",
   "skills_text_6": "Started learning design tools like Figma, and NextJs with Typescript - 2023.07.01",
 
-  "projects_title": "Projects",
-  "projects_more_btn": "More projects here",
-
   "contact_title": "Contact",
   "contact_intro_text": "Get in Touch",
   "contact_text_1": ", so if you are interested about me, and you want me to",
@@ -41,6 +38,11 @@
   "contact_email_btn": "Send Email",
   "contact_footer_text": "Designed & built by ",
   "contact_sign": "Norbert Kovács",
+
+  "projects_title": "Projects",
+  "projects_more_btn": "More projects here",
+  "projects_teaser_title": "Space tourism website",
+  "projects_teaser_note": "Coming soon with NextJS and Typescript.",
 
   "projects": [
     {
