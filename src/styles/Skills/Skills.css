@@ -55,7 +55,8 @@
 .skills-wrapper .skills-container .skills-skillset-container {
   display: flex;
   justify-content: flex-start;
-  gap: 4rem;
+  gap: 2rem;
+  width: 100%;
 }
 .skills-wrapper .skills-container .skills-skillset-container .skill-element-container {
   display: flex;

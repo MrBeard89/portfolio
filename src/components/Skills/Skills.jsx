@@ -52,7 +52,8 @@ export const Skills = () => {
             {i18n.text(language, i18n.MAP.skills_little)}
             <span className='brighter'>{i18n.text(language, i18n.MAP.skills_photoshop)}</span> ,
             <span className='brighter'>{i18n.text(language, i18n.MAP.skills_msoffice)}</span>
-            {i18n.text(language, i18n.MAP.skills_text_5)}
+            {i18n.text(language, i18n.MAP.skills_text_5)}{' '}
+            <p>{i18n.text(language, i18n.MAP.skills_text_6)}</p>
           </p>
         </div>
 
@@ -65,13 +66,13 @@ export const Skills = () => {
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
               <img className='desktop-tech-icon-left' src={Js} alt='tech-icon for desktop' />
-              <li className='brighter'>Javascript</li>
+              <li className='brighter'>JS - Typescript</li>
             </div>
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
               <img className='desktop-tech-icon-left' src={React} alt='tech-icon for desktop' />
-              <li className='brighter'>React</li>
+              <li className='brighter'>React - NextJS</li>
             </div>
 
             <div className='skill-element-container'>
