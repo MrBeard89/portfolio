@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.74172c2f.css",
-    "main.js": "/portfolio/static/js/main.55ac4be0.js",
+    "main.css": "/portfolio/static/css/main.b14b5fd0.css",
+    "main.js": "/portfolio/static/js/main.3420aa98.js",
     "static/media/parteshirts-desktop.png": "/portfolio/static/media/parteshirts-desktop.5bd3853643c507fec1c9.png",
     "static/media/sufnigsm.png": "/portfolio/static/media/sufnigsm.185151ea4864b58d3d92.png",
     "static/media/dragonball-desktop.png": "/portfolio/static/media/dragonball-desktop.675def12b782426fe5cc.png",
@@ -26,11 +26,11 @@
     "static/media/mongodb_80756.png": "/portfolio/static/media/mongodb_80756.88bb1433293143f7b248.png",
     "static/media/js-icon-24.jpg": "/portfolio/static/media/js-icon-24.cbebc4d6d38df2fbcd08.jpg",
     "index.html": "/portfolio/index.html",
-    "main.74172c2f.css.map": "/portfolio/static/css/main.74172c2f.css.map",
-    "main.55ac4be0.js.map": "/portfolio/static/js/main.55ac4be0.js.map"
+    "main.b14b5fd0.css.map": "/portfolio/static/css/main.b14b5fd0.css.map",
+    "main.3420aa98.js.map": "/portfolio/static/js/main.3420aa98.js.map"
   },
   "entrypoints": [
-    "static/css/main.74172c2f.css",
-    "static/js/main.55ac4be0.js"
+    "static/css/main.b14b5fd0.css",
+    "static/js/main.3420aa98.js"
   ]
 }
