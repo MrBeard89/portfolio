@@ -47,12 +47,12 @@
   "projects": [
     {
       "id": 1,
-      "title": "ParteShirts Webshop UI",
-      "description": "Ez a projekt egy designerrel együtt készült.Van kosár funkcionalitás, és mindent egy Json fájlból kezel.Menj nézd meg !",
+      "title": "ParteShirts Webshop UI - Mern full-stack App",
+      "description": "Ez a project minden adatott a MongoDB adatbázisból nyeri, NodeJS-el.Server(Heroku),Frontend(Netlify).Csekkold le!",
       "note": "Full reszponzív",
-      "tech": "HTML, CSS3, SCSS, ReactJs, React Router, Hash Link, React Icons library, Context Api, React Select ",
+      "tech": "HTML, CSS3, SCSS, ReactJs, React Icons könyvtár, Context Api, React Select, MongoDB with Mongoose, NodeJS with Express",
       "projectlink": "https://github.com/MrBeard89/parteshirts_webshop_ui",
-      "livelink": "https://mrbeard89.github.io/parteshirts_webshop_ui/",
+      "livelink": "https://partyshirts.netlify.app/",
       "imglinkmobile": "parteshirts-mobile.png",
       "imglinkdesktop": "parteshirts-desktop.png"
     },

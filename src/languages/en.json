@@ -47,12 +47,12 @@
   "projects": [
     {
       "id": 1,
-      "title": "ParteShirts Webshop UI",
-      "description": "This project is based on a collaboration with a designer.It has cart functionality and reads all info from a Json.Go check it out!",
+      "title": "ParteShirts Webshop UI - Mern full-stack App",
+      "description": "This project has cart functionality and reads all info from MongoDb, using NodeJs.Server(Heroku),Frontend(Netlify).Go check it out!",
       "note": "Full responsive",
-      "tech": "HTML, CSS3, SCSS, ReactJs, React Router, Hash Link, React Icons library, Context Api, React Select ",
+      "tech": "HTML, CSS3, SCSS, ReactJs, React Icons library, Context Api, React Select, MongoDB with Mongoose, NodeJS with Express",
       "projectlink": "https://github.com/MrBeard89/parteshirts_webshop_ui",
-      "livelink": "https://mrbeard89.github.io/parteshirts_webshop_ui/",
+      "livelink": "https://partyshirts.netlify.app/",
       "imglinkmobile": "parteshirts-mobile.png",
       "imglinkdesktop": "parteshirts-desktop.png"
     },
