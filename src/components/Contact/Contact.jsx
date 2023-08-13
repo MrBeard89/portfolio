@@ -18,7 +18,7 @@ export const Contact = () => {
         <div className='email-container'>
           <h3 className='contact-container-title'>{i18n.text(language, i18n.MAP.contact_title)}</h3>
           <h2 className='contact-intro-text'>{i18n.text(language, i18n.MAP.contact_intro_text)}</h2>
-          <p className='contact-text'>
+          <p className='contact-text' style={{ display: 'none' }}>
             {/* Text */}
             <span className='highlighted'>
               {i18n.text(language, i18n.MAP.contact_highlighted_text_1)}
@@ -29,6 +29,7 @@ export const Contact = () => {
             </span>
             {i18n.text(language, i18n.MAP.contact_text_2)}
           </p>
+          <p className='contact-text'>{i18n.text(language, i18n.MAP.contact_at_work)}</p>
 
           {/* Send Email btn */}
           <button className='contact-email-btn'>
