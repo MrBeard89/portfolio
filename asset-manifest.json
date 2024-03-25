@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b14b5fd0.css",
-    "main.js": "/portfolio/static/js/main.6133ad5d.js",
+    "main.css": "/portfolio/static/css/main.ffc917e3.css",
+    "main.js": "/portfolio/static/js/main.6777a548.js",
+    "static/media/space-desktop.png": "/portfolio/static/media/space-desktop.460b5281c26d6bf08c8e.png",
+    "static/media/space-mobile.png": "/portfolio/static/media/space-mobile.745e77df58f446911826.png",
     "static/media/parteshirts-desktop.png": "/portfolio/static/media/parteshirts-desktop.5bd3853643c507fec1c9.png",
     "static/media/sufnigsm.png": "/portfolio/static/media/sufnigsm.185151ea4864b58d3d92.png",
     "static/media/dragonball-desktop.png": "/portfolio/static/media/dragonball-desktop.675def12b782426fe5cc.png",
@@ -11,7 +13,7 @@
     "static/media/portfolio2-desktop.png": "/portfolio/static/media/portfolio2-desktop.b89592beff1a78facf7a.png",
     "static/media/dragonball-mobile.png": "/portfolio/static/media/dragonball-mobile.ba2ae8a8bba739910459.png",
     "static/media/insure-mobile.png": "/portfolio/static/media/insure-mobile.28102f5d2d43ec6c1169.png",
-    "static/media/en.jpg": "/portfolio/static/media/en.71cf4a86bac68b3bcec2.jpg",
+    "static/media/en.jpg": "/portfolio/static/media/en.4c6cc6e81259be199a93.jpg",
     "static/media/url-shortening-desktop.png": "/portfolio/static/media/url-shortening-desktop.742edfdca20c8f8eac5b.png",
     "static/media/todoapp-desktop.png": "/portfolio/static/media/todoapp-desktop.7ef876056809d8d24c72.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.988aa399b587899851b7.png",
@@ -23,14 +25,15 @@
     "static/media/express.png": "/portfolio/static/media/express.3ae49c74518fbe439e0b.png",
     "static/media/react.png": "/portfolio/static/media/react.20adfb35ae6a6e5817bf.png",
     "static/media/sass_icon-512.png": "/portfolio/static/media/sass_icon-512.78ac0878e7a322a48059.png",
+    "static/media/beard.png": "/portfolio/static/media/beard.a1c20c777daa7c390154.png",
     "static/media/mongodb_80756.png": "/portfolio/static/media/mongodb_80756.88bb1433293143f7b248.png",
     "static/media/js-icon-24.jpg": "/portfolio/static/media/js-icon-24.cbebc4d6d38df2fbcd08.jpg",
     "index.html": "/portfolio/index.html",
-    "main.b14b5fd0.css.map": "/portfolio/static/css/main.b14b5fd0.css.map",
-    "main.6133ad5d.js.map": "/portfolio/static/js/main.6133ad5d.js.map"
+    "main.ffc917e3.css.map": "/portfolio/static/css/main.ffc917e3.css.map",
+    "main.6777a548.js.map": "/portfolio/static/js/main.6777a548.js.map"
   },
   "entrypoints": [
-    "static/css/main.b14b5fd0.css",
-    "static/js/main.6133ad5d.js"
+    "static/css/main.ffc917e3.css",
+    "static/js/main.6777a548.js"
   ]
 }
