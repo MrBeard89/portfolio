@@ -36,7 +36,18 @@ export const Projects = () => {
             ? languageHu.projects.map((data, index) => {
                 return (
                   //Card Container
+
                   <div className='project-card' key={index}>
+                    {data.id === 1 ? (
+                      <span
+                        className='new'
+                        style={{ position: 'absolute', right: '1rem', top: '1rem' }}
+                      >
+                        Legújabb
+                      </span>
+                    ) : (
+                      ''
+                    )}
                     <h3 className='card-title'>{data.title}</h3>
                     <div className='desktop-img'>
                       <Link to={data.livelink} target='_blank'>
@@ -52,14 +63,11 @@ export const Projects = () => {
                       src={require(`../../assets/card-images/mobile/${data.imglinkmobile}`)}
                       alt='card-preview'
                     />
-
                     <span className='desktop-info-bar'>
                       <p className='card-description'>{data.description}</p>
                       <p className='card-note'>Note: {data.note}</p>
                     </span>
-
                     <p className='card-techstack'>{data.tech}</p>
-
                     <div className='icon-container'>
                       <Link className='github' to={data.projectlink} target='_blank'>
                         <FiGithub className='github-svg' />
@@ -75,6 +83,16 @@ export const Projects = () => {
                 return (
                   //Card Container
                   <div className='project-card' key={index}>
+                    {data.id === 1 ? (
+                      <span
+                        className='new'
+                        style={{ position: 'absolute', right: '1rem', top: '1rem' }}
+                      >
+                        Newest
+                      </span>
+                    ) : (
+                      ''
+                    )}
                     <h3 className='card-title'>{data.title}</h3>
                     <div className='desktop-img'>
                       <Link to={data.livelink} target='_blank'>

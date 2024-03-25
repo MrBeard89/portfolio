@@ -13,7 +13,7 @@
   "about_profession_2": " vagyok",
   "about_developer": "Fejlesztő",
   "about_text": "Üdvözöllek a személyes portfóliómon!",
-  "about_text_2": "Én a CNC iparágból jövök, ahol programozó voltam.Eltelt 12 év , amit Fanuc és Siemens programozással töltöttem, de mindig IT srác akartam lenni, igy tavaly beiratkoztam egy kurzusra a Weblernél, és elég sok mindent tanultam.Nagyon izgatott vagyok ezzel az új irányal kapcsolatban.",
+  "about_text_2": "Én a CNC iparágból jövök, ahol programozó voltam.Eltelt 12 év , amit Fanuc és Siemens programozással töltöttem, de mindig IT srác akartam lenni, igy 2022-ben beiratkoztam egy kurzusra a Weblernél, és elég sok mindent tanultam.Nagyon izgatott vagyok ezzel az új irányal kapcsolatban.",
   "about_text_3": "Ha kiváncsi vagy rám, kérlek görgess tovább",
 
   "skills_title": "Készségek",
@@ -26,8 +26,8 @@
   "skills_little": "Kis ",
   "skills_photoshop": "Photoshop",
   "skills_msoffice": "és MS Office",
-  "skills_text_5": " tudásom van, és gyorsan gépelek.Fejlesztem magam és csinálom a projekteket minden nap!",
-  "skills_text_6": "Elkezdtem tanulni a Figmát, és a NextJs-t Typescript használatával - 2023.07.01",
+  "skills_text_5": " tudásom van, és gyorsan gépelek.Fejlesztem magam és csinálom a projekteket minden nap.Videó,-Audió vágás sem áll mesze tőlem, elég sokrétű a tudásom!",
+  "skills_text_6": "Elkezdtem tanulni a Figmát, és érdekel még a Vue.Js is.",
 
   "contact_title": "Kapcsolat",
   "contact_intro_text": "Vedd fel a kapcsolatott",
@@ -42,12 +42,23 @@
 
   "projects_title": "Projektek",
   "projects_more_btn": "Több projekt itt",
-  "projects_teaser_title": "Világűr turismus weboldal",
-  "projects_teaser_note": "Hamarosan érkezik NextJS és Typescript használatával.",
+  "projects_teaser_title": "",
+  "projects_teaser_note": "Új projektek hamarosan ...",
 
   "projects": [
     {
       "id": 1,
+      "title": "Világűr turizmus weboldal",
+      "description": "A webdesignt Kevin Powell tervezte.Több aloldalból áll,dinamikusan változó modalokkal.",
+      "note": "Full reszponzív",
+      "tech": "HTML, CSS3, Mui - Emotion, ReactJs, Vite, React Router",
+      "projectlink": "https://github.com/MrBeard89/space",
+      "livelink": "https://mrbeard89.github.io/space/",
+      "imglinkmobile": "space-mobile.png",
+      "imglinkdesktop": "space-desktop.png"
+    },
+    {
+      "id": 2,
       "title": "ParteShirts Webshop UI - Mern full-stack App",
       "description": "Ez a project minden adatott a MongoDB adatbázisból nyeri, NodeJS-el.Server(Heroku),Frontend(Netlify).Csekkold le!",
       "note": "Full reszponzív",
@@ -58,7 +69,7 @@
       "imglinkdesktop": "parteshirts-desktop.png"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Portfolio 2.0",
       "description": "A projektet egy munkalehetőség próba feladata kapcsán irtam meg, törekedtem egy másik , letisztult design megalkotására.Az űrlapon frontend validációt használtam",
       "note": "Ez a projekt reszponziv az összes felbontáson",
@@ -70,7 +81,7 @@
     },
 
     {
-      "id": 3,
+      "id": 4,
       "title": "Dragon Ball Fan oldal",
       "description": "Ez a project volt a modulzáróm Scssből.A szabályok egyszerűek voltak, irj egy SPA-t a kedvenc márkáddal, igy hát mivel nagyon szerettem a dragonball-t, ezért ezt választottam.",
       "note": "Ez a projekt minden felbontáson reszponziv",
@@ -82,7 +93,7 @@
     },
 
     {
-      "id": 4,
+      "id": 5,
       "title": "Todo App Reactal",
       "description": "Ez egy 'TodoApp' Reactal.Létretudsz hozni egy teendőt, kitudod választani, és törölni.",
       "note": "Ez a projekt minden felbontáson reszponziv",
@@ -94,7 +105,7 @@
     },
 
     {
-      "id": 5,
+      "id": 6,
       "title": "Url Rövidítő Api Reactal",
       "description": "Ez a projekt egy Api-t használ, ami lerövidit minden linket amit bemásolunk, és megjeleniti az eredetit és a röviditett linket.Kitudod másolni a vágólapra egy gombnyomással!",
       "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg",
@@ -106,7 +117,7 @@
     },
 
     {
-      "id": 6,
+      "id": 7,
       "title": "Insure Landing Page",
       "description": "Ez a project egy Frontend mentor design.Ez volt az első projektem ahol ReactJs-t és Sass preproceszort használtam.Nagy kihivás volt, és sokat tanultam belöle.",
       "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg.",

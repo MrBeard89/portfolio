@@ -26,7 +26,7 @@ export const About = () => {
 
         <h3 className='about-profession'>
           {i18n.text(language, i18n.MAP.about_profession_1)}{' '}
-          <span>Junior Frontend {i18n.text(language, i18n.MAP.about_developer)}</span>
+          <span>React Frontend {i18n.text(language, i18n.MAP.about_developer)}</span>
           {i18n.text(language, i18n.MAP.about_profession_2)}
         </h3>
         <div className='about-text'>

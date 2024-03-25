@@ -13,7 +13,7 @@
   "about_profession_2": "",
   "about_developer": "Developer",
   "about_text": "Welcome to my personal portfolio!",
-  "about_text_2": "I'm coming from the CNC industrie , where i was a programmer. 12 years past away with programming in Fanuc and Siemens, but I always wanted to be an IT guy, so last year i assigned to a bootcamp, at Webler, and i learned many things. I'm very excited about this new direction.",
+  "about_text_2": "I'm coming from the CNC industrie , where i was a programmer. 12 years past away with programming in Fanuc and Siemens, but I always wanted to be an IT guy, so in 2022 i assigned to a bootcamp, at Webler, and i learned many things. I'm very excited about this new direction.",
   "about_text_3": "If you interested about me, please continue scrolling",
 
   "skills_title": "Skills",
@@ -26,8 +26,8 @@
   "skills_little": "Little ",
   "skills_photoshop": "Photoshopping",
   "skills_msoffice": "MS Office",
-  "skills_text_5": " knowledge , Fast typing.I'm improving myself, and doing projects every day!",
-  "skills_text_6": "Started learning design tools like Figma, and NextJs with Typescript - 2023.07.01",
+  "skills_text_5": " knowledge , Fast typing.I'm improving myself, and doing projects every day.Video,-Audio cutting is no problem also,i have a wide variaty of knowledge!",
+  "skills_text_6": "Started learning design tools like Figma, and i interested about Vue.Js.",
 
   "contact_title": "Contact",
   "contact_intro_text": "Get in Touch",
@@ -42,12 +42,23 @@
 
   "projects_title": "Projects",
   "projects_more_btn": "More projects here",
-  "projects_teaser_title": "Space tourism website",
-  "projects_teaser_note": "Coming soon with NextJS and Typescript.",
+  "projects_teaser_title": "",
+  "projects_teaser_note": "New projects soon ...",
 
   "projects": [
     {
       "id": 1,
+      "title": "Space tourism website",
+      "description": "The design coming from Kevin Powell.It has several sub pages,with dinamic modals.",
+      "note": "Full responsive",
+      "tech": "HTML, CSS3, Mui - Emotion, ReactJs, Vite, React Router",
+      "projectlink": "https://github.com/MrBeard89/space",
+      "livelink": "https://mrbeard89.github.io/space/",
+      "imglinkmobile": "space-mobile.png",
+      "imglinkdesktop": "space-desktop.png"
+    },
+    {
+      "id": 2,
       "title": "ParteShirts Webshop UI - Mern full-stack App",
       "description": "This project has cart functionality and reads all info from MongoDb, using NodeJs.Server(Heroku),Frontend(Netlify).Go check it out!",
       "note": "Full responsive",
@@ -58,7 +69,7 @@
       "imglinkdesktop": "parteshirts-desktop.png"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Portfolio 2.0",
       "description": "The project was created for applying a job offer.I tried to approuch a different design.Uses Frontend validation on Contact form",
       "note": "This Project is responsive on all screen sizes",
@@ -70,7 +81,7 @@
     },
 
     {
-      "id": 3,
+      "id": 4,
       "title": "Dragon Ball Fanpage",
       "description": "This project was my module final test at my school for SCSS.The rules was simple , write an SPA with your favorite brand. Well i really like dragonball, and I choose that.",
       "note": "This Project is responsive on all screen sizes",
@@ -82,7 +93,7 @@
     },
 
     {
-      "id": 4,
+      "id": 5,
       "title": "Todo App with React",
       "description": "This is a Todo app with React.You can add Todo, select Todo, you can delete Todo",
       "note": "I created this project to be responsive overall all screens",
@@ -94,7 +105,7 @@
     },
 
     {
-      "id": 5,
+      "id": 6,
       "title": "Url Shortening Api with React",
       "description": "This Project uses an Api , that shorts all url that is inserted in the input field,and displays the original and the shortened link.You can copy itt to the Clipborad with one button click !",
       "note": "This Project was created to match the resolution for 375px and 1440px.",
@@ -106,7 +117,7 @@
     },
 
     {
-      "id": 6,
+      "id": 7,
       "title": "Insure Landing Page",
       "description": "This project is based on Frontend mentors design.This was my first project that i used ReactJs and Sass preprocessor.The design was challenging and learned a lot from it.",
       "note": "This Project was created to match the resolution for 375px and 1440px.",
