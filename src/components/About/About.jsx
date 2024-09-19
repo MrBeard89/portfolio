@@ -5,7 +5,7 @@ import { useContext } from 'react'
 import { AiFillCaretDown } from 'react-icons/ai'
 
 //About me img
-import Me from '../../assets/en.jpg'
+import Me from '../../assets/en.jpeg'
 import { HashLink } from 'react-router-hash-link'
 import { LanguageContext } from '../../context/LanguageContext'
 
