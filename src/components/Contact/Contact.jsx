@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 import { LanguageContext } from '../../context/LanguageContext'
 
 //Importing Social Icons
-import { FiGithub, FiLinkedin, FiFacebook, FiTwitter } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiFacebook } from 'react-icons/fi'
+import { FaXTwitter } from 'react-icons/fa6'
 import { useContext } from 'react'
 //Import Language Library
 const i18n = require('../../utils/i18n.js')
@@ -53,8 +54,8 @@ export const Contact = () => {
             <Link to='https://www.facebook.com/norbert.kovacs.12177/' target='_blank'>
               <FiFacebook className='social-icons' />
             </Link>
-            <Link to='https://twitter.com/Mr_Beard8' target='_blank'>
-              <FiTwitter className='social-icons' />
+            <Link to='https://x.com/KovcsNorbe26504' target='_blank'>
+              <FaXTwitter className='social-icons' />
             </Link>
           </div>
 
