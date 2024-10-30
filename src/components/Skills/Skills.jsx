@@ -20,8 +20,11 @@ import Express from '../../assets/tech-icons/express.png'
 import Mongodb from '../../assets/tech-icons/mongodb_80756.png'
 import Git from '../../assets/tech-icons/git.jpg'
 import Firebase from '../../assets/tech-icons/firebase.png'
+import Vitest from '../../assets/tech-icons/vitest-icon.jpg'
+import Redux from '../../assets/tech-icons/redux-icon.png'
 import { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageContext'
+import { Jobs } from './components/Jobs'
 
 //Import Language Library
 const i18n = require('../../utils/i18n')
@@ -53,9 +56,18 @@ export const Skills = () => {
             <span className='brighter'>{i18n.text(language, i18n.MAP.skills_photoshop)}</span> ,
             <span className='brighter'>{i18n.text(language, i18n.MAP.skills_msoffice)}</span>
             {i18n.text(language, i18n.MAP.skills_text_5)}{' '}
-            <p>{i18n.text(language, i18n.MAP.skills_text_6)}</p>
+            <p>
+              {i18n.text(language, i18n.MAP.skills_text_6)}
+              <span className='brighter'>{i18n.text(language, i18n.MAP.skills_text_7)}</span>
+            </p>
+            <p>
+              {i18n.text(language, i18n.MAP.skills_text_8)}
+              <span className='brighter'>{i18n.text(language, i18n.MAP.skills_text_9)}</span>
+            </p>
           </p>
         </div>
+
+        <Jobs />
 
         {/* Skill tree list Container */}
 
@@ -92,6 +104,12 @@ export const Skills = () => {
               <img className='desktop-tech-icon-left' src={Bootstrap} alt='tech-icon for desktop' />
               <li className='brighter'>Bootstrap5</li>
             </div>
+
+            <div className='skill-element-container'>
+              <AiFillCaretRight className='right-arrow' />
+              <img className='desktop-tech-icon-left' src={Redux} alt='tech-icon for desktop' />
+              <li className='brighter'>Redux</li>
+            </div>
           </ul>
 
           {/* Right Skill tree */}
@@ -125,6 +143,12 @@ export const Skills = () => {
               <AiFillCaretRight className='right-arrow' />
               <li className='brighter'>Firebase</li>
               <img className='desktop-tech-icon-right' src={Firebase} alt='tech-icon for desktop' />
+            </div>
+
+            <div className='skill-element-container'>
+              <AiFillCaretRight className='right-arrow' />
+              <li className='brighter'>Vitest , Jest</li>
+              <img className='desktop-tech-icon-right' src={Vitest} alt='tech-icon for desktop' />
             </div>
           </ul>
         </div>

@@ -27,7 +27,20 @@
   "skills_photoshop": "Photoshopping",
   "skills_msoffice": "MS Office",
   "skills_text_5": " knowledge , Fast typing.I'm improving myself, and doing projects every day.Video,-Audio cutting is no problem also,i have a wide variaty of knowledge!",
-  "skills_text_6": "Started learning design tools like Figma, and i interested about Vue.Js.",
+  "skills_text_6": "Currently learning: ",
+  "skills_text_7": "NodeJS , MySql , WordPress , StoryBook , NextJs",
+  "skills_text_8": "Additional tools: ",
+  "skills_text_9": "Jira , Bitbucket , Slack , Expo , CodeGPT , SourceTree , VsCode",
+
+  "jobs_btn": "Jobs",
+  "jobs_typog_momo_1": "Used technologies/tools .: ",
+  "jobs_typog_momo_2": "I learned a lot at Money and More.I coded a task manager system , for bank/insurance agents with a help of a Senior college.",
+  "jobs_typog_momo_3": "I coded in Agile development.In the TMS we can see different agents clients data , and you can manage tasks , delete , or update.",
+  "jobs_typog_momo_4": "With time , we coded this system into a mobile app with React + webView.Because we had many events , we developed a mobile app for managing access , with a help of React Native + Expo",
+  "jobs_typog_momo_5": "In mid-October, my contract was terminated due to financial cost reduction",
+  "jobs_typog_momo_6": "Recommendation letter is being uploaded ...",
+
+  "jobs_typog_freelance": "In this few months , i got contracts for small projects and introductory pages.",
 
   "contact_title": "Contact",
   "contact_intro_text": "Get in Touch",
@@ -38,7 +51,7 @@
   "contact_email_btn": "Send Email",
   "contact_footer_text": "Designed & built by ",
   "contact_sign": "Norbert Kovács",
-  "contact_at_work": "I'm corrently working at Money & More Zrt. as a Frontend Developer, but if you interested about me , please send an email.",
+  "contact_at_work": "Currently i'm looking for a Frontend Developer job with 2 years experience,if you interested in me, please send an email or contact me one of my contact channels!",
 
   "projects_title": "Projects",
   "projects_more_btn": "More projects here",

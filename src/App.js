@@ -11,7 +11,7 @@ import { Themecontext } from './context/Themecontext'
 import { LanguageContext, LanguageContextDefaults } from './context/LanguageContext'
 
 function App() {
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light')
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark')
   const [language, setLanguage] = useState(LanguageContextDefaults.value)
 
   const toggleTheme = () => {

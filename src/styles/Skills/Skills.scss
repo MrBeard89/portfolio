@@ -6,6 +6,21 @@
   @extend %flex-ai-column;
   height: fit-content;
 
+  .jobs-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 2rem;
+
+    .jobs-btn {
+      @extend %jobs-btn;
+    }
+  }
+
+  .jobs-skills-title {
+    @extend %job-title-style;
+  }
+
   .skills-container {
     margin-top: 5rem;
     position: relative;
@@ -172,7 +187,7 @@
     }
 
     .skills-skillset-container {
-      margin-top: 8rem;
+      margin-top: 4rem;
       gap: 11rem !important;
 
       li {

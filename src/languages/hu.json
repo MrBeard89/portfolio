@@ -27,7 +27,20 @@
   "skills_photoshop": "Photoshop",
   "skills_msoffice": "és MS Office",
   "skills_text_5": " tudásom van, és gyorsan gépelek.Fejlesztem magam és csinálom a projekteket minden nap.Videó,-Audió vágás sem áll mesze tőlem, elég sokrétű a tudásom!",
-  "skills_text_6": "Elkezdtem tanulni a Figmát, és érdekel még a Vue.Js is.",
+  "skills_text_6": "Amiket jelenleg tanulok: ",
+  "skills_text_7": "NodeJS , MySql , WordPress , StoryBook , NextJs",
+  "skills_text_8": "További eszközök: ",
+  "skills_text_9": "Jira , Bitbucket , Slack , Expo , CodeGPT , SourceTree , VsCode",
+
+  "jobs_btn": "Munkáim",
+  "jobs_typog_momo_1": "Használt technológiák/eszközök .: ",
+  "jobs_typog_momo_2": "A Money and More -nál rengeteget tanultam.Segítségemre volt ebben egy Senior kolléga , akivel közösen össze dolgozva hoztunk létre egy Feladat kezelő rendszert(FKR) banki/biztosítási ügynököknek.",
+  "jobs_typog_momo_3": "Nagy kódbázisban dolgoztam Agilis módszertan alapján.Az FKR ben különböző ügynökök ügyfeleinek a biztositási adatait lehetett nyomon követni , feladatokat kiosztani , törölni , frissiteni.",
+  "jobs_typog_momo_4": "Ezt a felületett tovább gondolva átültettük egy mobile appba is React segitségével + webViewal. Mivel sok rendezvényünk is volt , ezért ezekre az alkalmakra lefejlesztettünk egy beléptető rendszert is , amit React Native-ban irtunk meg, Expo segítségével.",
+  "jobs_typog_momo_5": "Október közepén anyagi költségcsökkentés miatt felmondták a szerződésem.",
+  "jobs_typog_momo_6": "Ajánlólevél feltöltés alatt ...",
+
+  "jobs_typog_freelance": "Ebben a pár hónapban különböző megbízásokat fogadtam,ebbe beleértve bemutatkozó oldalakat,kisebb oldalak fejlesztését vállaltam.",
 
   "contact_title": "Kapcsolat",
   "contact_intro_text": "Vedd fel a kapcsolatott",
@@ -38,7 +51,7 @@
   "contact_email_btn": "Küldj Emailt",
   "contact_footer_text": "Megtervezve és leprogramozva, ",
   "contact_sign": "Kovács Norbert",
-  "contact_at_work": "Jelenleg a Money & More Zrt-nél dolgozom mint Frontend Fejlesztő, de ha érdekel a velem való munka, akkor küldj nekem egy üzenetett.",
+  "contact_at_work": "Jelenleg munkát keresek 2 év tapasztalattal,ha felkeltettem az érdeklődésed küldj emailt, vagy vedd fel velem a kapcsolatott az elérhetőségeim egyikén!",
 
   "projects_title": "Projektek",
   "projects_more_btn": "Több projekt itt",

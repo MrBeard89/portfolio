@@ -111,6 +111,27 @@
     }
   }
 }
+%jobs-btn {
+  width: 80%;
+  span {
+    display: flex;
+    justify-content: center;
+
+    color: v.$pastel-yellow;
+    border: 1px solid v.$lightest-navy;
+    background-color: v.$lightest-navy;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: v.$fz-xxxl;
+
+    &:is(:hover, :active) {
+      color: v.$yellow;
+      background-color: v.$navy-blue;
+      border: 1px solid v.$yellow;
+      cursor: pointer;
+    }
+  }
+}
 
 %more-btn {
   border: none;
@@ -195,6 +216,13 @@
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 1.5rem;
+}
+%job-title-style {
+  color: v.$xxl-light-navy;
+  font-size: v.$fz-xxxl;
+  font-weight: 700;
+  letter-spacing: 2px;
+  //margin-bottom: 1.5rem;
 }
 
 ////////////// Text Styles //////////////

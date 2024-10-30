@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const LanguageContextDefaults = {
-  value: 'en',
+  value: 'hu',
   setValue: () => {},
 }
 
