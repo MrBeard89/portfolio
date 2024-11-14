@@ -2,6 +2,7 @@ import { Box, Dialog, DialogContent, DialogTitle, Typography } from '@mui/materi
 import React, { useContext, useState } from 'react'
 import { IoCloseCircle } from 'react-icons/io5'
 import { LanguageContext } from '../../../context/LanguageContext'
+import { Link } from 'react-router-dom'
 
 //Import Language Library
 const i18n = require('../../../utils/i18n')
@@ -64,7 +65,10 @@ export const Jobs = () => {
           }}
         >
           {/* Money and More Zrt. */}
-          <Box sx={{ mb: '2rem', display: 'flex', flexDirection: 'column' }}>
+          <Box
+            className='momo_container'
+            sx={{ mb: '2rem', display: 'flex', flexDirection: 'column' }}
+          >
             <Typography variant='h4' sx={{ color: '#fdfd96', marginBottom: '0.5rem' }}>
               Money and More Zrt.
             </Typography>
@@ -88,9 +92,39 @@ export const Jobs = () => {
             <Typography variant='body1'>
               {i18n.text(language, i18n.MAP.jobs_typog_momo_5)}
             </Typography>
-            <Typography variant='body1'>
-              {i18n.text(language, i18n.MAP.jobs_typog_momo_6)}
-            </Typography>
+
+            <Box
+              className='cover_letter_box'
+              sx={[
+                {
+                  mt: '1rem',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  borderRadius: '1rem',
+                  height: '2rem',
+                  width: '100%',
+                  backgroundColor: '#324972',
+                  cursor: 'pointer',
+                },
+
+                {
+                  '&:hover': {
+                    backgroundColor: '#45669e',
+                  },
+                },
+              ]}
+            >
+              <Link
+                to='/Ajánlólevél_Kovács Norbert.pdf'
+                target='_blank'
+                rel='noopener noreferrer'
+                download
+                style={{ textDecoration: 'none', color: 'white' }}
+              >
+                <span>{i18n.text(language, i18n.MAP.jobs_cover_btn)}</span>
+              </Link>
+            </Box>
           </Box>
           {/* Freelance */}
           <Box sx={{ mb: '2rem', display: 'flex', flexDirection: 'column' }}>
