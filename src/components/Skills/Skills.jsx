@@ -89,6 +89,12 @@ export const Skills = () => {
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
+              <img className='desktop-tech-icon-left' src={Redux} alt='tech-icon for desktop' />
+              <li className='brighter'>Redux</li>
+            </div>
+
+            <div className='skill-element-container'>
+              <AiFillCaretRight className='right-arrow' />
               <img className='desktop-tech-icon-left mui' src={Mui} alt='tech-icon for desktop' />
               <li className='brighter'>Material UI</li>
             </div>
@@ -103,12 +109,6 @@ export const Skills = () => {
               <AiFillCaretRight className='right-arrow' />
               <img className='desktop-tech-icon-left' src={Bootstrap} alt='tech-icon for desktop' />
               <li className='brighter'>Bootstrap5</li>
-            </div>
-
-            <div className='skill-element-container'>
-              <AiFillCaretRight className='right-arrow' />
-              <img className='desktop-tech-icon-left' src={Redux} alt='tech-icon for desktop' />
-              <li className='brighter'>Redux</li>
             </div>
           </ul>
 
@@ -135,7 +135,7 @@ export const Skills = () => {
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
-              <li className='brighter'>Git, Github</li>
+              <li className='brighter'>Github,Gitlab</li>
               <img className='desktop-tech-icon-right' src={Git} alt='tech-icon for desktop' />
             </div>
 
@@ -147,7 +147,7 @@ export const Skills = () => {
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
-              <li className='brighter'>Vitest , Jest</li>
+              <li className='brighter'>Vitest</li>
               <img className='desktop-tech-icon-right' src={Vitest} alt='tech-icon for desktop' />
             </div>
           </ul>
