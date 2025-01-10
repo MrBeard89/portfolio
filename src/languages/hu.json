@@ -5,6 +5,8 @@
   "navbar_projects": "Projektek",
   "navbar_contact": "Kapcsolat",
   "navbar_resume_btn": "Önéletrajz",
+  "navbar_resume_btn_en": "Kovács Norbert Angol",
+  "navbar_resume_btn_hu": "Kovács Norbert Magyar",
   "routing_404": "Ez a menüpont jelenleg még nem érhető el.",
 
   "about_title": "Hello, az én nevem",

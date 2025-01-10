@@ -5,6 +5,8 @@
   "navbar_projects": "navbar_projects",
   "navbar_contact": "navbar_contact",
   "navbar_resume_btn": "navbar_resume_btn",
+  "navbar_resume_btn_en": "navbar_resume_btn_en",
+  "navbar_resume_btn_hu": "navbar_resume_btn_hu",
   "routing_404": "routing_404",
 
   "about_title": "about_title",

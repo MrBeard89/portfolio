@@ -28,6 +28,9 @@ export const Navbar = () => {
   //Navbar open state
   const [navbarIsOpen, setNavbarIsOpen] = useState(false)
 
+  //Hover download btn
+  const [hoverDownload, setHoverDownload] = useState(false)
+
   //Theme icon state
 
   const [themeIcon, setThemeIcon] = useState(theme)
@@ -44,6 +47,7 @@ export const Navbar = () => {
       document.querySelector('.navbar-wrapper').style.top = '0'
     } else {
       document.querySelector('.navbar-wrapper').style.top = '-70px'
+      setHoverDownload(false)
     }
     prevScrollpos = currentScrollPos
   }
@@ -60,28 +64,66 @@ export const Navbar = () => {
         {/* Hamburger Icons */}
 
         <span className='mobile-menu' onClick={() => setNavbarIsOpen((prev) => !prev)}>
-          {navbarIsOpen ? <AiOutlineClose id='closemenu' /> : <GiHamburgerMenu id='burgermenu' />}
+          {navbarIsOpen ? '' : <GiHamburgerMenu id='burgermenu' />}
         </span>
 
         {/* Navbar-mobile show depend on State */}
 
-        <div className={`${navbarIsOpen ? '' : 'navlinks-container'}`}>
-          <ul className='navlinks' onClick={() => setNavbarIsOpen(false)}>
-            <HashLink smooth to='#about'>
+        <div
+          className={`${navbarIsOpen ? '' : 'navlinks-container'}`}
+          style={{ position: 'relative' }}
+        >
+          <ul className='navlinks'>
+            <div className='mobile-menu' onClick={() => setNavbarIsOpen((prev) => !prev)}>
+              {navbarIsOpen ? (
+                <AiOutlineClose id='closemenu' />
+              ) : (
+                <GiHamburgerMenu id='burgermenu' />
+              )}
+            </div>
+            <HashLink smooth to='#about' onClick={() => setNavbarIsOpen(false)}>
               {i18n.text(language, i18n.MAP.navbar_about)}
             </HashLink>
-            <HashLink smooth to='#skills'>
+            <HashLink smooth to='#skills' onClick={() => setNavbarIsOpen(false)}>
               {i18n.text(language, i18n.MAP.navbar_skills)}
             </HashLink>
-            <HashLink smooth to='#projects'>
+            <HashLink smooth to='#projects' onClick={() => setNavbarIsOpen(false)}>
               {i18n.text(language, i18n.MAP.navbar_projects)}
             </HashLink>
-            <HashLink smooth to='#contact'>
+            <HashLink smooth to='#contact' onClick={() => setNavbarIsOpen(false)}>
               {i18n.text(language, i18n.MAP.navbar_contact)}
             </HashLink>
-            <Link to='/NorbertKovacsCv_en.pdf' target='_blank' rel='noopener noreferrer' download>
+            <div id='hover_download' onClick={() => setHoverDownload((prev) => !prev)}>
               <span>{i18n.text(language, i18n.MAP.navbar_resume_btn)}</span>
-            </Link>
+              {hoverDownload ? (
+                <div id='hover_download_list'>
+                  <Link
+                    className='hover_download_links'
+                    to='/Kovács_Norbert_CV_EN.pdf'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    download
+                  >
+                    <div className='hover_download_list_item'>
+                      {i18n.text(language, i18n.MAP.navbar_resume_btn_en)}
+                    </div>
+                  </Link>
+                  <Link
+                    className='hover_download_links'
+                    to='/Kovács_Norbert_CV_HU.pdf'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    download
+                  >
+                    <div className='hover_download_list_item'>
+                      {i18n.text(language, i18n.MAP.navbar_resume_btn_hu)}
+                    </div>
+                  </Link>
+                </div>
+              ) : (
+                ''
+              )}
+            </div>
 
             <button
               className='theme-toggle'
