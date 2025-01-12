@@ -101,6 +101,7 @@
 
       height: 100vh;
       overflow-y: scroll;
+      overflow-x: hidden;
       width: 180px;
       position: fixed;
       top: 0;
@@ -261,6 +262,7 @@
         height: fit-content !important;
         width: 92% !important;
         right: 2rem !important;
+        overflow: hidden !important;
 
         animation: none !important;
 
