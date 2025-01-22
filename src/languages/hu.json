@@ -36,8 +36,8 @@
 
   "jobs_btn": "Munkáim",
   "jobs_typog_momo_1": "Használt technológiák/eszközök .: ",
-  "jobs_typog_momo_2": "A Money and More -nál rengeteget tanultam.Segítségemre volt ebben egy Senior kolléga , akivel közösen össze dolgozva hoztunk létre egy Feladat kezelő rendszert(FKR) banki/biztosítási ügynököknek.",
-  "jobs_typog_momo_3": "Nagy kódbázisban dolgoztam Agilis módszertan alapján.Az FKR ben különböző ügynökök ügyfeleinek a biztositási adatait lehetett nyomon követni , feladatokat kiosztani , törölni , frissiteni.",
+  "jobs_typog_momo_2": "A Money and More -nál rengeteget tanultam. CRM és MIS rendszereken dolgoztam. Senior backend fejlesztővel együttműködve, hoztunk létre egy Feladat kezelő rendszert(CRM) banki/biztosítási ügynököknek.",
+  "jobs_typog_momo_3": "Nagy kódbázisban dolgoztam Agilis módszertan alapján.Az applikációban különböző ügynökök ügyfeleinek a biztositási adatait lehetett nyomon követni , feladatokat kiosztani , törölni , frissiteni.",
   "jobs_typog_momo_4": "Ezt a felületett tovább gondolva átültettük egy mobile appba is React segitségével + webViewal. Mivel sok rendezvényünk is volt , ezért ezekre az alkalmakra lefejlesztettünk egy beléptető rendszert is , amit React Native-ban irtunk meg, Expo segítségével.",
   "jobs_typog_momo_5": "Október közepén anyagi költségcsökkentés miatt felmondták a szerződésem.",
   "jobs_cover_btn": "Ajánlólevél",
