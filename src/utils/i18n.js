@@ -1,10 +1,11 @@
-const format = require('string-format')
-const map = require('../languages/map.json')
-const hu = require('../languages/hu.json')
-const en = require('../languages/en.json')
+import format from 'string-format'
+import hu from '../languages/hu.json'
+import en from '../languages/en.json'
+import map from '../languages/map.json'
 
-export const languages = [hu, en]
-export const MAP = map
+const languages = [hu, en]
+const MAP = map
+
 export const text = (language, source, ...props) => {
   let active = languages.find((lang) => lang.code === language)
   if (active === undefined) {
@@ -12,3 +13,10 @@ export const text = (language, source, ...props) => {
   }
   return format(active[source], ...props)
 }
+
+export const i18n = {
+  text,
+  MAP,
+}
+
+export default { i18n, MAP, text }

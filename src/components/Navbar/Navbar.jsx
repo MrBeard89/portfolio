@@ -17,7 +17,8 @@ import { logo as Logo } from '../Logo/logo'
 //Theme toggler icons
 import { BsLightbulbFill, BsLightbulbOff } from 'react-icons/bs'
 
-const i18n = require('../../utils/i18n')
+//Import Language Library
+import i18n from '../../utils/i18n'
 //
 //
 //

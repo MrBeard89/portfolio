@@ -11,9 +11,9 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi'
 import { AiFillCaretDown } from 'react-icons/ai'
 
 //Import Language Library
-const i18n = require('../../utils/i18n')
-const languageHu = require('../../languages/hu.json')
-const languageEn = require('../../languages/en.json')
+import i18n from '../../utils/i18n'
+import languageHu from '../../languages/hu.json'
+import languageEn from '../../languages/en.json'
 
 export const Projects = () => {
   const { language } = useContext(LanguageContext)
@@ -53,14 +53,14 @@ export const Projects = () => {
                       <Link to={data.livelink} target='_blank'>
                         <img
                           className='desktop-card-image'
-                          src={require(`../../assets/card-images/desktop/${data.imglinkdesktop}`)}
+                          src={`https://Mrbeard89.github.io/portfolio/src/assets/card-images/desktop/${data.imglinkdesktop}`}
                           alt='card-preview'
                         />
                       </Link>
                     </div>
                     <img
                       className='card-image'
-                      src={require(`../../assets/card-images/mobile/${data.imglinkmobile}`)}
+                      src={`https://Mrbeard89.github.io/portfolio/src/assets/card-images/mobile/${data.imglinkmobile}`}
                       alt='card-preview'
                     />
                     <span className='desktop-info-bar'>
@@ -98,14 +98,14 @@ export const Projects = () => {
                       <Link to={data.livelink} target='_blank'>
                         <img
                           className='desktop-card-image'
-                          src={require(`../../assets/card-images/desktop/${data.imglinkdesktop}`)}
+                          src={`../../assets/card-images/desktop/${data.imglinkdesktop}`}
                           alt='card-preview'
                         />
                       </Link>
                     </div>
                     <img
                       className='card-image'
-                      src={require(`../../assets/card-images/mobile/${data.imglinkmobile}`)}
+                      src={`../../assets/card-images/mobile/${data.imglinkmobile}`}
                       alt='card-preview'
                     />
 

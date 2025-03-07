@@ -5,7 +5,7 @@ import { LanguageContext } from '../../../context/LanguageContext'
 import { Link } from 'react-router-dom'
 
 //Import Language Library
-const i18n = require('../../../utils/i18n')
+import i18n from '../../../utils/i18n'
 
 export const Jobs = () => {
   const { language } = useContext(LanguageContext)

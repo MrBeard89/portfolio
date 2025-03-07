@@ -7,7 +7,7 @@ import { FiGithub, FiLinkedin, FiFacebook } from 'react-icons/fi'
 import { FaXTwitter } from 'react-icons/fa6'
 import { useContext } from 'react'
 //Import Language Library
-const i18n = require('../../utils/i18n.js')
+import i18n from '../../utils/i18n'
 
 export const Contact = () => {
   const { language } = useContext(LanguageContext)

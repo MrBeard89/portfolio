@@ -30,7 +30,7 @@ function App() {
     <LanguageContext.Provider value={{ language, setLanguage, toggleLanguage }}>
       <div className={`App ${theme}`}>
         <Themecontext.Provider value={{ theme, setTheme, localStorage, toggleTheme }}>
-          <Router basename={process.env.PUBLIC_URL}>
+          <Router>
             <Preloader>
               <Routes>
                 <Route path='/' element={<Home />} />
