@@ -34,6 +34,8 @@ export const Projects = () => {
 
           {language === 'hu'
             ? languageHu.projects.map((data, index) => {
+                let desktopURL = `https://mrbeard89.github.io/portfolio/public/card-images/desktop/${data.imglinkdesktop}`
+                let mobileURL = `https://mrbeard89.github.io/portfolio/public/card-images/mobile/${data.imglinkmobile}`
                 return (
                   //Card Container
 
@@ -51,18 +53,10 @@ export const Projects = () => {
                     <h3 className='card-title'>{data.title}</h3>
                     <div className='desktop-img'>
                       <Link to={data.livelink} target='_blank'>
-                        <img
-                          className='desktop-card-image'
-                          src={`https://Mrbeard89.github.io/portfolio/src/assets/card-images/desktop/${data.imglinkdesktop}`}
-                          alt='card-preview'
-                        />
+                        <img className='desktop-card-image' src={desktopURL} alt='card-preview' />
                       </Link>
                     </div>
-                    <img
-                      className='card-image'
-                      src={`https://Mrbeard89.github.io/portfolio/src/assets/card-images/mobile/${data.imglinkmobile}`}
-                      alt='card-preview'
-                    />
+                    <img className='card-image' src={mobileURL} alt='card-preview' />
                     <span className='desktop-info-bar'>
                       <p className='card-description'>{data.description}</p>
                       <p className='card-note'>Note: {data.note}</p>

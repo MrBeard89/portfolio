@@ -1,5 +1,5 @@
 import '../../styles/logo/logo.scss'
-import Beard from '../../assets/beard.png'
+import Beard from '/beard.png'
 
 export const logo = () => {
   return (
