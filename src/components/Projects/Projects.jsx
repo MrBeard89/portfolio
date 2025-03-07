@@ -34,8 +34,8 @@ export const Projects = () => {
 
           {language === 'hu'
             ? languageHu.projects.map((data, index) => {
-                let desktopURL = `https://mrbeard89.github.io/portfolio/public/card-images/desktop/${data.imglinkdesktop}`
-                let mobileURL = `https://mrbeard89.github.io/portfolio/public/card-images/mobile/${data.imglinkmobile}`
+                let desktopURL = `https://mrbeard89.github.io/portfolio/card-images/desktop/${data.imglinkdesktop}`
+                let mobileURL = `https://mrbeard89.github.io/portfolio/card-images/mobile/${data.imglinkmobile}`
                 return (
                   //Card Container
 
