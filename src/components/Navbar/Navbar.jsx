@@ -100,7 +100,7 @@ export const Navbar = () => {
                 <div id='hover_download_list'>
                   <Link
                     className='hover_download_links'
-                    to='/Kovács_Norbert_CV_EN.pdf'
+                    to='/portfolio/Kovács_Norbert_CV_EN.pdf'
                     target='_blank'
                     rel='noopener noreferrer'
                     download
@@ -111,7 +111,7 @@ export const Navbar = () => {
                   </Link>
                   <Link
                     className='hover_download_links'
-                    to='/Kovács_Norbert_CV_HU.pdf'
+                    to='/portfolio/Kovács_Norbert_CV_HU.pdf'
                     target='_blank'
                     rel='noopener noreferrer'
                     download

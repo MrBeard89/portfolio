@@ -116,7 +116,7 @@ export const Jobs = () => {
               ]}
             >
               <Link
-                to='/Ajánlólevél_Kovács Norbert.pdf'
+                to='/portfolio/Ajánlólevél_Kovács Norbert.pdf'
                 target='_blank'
                 rel='noopener noreferrer'
                 download
