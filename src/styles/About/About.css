@@ -147,18 +147,6 @@
     font-size: 22px !important;
     font-weight: 500 !important;
   }
-  .about-container .about-introduction::before {
-    position: absolute;
-    left: 20vw;
-    top: 1rem;
-    content: "";
-    width: 500px;
-    height: 2px;
-    background-color: #fada5e;
-    box-shadow: 0px 0px 85px 5px #ffff00;
-    border-radius: 50%;
-    animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
-  }
   .about-container .about-name {
     transition: 1s ease;
     font-size: 45px !important;
@@ -184,11 +172,6 @@
   .about-wrapper .about-container {
     width: 450px !important;
     margin-left: -35rem;
-  }
-  .about-wrapper .about-container .about-introduction::before {
-    position: absolute;
-    left: 18vw;
-    top: 1rem;
   }
   .about-wrapper .about-container .about-img-container {
     position: absolute !important;

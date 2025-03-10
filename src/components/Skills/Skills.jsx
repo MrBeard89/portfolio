@@ -24,6 +24,7 @@ import Vitest from '/tech-icons/vitest-icon.jpg'
 import Redux from '/tech-icons/redux-icon.png'
 import { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageContext'
+import { ThemeContext } from '@emotion/react'
 import { Jobs } from './components/Jobs'
 
 //Import Language Library
@@ -31,12 +32,18 @@ import i18n from '../../utils/i18n'
 
 export const Skills = () => {
   const { language } = useContext(LanguageContext)
+  // const { theme } = useContext(ThemeContext)
   return (
     //Main Wrapper
 
     <div className='skills-wrapper' id='skills'>
       <div className='skills-container'>
-        <h3 className='skills-title'>{i18n.text(language, i18n.MAP.skills_title)}</h3>
+        <h3
+          // className={`skills-title ${theme === 'light' ? 'light-title-style' : 'dark-title-style'}`}
+          className='skills-title'
+        >
+          {i18n.text(language, i18n.MAP.skills_title)}
+        </h3>
 
         {/* Text Container  */}
 

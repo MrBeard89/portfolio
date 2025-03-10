@@ -44,24 +44,56 @@
   font-family: "Genos", Calibri, Ruda, sans-serif;
   position: fixed;
   top: 0;
-  z-index: 4;
+  z-index: 5;
   transition: top 0.3s;
 }
-.navbar-wrapper:after {
-  position: absolute;
-  bottom: 0px;
-  content: "";
-  width: 100vw;
-  height: 11px;
-  background-image: linear-gradient(180deg, transparent, #324972 275%) !important;
-  box-shadow: 0px 17px 15px 3px rgba(2, 12, 27, 0.7);
+.navbar-wrapper #hover_download {
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  gap: unset;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  top: 2rem;
+}
+.navbar-wrapper #hover_download #hover_download_list {
+  position: relative;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.navbar-wrapper #hover_download #hover_download_list .hover_download_links {
+  height: unset !important;
+  text-decoration: none;
+}
+.navbar-wrapper #hover_download #hover_download_list .hover_download_links:nth-child(1) {
+  margin-top: 1rem;
+}
+.navbar-wrapper #hover_download #hover_download_list .hover_download_list_item {
+  width: 80%;
+  border: none;
+  font-size: 14px;
+  background-color: #45669e;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  text-align: left;
+}
+.navbar-wrapper #hover_download #hover_download_list .hover_download_list_item:hover {
+  background-color: #0c1e3a;
+  color: #aac9ff;
 }
 .navbar-wrapper .navbar-container {
   position: relative;
   justify-content: space-between;
   height: 4rem;
   width: 100vw;
-  border-top: 1px solid #343434;
 }
 .navbar-wrapper .navbar-container .logo-container {
   margin-left: 1.3rem;
@@ -74,7 +106,9 @@
 }
 .navbar-wrapper .navbar-container .navlinks {
   z-index: 3;
-  height: 110vh;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
   width: 180px;
   position: fixed;
   top: 0;
@@ -82,6 +116,11 @@
   list-style: none;
   background-color: #112240;
   animation: goleft 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.navbar-wrapper .navbar-container .navlinks .mobile-menu {
+  position: relative;
+  margin-bottom: 4rem;
+  width: 100%;
 }
 .navbar-wrapper .navbar-container .navlinks a {
   text-transform: uppercase;
@@ -93,14 +132,11 @@
   height: 5rem;
   width: 180px;
 }
-.navbar-wrapper .navbar-container .navlinks a:nth-child(1) {
-  margin-top: 5rem;
-}
 .navbar-wrapper .navbar-container .navlinks a:is(:hover, :active) {
   color: #ffff00;
   background-color: #324972;
 }
-.navbar-wrapper .navbar-container .navlinks a:is(:hover, :active):nth-child(5) {
+.navbar-wrapper .navbar-container .navlinks a:is(:hover, :active):nth-child(6) {
   background-color: #112240;
 }
 .navbar-wrapper .navbar-container .navlinks .theme-toggle {
@@ -147,6 +183,7 @@
   border-radius: 0.5rem;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
   background-color: #324972;
+  margin-bottom: 2rem;
 }
 .navbar-wrapper .navbar-container .navlinks .flag-toggle:is(:hover, :focus-visible) {
   cursor: pointer;
@@ -160,6 +197,21 @@
   }
 }
 @media only screen and (min-width: 992px) {
+  #hover_download {
+    top: unset !important;
+    margin-bottom: unset !important;
+  }
+  #hover_download_list {
+    position: fixed !important;
+    align-items: center;
+    top: 4rem;
+  }
+  #hover_download_list .hover_download_links {
+    width: 90% !important;
+  }
+  #hover_download_list .hover_download_links .hover_download_list_item {
+    width: 90% !important;
+  }
   #closemenu,
   #burgermenu {
     display: none;
@@ -167,7 +219,7 @@
   .navbar-container {
     justify-content: space-between !important;
     align-items: center !important;
-    gap: 5rem !important;
+    gap: -5rem !important;
   }
   .navbar-container .navlinks-container {
     display: flex !important;
@@ -179,14 +231,16 @@
     gap: 2rem !important;
     background-color: transparent !important;
     height: fit-content !important;
-    width: fit-content !important;
+    width: 92% !important;
     right: 2rem !important;
+    overflow: hidden !important;
     animation: none !important;
   }
   .navbar-container .navlinks-container .navlinks .theme-toggle,
   .navbar-container .navlinks-container .navlinks .flag-toggle {
     position: relative !important;
     bottom: 0 !important;
+    margin-bottom: unset !important;
   }
   .navbar-container .navlinks-container .navlinks .theme-toggle::before,
   .navbar-container .navlinks-container .navlinks .flag-toggle::before {
@@ -197,6 +251,7 @@
   }
   .navbar-container .navlinks-container .navlinks .flag-toggle {
     margin-left: -1rem;
+    width: 12rem !important;
   }
   .navbar-container .navlinks-container .navlinks a {
     background-color: transparent !important;
@@ -218,8 +273,10 @@
   .navbar-container .navlinks-container .navlinks {
     transition: 1s ease;
     gap: 4rem !important;
+    width: 100% !important;
   }
   .navbar-container .navlinks-container .navlinks .flag-toggle {
     margin-left: -3rem;
+    width: 12rem !important;
   }
 }/*# sourceMappingURL=Navbar.css.map */

@@ -17,29 +17,69 @@
   cursor: pointer;
 }
 
+.skills-wrapper .jobs-container .jobs-btn {
+  width: 80%;
+}
+.skills-wrapper .jobs-container .jobs-btn span {
+  display: flex;
+  justify-content: center;
+  color: #fdfd96;
+  border: 1px solid #324972;
+  background-color: #324972;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 24px;
+}
+.skills-wrapper .jobs-container .jobs-btn span:is(:hover, :active) {
+  color: #ffff00;
+  background-color: #0c1e3a;
+  border: 1px solid #ffff00;
+  cursor: pointer;
+}
+
 .skills-wrapper .skills-container .skills-title {
   color: #5a83c9;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 2px;
-  margin-bottom: 1.5rem;
+  background-image: linear-gradient(#112240 5%, #020d1d 90%);
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem 5rem 0.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 2px 1px #324972, 1px 3px 1px #324972, 1px 4px 1px #324972, 1px 5px 1px #324972, 1px 6px 1px #324972, 1px 18px 6px #020d1d;
+}
+
+.skills-wrapper .jobs-skills-title {
+  color: #5a83c9;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .skills-wrapper .skills-container .skills-text-container {
   color: #324972;
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 .skills-wrapper {
   z-index: 1;
   height: fit-content;
 }
+.skills-wrapper .jobs-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 2rem;
+}
 .skills-wrapper .skills-container {
   margin-top: 5rem;
   position: relative;
   width: 300px;
+}
+.skills-wrapper .skills-container .skills-title {
+  margin-bottom: 2rem;
 }
 .skills-wrapper .skills-container .skills-text-container:nth-child(1) {
   margin-bottom: 1rem;
@@ -101,18 +141,6 @@
     width: 750px !important;
     margin-top: 0 !important;
   }
-  .skills-container::before {
-    position: absolute;
-    left: 20vw;
-    top: 2rem;
-    content: "";
-    width: 500px;
-    height: 2px;
-    background-color: #fada5e;
-    box-shadow: 0px 0px 85px 5px #ffff00;
-    border-radius: 50%;
-    animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
-  }
   .skills-container .skill-element-container .desktop-tech-icon-left {
     position: absolute;
     left: 1rem;
@@ -149,7 +177,7 @@
     font-weight: 700 !important;
   }
   .skills-container .skills-skillset-container {
-    margin-top: 8rem;
+    margin-top: 4rem;
     gap: 11rem !important;
   }
   .skills-container .skills-skillset-container li {

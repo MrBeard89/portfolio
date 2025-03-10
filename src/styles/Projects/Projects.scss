@@ -47,6 +47,7 @@
     //Main Title
     .projects-container-title {
       @extend %title-style;
+
       margin-top: 1rem;
     }
     .new {
@@ -312,7 +313,7 @@
     }
 
     .cards-wrapper {
-      gap: 8rem !important;
+      gap: 14rem !important;
 
       .new {
         display: block !important;
@@ -335,6 +336,7 @@
       .project-card {
         background-color: v.$light-navy;
         height: v.$project-card-height-desktop992 !important;
+
         border: none !important;
         align-items: flex-start !important;
         box-shadow: 0px 0px 15px 2px v.$navy-shadow;

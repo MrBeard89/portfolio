@@ -3,7 +3,14 @@ import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import { LanguageContext } from '../../context/LanguageContext'
 import { useContext } from 'react'
-import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
+import {
+  motion,
+  useMotionValue,
+  useSpring,
+  useTransform,
+  useMotionValueEvent,
+  useScroll,
+} from 'framer-motion'
 
 //Github and external site icons
 import { FiGithub, FiExternalLink } from 'react-icons/fi'
@@ -15,9 +22,11 @@ import { AiFillCaretDown } from 'react-icons/ai'
 import i18n from '../../utils/i18n'
 import languageHu from '../../languages/hu.json'
 import languageEn from '../../languages/en.json'
+import { Themecontext } from '../../context/Themecontext'
 
 export const Projects = () => {
   const { language } = useContext(LanguageContext)
+  // const { theme } = useContext(Themecontext)
 
   //Framer motion
   const x = useMotionValue(0)
@@ -50,11 +59,27 @@ export const Projects = () => {
     y.set(0)
   }
 
+  //// Scroll animation
+
+  const { scrollY } = useScroll()
+
+  // useMotionValueEvent(scrollY, 'change', (current) => {
+  //   const diff = current - scrollY.getPrevious()
+  //   setScrollDirection(diff > 0 ? 'down' : 'up')
+  // })
+
   return (
     //main Wrapper
     <div className='projects-wrapper' id='projects'>
       <div className='projects-container'>
-        <h3 className='projects-container-title'>{i18n.text(language, i18n.MAP.projects_title)}</h3>
+        <h3
+          // className={`projects-container-title ${
+          //   theme === 'light' ? 'light-title-style' : 'dark-title-style'
+          // }`}
+          className='projects-container-title'
+        >
+          {i18n.text(language, i18n.MAP.projects_title)}
+        </h3>
         {/* Wrapper for Cards */}
         <div className='cards-wrapper'>
           {/* Mapping throw hu,en json files, depending on whats the language context value ! */}
@@ -71,7 +96,14 @@ export const Projects = () => {
                 return (
                   //Card Container
 
-                  <div className='project-card' key={index}>
+                  <motion.div
+                    className='project-card'
+                    key={index}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 2 }}
+                    style={{ scrollY }}
+                  >
                     {data.id === 1 ? (
                       <span
                         className='new'
@@ -107,7 +139,7 @@ export const Projects = () => {
                         <FiExternalLink className='external-link-svg' />
                       </Link>
                     </div>
-                  </div>
+                  </motion.div>
                 )
               })
             : languageEn.projects.map((data, index) => {

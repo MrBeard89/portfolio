@@ -228,7 +228,7 @@
 }
 
 ////////////// Title Styles //////////////
-
+//Dark vs Light title style
 %title-style {
   color: v.$xxl-light-navy;
   font-size: v.$fz-xxxl;
@@ -243,7 +243,25 @@
   text-shadow: 1px 2px 1px v.$lightest-navy, 1px 3px 1px v.$lightest-navy,
     1px 4px 1px v.$lightest-navy, 1px 5px 1px v.$lightest-navy, 1px 6px 1px v.$lightest-navy,
     1px 18px 6px v.$dark-navy-blue;
+
+  // .light-title-style {
+  //   color: v.$xxl-light-navy;
+  //   font-size: v.$fz-xxxl;
+  //   font-weight: 700;
+  //   letter-spacing: 2px;
+  //   background-image: linear-gradient(v.$dark-navy-blue, v.$light-navy 80%);
+  //   box-shadow: 0px 0px 15px 2px v.$navy-shadow;
+  //   border-radius: 1rem;
+  //   padding: 0.5rem 0.5rem 5rem 0.5rem;
+  //   margin-bottom: 2rem;
+
+  //   //3D text
+  //   text-shadow: 1px 2px 1px v.$lightest-navy, 1px 3px 1px v.$lightest-navy,
+  //     1px 4px 1px v.$lightest-navy, 1px 5px 1px v.$lightest-navy, 1px 6px 1px v.$lightest-navy,
+  //     1px 18px 6px v.$dark-navy-blue;
+  // }
 }
+
 %job-title-style {
   color: v.$xxl-light-navy;
   font-size: v.$fz-xxxl;

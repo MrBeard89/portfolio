@@ -23,17 +23,23 @@
 .projects-wrapper .projects-container .cards-wrapper .more-to-see-container .more-btn a {
   font-family: "Genos", Calibri, Ruda, sans-serif;
   color: #fdfd96;
-  border: 1px solid #fdfd96;
-  background-color: #324972;
-  border-radius: 0.5rem;
-  padding: 1rem;
   text-decoration: none;
   font-size: 20px;
+  background-color: #5a83c9;
+  border-bottom-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  padding: 1.3rem 2.3rem;
+  transition: 0.3s ease-in-out;
 }
 .projects-wrapper .projects-container .cards-wrapper .more-to-see-container .more-btn a:is(:hover, :active) {
   color: #ffff00;
   background-color: #0c1e3a;
+  border-top-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
   border: 1px solid #ffff00;
+  transition: 0.3s ease-in-out;
 }
 
 .projects-wrapper .projects-container .projects-container-title {
@@ -41,7 +47,11 @@
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 2px;
-  margin-bottom: 1.5rem;
+  background-image: linear-gradient(#112240 5%, #020d1d 90%);
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem 5rem 0.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 2px 1px #324972, 1px 3px 1px #324972, 1px 4px 1px #324972, 1px 5px 1px #324972, 1px 6px 1px #324972, 1px 18px 6px #020d1d;
 }
 
 .projects-wrapper .projects-container .cards-wrapper .project-card .card-description {
@@ -59,8 +69,10 @@
   z-index: 3;
   position: relative;
   border-radius: 1rem;
-  border: 2px solid #fdfd96;
   padding: 0.5rem;
+  background-color: #112240;
+  box-shadow: 0px 0px 15px 2px rgba(2, 12, 27, 0.7);
+  border-block-end: 3px solid #5a83c9;
   color: #5a83c9;
 }
 .projects-wrapper .project-card-teaser::before {
@@ -72,7 +84,8 @@
   height: 10px;
   border-radius: 50%;
   background-color: #fdfd96;
-  animation: arrow-fade 2s ease-in-out infinite;
+  box-shadow: 0px 0px 55px 8px #ffff00;
+  animation: arrow-fade 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
 }
 .projects-wrapper .project-card-teaser h3 {
   color: #aac9ff;
@@ -89,6 +102,9 @@
 .projects-wrapper .projects-container .projects-container-title {
   margin-top: 1rem;
 }
+.projects-wrapper .projects-container .new {
+  display: none;
+}
 .projects-wrapper .projects-container .cards-wrapper {
   position: inherit;
   display: flex;
@@ -98,13 +114,17 @@
 .projects-wrapper .projects-container .cards-wrapper .project-card {
   z-index: 3;
   position: relative;
-  border-radius: 1rem;
-  border: 2px solid #fdfd96;
+  border-block-start: 3px solid #324972;
+  border-radius: 1.3rem;
+  border-block-end: 3px solid #5a83c9;
   height: 396px;
+  background-image: linear-gradient(#112240, #020d1d);
+  box-shadow: 0px 0px 15px 2px rgba(2, 12, 27, 0.7);
   overflow: hidden;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card:hover {
-  border: 2px solid #ffff00;
+  border-block-end: 3px solid #5a83c9;
+  border-block-start: 3px solid #5a83c9;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card .card-title {
   background-color: transparent;
@@ -115,7 +135,7 @@
   border-top-right-radius: 1rem;
   margin-bottom: 1rem;
   width: 296px;
-  font-size: 22px;
+  padding: 0rem 0.2rem;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card .desktop-img {
   display: none;
@@ -171,18 +191,23 @@
   width: 296px;
   display: flex;
   justify-content: center;
+  border-radius: 1rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  box-shadow: 0px 0px 35px 1px #324972;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .github,
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .external-link {
   color: #fada5e;
   font-size: 24px;
+  transition: 0.3s ease-in-out;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .github:is(:hover, :active),
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .external-link:is(:hover, :active) {
   color: #ffff00;
   background-color: #5a83c9;
+  box-shadow: 0px 0px 35px 1px #324972;
+  transition: 0.3s ease-in-out;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .github {
   text-align: center;
@@ -253,31 +278,22 @@
   .projects-container {
     width: 750px !important;
   }
-  .projects-container::before {
-    position: absolute;
-    left: 21vw;
-    top: 3rem;
-    content: "";
-    width: 500px;
-    height: 2px;
-    background-color: #fada5e;
-    box-shadow: 0px 0px 85px 5px #ffff00;
-    border-radius: 50%;
-    animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
-  }
   .projects-container .projects-container-title {
     transition: 1s ease;
     font-size: 45px !important;
     margin-bottom: 5rem !important;
   }
   .projects-container .cards-wrapper {
-    gap: 8rem !important;
+    gap: 14rem !important;
+  }
+  .projects-container .cards-wrapper .new {
+    display: block !important;
   }
   .projects-container .cards-wrapper .project-card-teaser {
     background-color: #112240;
-    border: none !important;
-    align-items: flex-start !important;
     box-shadow: 0px 0px 15px 2px rgba(2, 12, 27, 0.7);
+    border-block-end: 3px solid #5a83c9;
+    align-items: flex-start !important;
     padding: 1rem;
   }
   .projects-container .cards-wrapper .project-card-teaser h3 {
@@ -343,6 +359,7 @@
     object-position: 75% 0%;
     border-radius: 1rem;
     margin-bottom: 2rem;
+    box-shadow: 0px 0px 85px 1px #f0ffff;
     opacity: 0.4;
     filter: grayscale(55);
   }
@@ -373,9 +390,6 @@
   .projects-container {
     transition: 1s ease;
     width: 846px !important;
-  }
-  .projects-container::before {
-    left: 20vw;
   }
   .projects-container .cards-wrapper {
     transition: 1s ease;
