@@ -139,17 +139,28 @@
   a {
     font-family: v.$text-font-family;
     color: v.$pastel-yellow;
-    border: 1px solid v.$pastel-yellow;
-    background-color: v.$lightest-navy;
-    border-radius: 0.5rem;
-    padding: 1rem;
+    //border: 1px solid v.$pastel-yellow;
+    //background-color: v.$lightest-navy;
+    // border-radius: 0.5rem;
+
     text-decoration: none;
     font-size: v.$fz-xl;
+
+    background-color: v.$xxl-light-navy;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    padding: 1.3rem 2.3rem;
+    transition: 0.3s ease-in-out;
 
     &:is(:hover, :active) {
       color: v.$yellow;
       background-color: v.$navy-blue;
+      border-top-right-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem;
+      border-bottom-right-radius: 0;
+      border-top-left-radius: 0;
       border: 1px solid v.$yellow;
+      transition: 0.3s ease-in-out;
     }
   }
 }
@@ -157,22 +168,30 @@
 %email-btn {
   border: none;
   background-color: transparent;
+  margin-bottom: 2rem;
 
   a {
     font-family: v.$text-font-family;
     color: v.$pastel-yellow;
-    border: 1px solid v.$pastel-yellow;
-    background-color: v.$lightest-navy;
-    border-radius: 0.5rem;
+    //border: 1px solid v.$pastel-yellow;
+    background-color: v.$xxl-light-navy;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
     padding: 1rem;
+    transition: 0.3s ease-in-out;
+
     text-decoration: none;
     font-size: v.$fz-xl;
-    margin-bottom: 3rem;
 
     &:is(:hover, :active) {
       color: v.$yellow;
       background-color: v.$navy-blue;
+      border-top-right-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem;
+      border-bottom-right-radius: 0;
+      border-top-left-radius: 0;
       border: 1px solid v.$yellow;
+      transition: 0.3s ease-in-out;
     }
   }
 }
@@ -215,7 +234,15 @@
   font-size: v.$fz-xxxl;
   font-weight: 700;
   letter-spacing: 2px;
-  margin-bottom: 1.5rem;
+  background-image: linear-gradient(v.$light-navy 5%, v.$dark-navy-blue 90%);
+  border-radius: 1rem;
+  padding: 0.5rem 0.5rem 5rem 0.5rem;
+  margin-bottom: 2rem;
+
+  //3D text
+  text-shadow: 1px 2px 1px v.$lightest-navy, 1px 3px 1px v.$lightest-navy,
+    1px 4px 1px v.$lightest-navy, 1px 5px 1px v.$lightest-navy, 1px 6px 1px v.$lightest-navy,
+    1px 18px 6px v.$dark-navy-blue;
 }
 %job-title-style {
   color: v.$xxl-light-navy;
@@ -231,7 +258,7 @@
   color: v.$lightest-navy;
   font-size: v.$fz-xl;
   font-weight: 500;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 
 %card-text-style {

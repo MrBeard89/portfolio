@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import { LanguageContext } from '../../context/LanguageContext'
 import { useContext } from 'react'
+import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
 
 //Github and external site icons
 import { FiGithub, FiExternalLink } from 'react-icons/fi'
@@ -17,6 +18,37 @@ import languageEn from '../../languages/en.json'
 
 export const Projects = () => {
   const { language } = useContext(LanguageContext)
+
+  //Framer motion
+  const x = useMotionValue(0)
+  const y = useMotionValue(0)
+
+  const mouseXSpring = useSpring(x)
+  const mouseYSpring = useSpring(y)
+
+  const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], ['-20deg', '20deg'])
+  const rotateY = useTransform(mouseXSpring, [0.5, -0.5], ['20deg', '-20deg'])
+
+  const handleMouseMove = (event) => {
+    const rect = event.target.getBoundingClientRect()
+
+    const width = rect.width
+    const height = rect.height
+
+    const mouseX = event.clientX - rect.left
+    const mouseY = event.clientY - rect.top
+
+    const xPct = mouseX / width - 0.5
+    const yPct = mouseY / height - 0.5
+
+    x.set(xPct)
+    y.set(yPct)
+  }
+
+  const handleMouseLeave = () => {
+    x.set(0)
+    y.set(0)
+  }
 
   return (
     //main Wrapper
@@ -51,11 +83,16 @@ export const Projects = () => {
                       ''
                     )}
                     <h3 className='card-title'>{data.title}</h3>
-                    <div className='desktop-img'>
+                    <motion.div
+                      className='desktop-img'
+                      onMouseMove={handleMouseMove}
+                      onMouseLeave={handleMouseLeave}
+                      style={{ rotateX, rotateY, transformStyle: 'preserve-3d' }}
+                    >
                       <Link to={data.livelink} target='_blank'>
                         <img className='desktop-card-image' src={desktopURL} alt='card-preview' />
                       </Link>
-                    </div>
+                    </motion.div>
                     <img className='card-image' src={mobileURL} alt='card-preview' />
                     <span className='desktop-info-bar'>
                       <p className='card-description'>{data.description}</p>
@@ -74,6 +111,8 @@ export const Projects = () => {
                 )
               })
             : languageEn.projects.map((data, index) => {
+                let desktopURL = `https://mrbeard89.github.io/portfolio/card-images/desktop/${data.imglinkdesktop}`
+                let mobileURL = `https://mrbeard89.github.io/portfolio/card-images/mobile/${data.imglinkmobile}`
                 return (
                   //Card Container
                   <div className='project-card' key={index}>
@@ -88,20 +127,17 @@ export const Projects = () => {
                       ''
                     )}
                     <h3 className='card-title'>{data.title}</h3>
-                    <div className='desktop-img'>
+                    <motion.div
+                      className='desktop-img'
+                      onMouseMove={handleMouseMove}
+                      onMouseLeave={handleMouseLeave}
+                      style={{ rotateX, rotateY, transformStyle: 'preserve-3d' }}
+                    >
                       <Link to={data.livelink} target='_blank'>
-                        <img
-                          className='desktop-card-image'
-                          src={`../../assets/card-images/desktop/${data.imglinkdesktop}`}
-                          alt='card-preview'
-                        />
+                        <img className='desktop-card-image' src={desktopURL} alt='card-preview' />
                       </Link>
-                    </div>
-                    <img
-                      className='card-image'
-                      src={`../../assets/card-images/mobile/${data.imglinkmobile}`}
-                      alt='card-preview'
-                    />
+                    </motion.div>
+                    <img className='card-image' src={mobileURL} alt='card-preview' />
 
                     <span className='desktop-info-bar'>
                       <p className='card-description'>{data.description}</p>

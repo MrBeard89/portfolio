@@ -16,15 +16,18 @@
       height: 10px;
       border-radius: 50%;
       background-color: v.$pastel-yellow;
+      box-shadow: 0px 0px 55px 8px v.$yellow;
 
-      animation: arrow-fade 2s ease-in-out infinite;
+      animation: arrow-fade 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
     }
 
     z-index: 3;
     position: relative;
     border-radius: 1rem;
-    border: 2px solid v.$pastel-yellow;
     padding: 0.5rem;
+    background-color: v.$light-navy;
+    box-shadow: 0px 0px 15px 2px v.$navy-shadow;
+    border-block-end: 3px solid v.$xxl-light-navy;
 
     color: v.$xxl-light-navy;
     h3 {
@@ -63,15 +66,19 @@
 
         z-index: 3;
         position: relative;
-        border-radius: 1rem;
-        border: 2px solid v.$pastel-yellow;
+        border-block-start: 3px solid v.$lightest-navy;
+        border-radius: 1.3rem;
+        border-block-end: 3px solid v.$xxl-light-navy;
         height: v.$project-card-height-mobile;
+        background-image: linear-gradient(v.$light-navy, v.$dark-navy-blue);
+        box-shadow: 0px 0px 15px 2px v.$navy-shadow;
 
         //added because facebook compability issues
         overflow: hidden;
 
         &:hover {
-          border: 2px solid v.$yellow;
+          border-block-end: 3px solid v.$xxl-light-navy;
+          border-block-start: 3px solid v.$xxl-light-navy;
         }
 
         //Card title
@@ -84,7 +91,8 @@
           border-top-right-radius: 1rem;
           margin-bottom: 1rem;
           width: v.$project-card-inner-width-mobile;
-          font-size: v.$fz-xxl;
+          padding: 0rem 0.2rem;
+          //font-size: v.$fz-xxl;
         }
 
         //Only at Desktop size, background-image
@@ -156,18 +164,22 @@
           width: v.$project-card-inner-width-mobile;
           display: flex;
           justify-content: center;
-
+          border-radius: 1rem;
           border-bottom-left-radius: 1rem;
           border-bottom-right-radius: 1rem;
+          box-shadow: 0px 0px 35px 1px v.$lightest-navy;
 
           .github,
           .external-link {
             color: v.$grain-yellow;
             font-size: v.$fz-xxxl;
+            transition: 0.3s ease-in-out;
 
             &:is(:hover, :active) {
               color: v.$yellow;
               background-color: v.$xxl-light-navy;
+              box-shadow: 0px 0px 35px 1px v.$lightest-navy;
+              transition: 0.3s ease-in-out;
             }
           }
 
@@ -280,18 +292,18 @@
 
     //Dekor yellow line
 
-    &::before {
-      position: absolute;
-      left: 21vw;
-      top: 3rem;
-      content: '';
-      width: calc(v.$content-desktop992-width/1.5);
-      height: 2px;
-      background-color: v.$grain-yellow;
-      box-shadow: 0px 0px 85px 5px v.$yellow;
-      border-radius: 50%;
-      animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
-    }
+    // &::before {
+    //   position: absolute;
+    //   left: 21vw;
+    //   top: 3rem;
+    //   content: '';
+    //   width: calc(v.$content-desktop992-width/1.5);
+    //   height: 2px;
+    //   background-color: v.$grain-yellow;
+    //   box-shadow: 0px 0px 85px 5px v.$yellow;
+    //   border-radius: 50%;
+    //   animation: arrow-fade 3s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+    // }
 
     .projects-container-title {
       transition: 1s ease;
@@ -307,10 +319,10 @@
       }
       .project-card-teaser {
         background-color: v.$light-navy;
-
-        border: none !important;
-        align-items: flex-start !important;
         box-shadow: 0px 0px 15px 2px v.$navy-shadow;
+        border-block-end: 3px solid v.$xxl-light-navy;
+
+        align-items: flex-start !important;
         padding: 1rem;
         h3 {
           font-size: v.$fz-xxxxl !important;
@@ -383,6 +395,7 @@
             object-position: 75% 0%;
             border-radius: 1rem;
             margin-bottom: 2rem;
+            box-shadow: 0px 0px 85px 1px v.$azure-white;
 
             opacity: 0.4;
             filter: grayscale(55);
@@ -428,9 +441,9 @@
     width: v.$content-desktop1200-width !important;
     //Dekor yellow line
 
-    &::before {
-      left: 20vw;
-    }
+    // &::before {
+    //   left: 20vw;
+    // }
 
     .cards-wrapper {
       transition: 1s ease;
