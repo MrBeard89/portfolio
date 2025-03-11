@@ -65,6 +65,7 @@ export const Contact = () => {
                 k.n.89@outlook.hu
               </Link>
             </p>
+            <hr className='email-line-hr' />
           </div>
 
           {/* Sign */}
