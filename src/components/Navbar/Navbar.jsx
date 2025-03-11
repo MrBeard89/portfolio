@@ -58,7 +58,7 @@ export const Navbar = () => {
 
   return (
     <>
-      {pathName === '/portfolio' ? (
+      {pathName === '/portfolio/' ? (
         <div className={`navbar-wrapper ${theme === 'light' ? 'light' : 'dark'}`}>
           <div className='navbar-container'>
             <div className='logo-container'>
