@@ -1,37 +1,23 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './Preloader.css'
-import ReactLoading from 'react-loading'
+import Beard from '../../../public/beard.png'
 
-import { Navbar } from '../Navbar/Navbar'
-import { Home } from '../Home/Home'
-
-function Preloader() {
-  const [data, setData] = useState([])
-
-  const [done, setDone] = useState(undefined)
-
-  useEffect(() => {
-    setTimeout(() => {
-      fetch('https://jsonplaceholder.typicode.com/posts')
-        .then((response) => response.json())
-
-        .then((json) => {
-          setData(json)
-
-          setDone(true)
-        })
-    }, 1000)
-  }, [])
-
+function Preloader({ loading }) {
   return (
     <>
-      {!done ? (
-        <ReactLoading className='loading' type={'bars'} color={'yellow'} height={80} width={80} />
+      {!loading ? (
+        <div className='preloader-wrapper'>
+          {/* <ReactLoading
+            className='loading'
+            type={'spokes'}
+            color={'#ffff00'}
+            height={100}
+            width={100}
+          /> */}
+          <img className='beard_loader' src={Beard} alt='Beard' />
+        </div>
       ) : (
-        <>
-          <Navbar />
-          <Home />
-        </>
+        ''
       )}
     </>
   )
