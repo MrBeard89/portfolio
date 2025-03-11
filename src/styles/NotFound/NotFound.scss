@@ -1,0 +1,34 @@
+@use '../../sass/variables' as v;
+
+.not_found_container {
+  font-family: v.$text-font-family !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .not_found_title {
+    color: v.$xxl-light-navy;
+    margin-bottom: 2rem;
+  }
+  .not_found_btn {
+    padding: 1rem;
+    outline: none;
+    border-radius: 1rem;
+    border: 1px solid v.$xxl-light-navy;
+
+    &:hover {
+      cursor: pointer;
+      border: 1px solid v.$yellow;
+      color: v.$yellow;
+      background-color: v.$navy-blue;
+      transition: 0.3s ease-in-out;
+    }
+
+    .not_found_btn_text {
+      font-family: v.$text-font-family !important;
+      font-size: v.$fz-xxl;
+    }
+  }
+}

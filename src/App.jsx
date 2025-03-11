@@ -2,18 +2,20 @@ import './App.scss'
 
 //React Router
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+//Components
 import { Home } from './components/Home/Home'
+import { Navbar } from './components/Navbar/Navbar'
+import { NotFound } from './components/NotFound/NotFound'
 
 //Loading animation
 import Preloader from './components/Preloader/Preloader'
 import { Suspense, useEffect, useState } from 'react'
 import { Themecontext } from './context/Themecontext'
-import { LanguageContext, LanguageContextDefaults } from './context/LanguageContext'
-import { Navbar } from './components/Navbar/Navbar'
+import { LanguageContext } from './context/LanguageContext'
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark')
-  const [language, setLanguage] = useState(LanguageContextDefaults.value)
+  const [language, setLanguage] = useState(localStorage.getItem('language') || 'hu')
   const [loading, setLoading] = useState(false) //Preloader state
 
   const toggleTheme = () => {
@@ -27,6 +29,10 @@ function App() {
   useEffect(() => {
     localStorage.setItem('theme', theme)
   }, [theme])
+
+  useEffect(() => {
+    localStorage.setItem('language', language)
+  }, [language])
 
   //For Preloader
   useEffect(() => {
@@ -47,7 +53,8 @@ function App() {
                 <Navbar />
                 <Routes>
                   <Route path='/portfolio' element={<Home />} />
-                  <Route path='/portfolio/home' element={<Home />} />
+                  <Route path='/portfolio/*' element={<NotFound />} />
+                  <Route path='/*' element={<NotFound />} />
                 </Routes>
               </Router>
             </div>

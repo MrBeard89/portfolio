@@ -20,7 +20,6 @@
 }
 
 /* ////==== KEY FRAMES ===// */
-
 @keyframes scaleBeard {
   0% {
     transform: scale(1.5);
@@ -34,17 +33,4 @@
     transform: scale(1.5);
     opacity: 0;
   }
-}
-
-/* ////==== MEDIA QUERIES ===// */
-@media only screen and (min-width: 500px) {
-  .loading {
-    /* left: 45% !important; */
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .loading {
-    /* left: 50% !important; */
-  }
-}
+}/*# sourceMappingURL=Preloader.css.map */

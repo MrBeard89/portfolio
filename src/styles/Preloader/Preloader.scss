@@ -1,0 +1,37 @@
+.preloader-wrapper {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #020d1d;
+}
+
+.beard_loader {
+  position: absolute;
+  width: 80px;
+  border-radius: 50%;
+  animation: scaleBeard 2s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  box-shadow: 0px 0px 25px 2px #5a83c9;
+}
+
+.loading {
+  background-color: transparent;
+}
+
+/* ////==== KEY FRAMES ===// */
+
+@keyframes scaleBeard {
+  0% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(3);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}

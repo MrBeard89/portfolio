@@ -1,0 +1,29 @@
+.not_found_container {
+  font-family: "Genos", Calibri, Ruda, sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.not_found_container .not_found_title {
+  color: #5a83c9;
+  margin-bottom: 2rem;
+}
+.not_found_container .not_found_btn {
+  padding: 1rem;
+  outline: none;
+  border-radius: 1rem;
+  border: 1px solid #5a83c9;
+}
+.not_found_container .not_found_btn:hover {
+  cursor: pointer;
+  border: 1px solid #ffff00;
+  color: #ffff00;
+  background-color: #0c1e3a;
+  transition: 0.3s ease-in-out;
+}
+.not_found_container .not_found_btn .not_found_btn_text {
+  font-family: "Genos", Calibri, Ruda, sans-serif !important;
+  font-size: 22px;
+}/*# sourceMappingURL=NotFound.css.map */
