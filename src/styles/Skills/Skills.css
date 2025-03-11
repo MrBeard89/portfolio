@@ -74,7 +74,7 @@
   margin-bottom: 2rem;
 }
 .skills-wrapper .skills-container {
-  margin-top: 5rem;
+  margin-top: 3rem;
   position: relative;
   width: 300px;
 }
@@ -139,7 +139,6 @@
 @media only screen and (min-width: 992px) {
   .skills-container {
     width: 750px !important;
-    margin-top: 0 !important;
   }
   .skills-container .skill-element-container .desktop-tech-icon-left {
     position: absolute;

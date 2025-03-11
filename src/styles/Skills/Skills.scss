@@ -22,7 +22,7 @@
   }
 
   .skills-container {
-    margin-top: 5rem;
+    margin-top: 3rem;
     position: relative;
     width: v.$content-mobile-width;
 
@@ -122,7 +122,7 @@
 @media only screen and (min-width: 992px) {
   .skills-container {
     width: v.$content-desktop992-width !important;
-    margin-top: 0 !important;
+    //margin-top: 0 !important;
 
     //Dekor yellow line
 

@@ -9,7 +9,7 @@ import { AiFillCaretDown } from 'react-icons/ai'
 
 //Desktop tech Icons
 /////Left
-import Js from '/tech-icons/js-icon-24.jpg'
+import ReactQuery from '/tech-icons/react-query.png'
 import React from '/tech-icons/react.png'
 import Mui from '/tech-icons/mui.png'
 import Scss from '/tech-icons/sass_icon-512.png'
@@ -84,20 +84,24 @@ export const Skills = () => {
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
-              <img className='desktop-tech-icon-left' src={Js} alt='tech-icon for desktop' />
-              <li className='brighter'>JS - Typescript</li>
+              <img className='desktop-tech-icon-left' src={React} alt='tech-icon for desktop' />
+              <li className='brighter'>ReactJS | Ts</li>
             </div>
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
-              <img className='desktop-tech-icon-left' src={React} alt='tech-icon for desktop' />
-              <li className='brighter'>React</li>
+              <img
+                className='desktop-tech-icon-left'
+                src={ReactQuery}
+                alt='tech-icon for desktop'
+              />
+              <li className='brighter'>React Query</li>
             </div>
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
               <img className='desktop-tech-icon-left' src={Redux} alt='tech-icon for desktop' />
-              <li className='brighter'>Redux</li>
+              <li className='brighter'>Redux | Context</li>
             </div>
 
             <div className='skill-element-container'>
@@ -109,7 +113,7 @@ export const Skills = () => {
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
               <img className='desktop-tech-icon-left' src={Scss} alt='tech-icon for desktop' />
-              <li className='brighter'>Css3,Scss</li>
+              <li className='brighter'>Css | Scss</li>
             </div>
 
             <div className='skill-element-container'>
