@@ -47,7 +47,7 @@ export const Navbar = () => {
   var prevScrollpos = window.pageYOffset
 
   {
-    pathName === '/portfolio'
+    pathName === '/portfolio/'
       ? (window.onscroll = function () {
           var currentScrollPos = window.pageYOffset
           if (prevScrollpos > currentScrollPos) {
@@ -63,7 +63,7 @@ export const Navbar = () => {
 
   return (
     <>
-      {pathName === '/portfolio' ? (
+      {pathName === '/portfolio/' ? (
         <div className={`navbar-wrapper ${theme === 'light' ? 'light' : 'dark'}`}>
           <div className='navbar-container'>
             <div className='logo-container'>

@@ -12,7 +12,7 @@ export const HeroVideoComponent = () => {
 
   return (
     <>
-      {pathName === '/portfolio' ? (
+      {pathName === '/portfolio/' ? (
         <div className='video_wrapper'>
           <div className='video_icon_container'>
             <img className='video_wrapper_icon' src={BeardIcon} />
