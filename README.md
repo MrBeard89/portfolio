@@ -2,7 +2,7 @@
 
 <div align="center">
 <a>
-      <img src="https://drive.google.com/file/d/1Y9JPFtwAkncBmgMe1lShYrl5ux2ndO5b/view?usp=drive_link" alt="Project Banner" width="550px"/>
+      <img src="https://drive.google.com/file/d/1Y9JPFtwAkncBmgMe1lShYrl5ux2ndO5b/preview" alt="Project Banner" width="550px"/>
 </a>
   <h3 align="center">Personal portfolio website/h3>
 
