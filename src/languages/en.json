@@ -63,7 +63,20 @@
 
   "projects": [
     {
-      "id": 1,
+      "id": 8,
+      "latest": true,
+      "title": "Weather Web App",
+      "description": "Weather app with API usage. With Forecast, auto geolocation, settings section. Under continuous development !.",
+      "note": "Full responsive",
+      "tech": "Mui, ReactJs, Vite, React Router, React Query, Scss, Context API",
+      "projectlink": "https://github.com/MrBeard89/bluesky",
+      "livelink": "https://mrbeard89.github.io/bluesky/",
+      "imglinkmobile": "weather-app-mobile.png",
+      "imglinkdesktop": "weather-app-desktop.png"
+    },
+    {
+      "id": 7,
+      "latest": true,
       "title": "Space tourism website",
       "description": "The design coming from Kevin Powell.It has several sub pages,with dinamic modals.",
       "note": "Full responsive",
@@ -74,7 +87,8 @@
       "imglinkdesktop": "space-desktop.png"
     },
     {
-      "id": 2,
+      "id": 6,
+      "latest": false,
       "title": "ParteShirts Webshop UI - Mern full-stack App",
       "description": "This project has cart functionality and reads all info from MongoDb, using NodeJs.Server,Frontend(Netlify).Go check it out!",
       "note": "Full responsive",
@@ -85,7 +99,8 @@
       "imglinkdesktop": "parteshirts-desktop.png"
     },
     {
-      "id": 3,
+      "id": 5,
+      "latest": false,
       "title": "Portfolio 2.0",
       "description": "The project was created for applying a job offer.I tried to approuch a different design.Uses Frontend validation on Contact form",
       "note": "This Project is responsive on all screen sizes",
@@ -98,6 +113,7 @@
 
     {
       "id": 4,
+      "latest": false,
       "title": "Dragon Ball Fanpage",
       "description": "This project was my module final test at my school for SCSS.The rules was simple , write an SPA with your favorite brand. Well i really like dragonball, and I choose that.",
       "note": "This Project is responsive on all screen sizes",
@@ -109,7 +125,8 @@
     },
 
     {
-      "id": 5,
+      "id": 3,
+      "latest": false,
       "title": "Todo App with React",
       "description": "This is a Todo app with React.You can add Todo, select Todo, you can delete Todo",
       "note": "I created this project to be responsive overall all screens",
@@ -121,7 +138,8 @@
     },
 
     {
-      "id": 6,
+      "id": 2,
+      "latest": false,
       "title": "Url Shortening Api with React",
       "description": "This Project uses an Api , that shorts all url that is inserted in the input field,and displays the original and the shortened link.You can copy itt to the Clipborad with one button click !",
       "note": "This Project was created to match the resolution for 375px and 1440px.",
@@ -133,7 +151,8 @@
     },
 
     {
-      "id": 7,
+      "id": 1,
+      "latest": false,
       "title": "Insure Landing Page",
       "description": "This project is based on Frontend mentors design.This was my first project that i used ReactJs and Sass preprocessor.The design was challenging and learned a lot from it.",
       "note": "This Project was created to match the resolution for 375px and 1440px.",

@@ -63,7 +63,20 @@
 
   "projects": [
     {
-      "id": 1,
+      "id": 8,
+      "latest": true,
+      "title": "Időjárás Web App",
+      "description": "Időjárás app külsős API használatával. Előrejelzésekkel, automata geolokációval, beállítások szekcióval. Folyamatos fejlesztés alatt.",
+      "note": "Full reszponzív",
+      "tech": "Mui, ReactJs, Vite, React Router, React Query, Scss, Context API",
+      "projectlink": "https://github.com/MrBeard89/bluesky",
+      "livelink": "https://mrbeard89.github.io/bluesky/",
+      "imglinkmobile": "weather-app-mobile.png",
+      "imglinkdesktop": "weather-app-desktop.png"
+    },
+    {
+      "id": 7,
+      "latest": false,
       "title": "Világűr turizmus weboldal",
       "description": "A webdesignt Kevin Powell tervezte.Több aloldalból áll,dinamikusan változó modalokkal.",
       "note": "Full reszponzív",
@@ -74,7 +87,8 @@
       "imglinkdesktop": "space-desktop.png"
     },
     {
-      "id": 2,
+      "id": 6,
+      "latest": false,
       "title": "ParteShirts Webshop UI - Mern full-stack App",
       "description": "Ez a project minden adatott a MongoDB adatbázisból nyeri, NodeJS-el.Server,Frontend(Netlify).Csekkold le!",
       "note": "Full reszponzív",
@@ -85,7 +99,8 @@
       "imglinkdesktop": "parteshirts-desktop.png"
     },
     {
-      "id": 3,
+      "id": 5,
+      "latest": false,
       "title": "Portfolio 2.0",
       "description": "A projektet egy munkalehetőség próba feladata kapcsán irtam meg, törekedtem egy másik , letisztult design megalkotására.Az űrlapon frontend validációt használtam",
       "note": "Ez a projekt reszponziv az összes felbontáson",
@@ -98,6 +113,7 @@
 
     {
       "id": 4,
+      "latest": false,
       "title": "Dragon Ball Fan oldal",
       "description": "Ez a project volt a modulzáróm Scssből.A szabályok egyszerűek voltak, irj egy SPA-t a kedvenc márkáddal, igy hát mivel nagyon szerettem a dragonball-t, ezért ezt választottam.",
       "note": "Ez a projekt minden felbontáson reszponziv",
@@ -109,7 +125,8 @@
     },
 
     {
-      "id": 5,
+      "id": 3,
+      "latest": false,
       "title": "Todo App Reactal",
       "description": "Ez egy 'TodoApp' Reactal.Létretudsz hozni egy teendőt, kitudod választani, és törölni.",
       "note": "Ez a projekt minden felbontáson reszponziv",
@@ -121,7 +138,8 @@
     },
 
     {
-      "id": 6,
+      "id": 2,
+      "latest": false,
       "title": "Url Rövidítő Api Reactal",
       "description": "Ez a projekt egy Api-t használ, ami lerövidit minden linket amit bemásolunk, és megjeleniti az eredetit és a röviditett linket.Kitudod másolni a vágólapra egy gombnyomással!",
       "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg",
@@ -133,7 +151,8 @@
     },
 
     {
-      "id": 7,
+      "id": 1,
+      "latest": false,
       "title": "Insure Landing Page",
       "description": "Ez a project egy Frontend mentor design.Ez volt az első projektem ahol ReactJs-t és Sass preproceszort használtam.Nagy kihivás volt, és sokat tanultam belöle.",
       "note": "Ezt a projektet 375px és 1440px felbontásra irtam meg.",

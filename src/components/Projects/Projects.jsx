@@ -3,14 +3,7 @@ import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import { LanguageContext } from '../../context/LanguageContext'
 import { useContext } from 'react'
-import {
-  motion,
-  useMotionValue,
-  useSpring,
-  useTransform,
-  useMotionValueEvent,
-  useScroll,
-} from 'framer-motion'
+import { motion, useMotionValue, useSpring, useTransform, useScroll } from 'framer-motion'
 
 //Github and external site icons
 import { FiGithub, FiExternalLink } from 'react-icons/fi'
@@ -22,7 +15,6 @@ import { AiFillCaretDown } from 'react-icons/ai'
 import i18n from '../../utils/i18n'
 import languageHu from '../../languages/hu.json'
 import languageEn from '../../languages/en.json'
-import { Themecontext } from '../../context/Themecontext'
 
 export const Projects = () => {
   const { language } = useContext(LanguageContext)
@@ -104,7 +96,7 @@ export const Projects = () => {
                     transition={{ duration: 2 }}
                     style={{ scrollY }}
                   >
-                    {data.id === 1 ? (
+                    {data.latest ? (
                       <span
                         className='new'
                         style={{ position: 'absolute', right: '1rem', top: '1rem' }}
@@ -148,7 +140,7 @@ export const Projects = () => {
                 return (
                   //Card Container
                   <div className='project-card' key={index}>
-                    {data.id === 1 ? (
+                    {data.latest ? (
                       <span
                         className='new'
                         style={{ position: 'absolute', right: '1rem', top: '1rem' }}
