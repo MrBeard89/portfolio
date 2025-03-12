@@ -45,20 +45,25 @@ export const Navbar = () => {
   }
 
   var prevScrollpos = window.pageYOffset
-  window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset
-    if (prevScrollpos > currentScrollPos) {
-      document.querySelector('.navbar-wrapper').style.top = '0'
-    } else {
-      document.querySelector('.navbar-wrapper').style.top = '-70px'
-      setHoverDownload(false)
-    }
-    prevScrollpos = currentScrollPos
+
+  {
+    pathName === '/portfolio'
+      ? (window.onscroll = function () {
+          var currentScrollPos = window.pageYOffset
+          if (prevScrollpos > currentScrollPos) {
+            document.querySelector('.navbar-wrapper').style.top = '0'
+          } else {
+            document.querySelector('.navbar-wrapper').style.top = '-70px'
+            setHoverDownload(false)
+          }
+          prevScrollpos = currentScrollPos
+        })
+      : ''
   }
 
   return (
     <>
-      {pathName === '/portfolio/' ? (
+      {pathName === '/portfolio' ? (
         <div className={`navbar-wrapper ${theme === 'light' ? 'light' : 'dark'}`}>
           <div className='navbar-container'>
             <div className='logo-container'>
