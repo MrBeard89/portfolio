@@ -66,7 +66,7 @@
       "id": 8,
       "latest": true,
       "title": "Weather Web App",
-      "description": "Weather app with API usage. With Forecast, auto geolocation, settings section. Under continuous development !.",
+      "description": "Weather app with API usage. With Forecast, auto geolocation, settings section. Under continuous development!",
       "note": "Full responsive",
       "tech": "Mui, ReactJs, Vite, React Router, React Query, Scss, Context API",
       "projectlink": "https://github.com/MrBeard89/bluesky",
