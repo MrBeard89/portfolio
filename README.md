@@ -1,4 +1,4 @@
-**Note: A projekt full reszponzív !.**
+- Note: A projekt full reszponzív !
 
 <div align="center">
 <a>
@@ -43,6 +43,6 @@
 
 👉 **Animációk**: Különböző animációk Framer motion könyvtár, illetve keyframes segítségével
 
-👉 **Megtekintés github pages linken keresztül**
+    👉 **Megtekintés github pages linken keresztül**
 
-    👉 <a href="https://mrbeard89.github.io/portfolio/">https://mrbeard89.github.io/portfolio/</a>
+👉 <a href="https://mrbeard89.github.io/portfolio/">https://mrbeard89.github.io/portfolio/</a>
