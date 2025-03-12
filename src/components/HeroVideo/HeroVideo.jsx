@@ -2,7 +2,7 @@ import '../../styles/HeroVideo/HeroVideo.scss'
 
 import { CgScrollV } from 'react-icons/cg'
 
-import HeroVideo from '/hero-video.webm'
+import HeroVideo from '/hero-video.mp4'
 import BeardIcon from '/beard.png'
 import { useLocation } from 'react-router-dom'
 
@@ -26,7 +26,7 @@ export const HeroVideoComponent = () => {
             loop={true}
             // playsInline
             // muted
-            //preload='auto'
+            preload='auto'
           />
           <div className='scroll_icon_container'>
             <CgScrollV className='video_scroll_icon' />
