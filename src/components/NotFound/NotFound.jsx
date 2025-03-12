@@ -10,7 +10,7 @@ export const NotFound = () => {
   const { language } = useContext(LanguageContext)
   let navigate = useNavigate()
   const handleNavigate = () => {
-    navigate('/portfolio', { replace: true })
+    navigate('/portfolio/', { replace: true })
   }
   return (
     <div className='not_found_container'>

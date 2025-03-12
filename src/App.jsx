@@ -55,7 +55,7 @@ function App() {
                 <HeroVideoComponent />
 
                 <Routes>
-                  <Route path='/portfolio' element={<Home />} />
+                  <Route path='/portfolio/' element={<Home />} />
                   <Route path='/portfolio/*' element={<NotFound />} />
                   <Route path='/*' element={<NotFound />} />
                 </Routes>
