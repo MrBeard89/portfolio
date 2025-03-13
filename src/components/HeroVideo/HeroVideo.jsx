@@ -3,6 +3,7 @@ import '../../styles/HeroVideo/HeroVideo.scss'
 import { CgScrollV } from 'react-icons/cg'
 
 import HeroVideo from '/hero-video.mp4'
+import HeroPoster from '/hero-poster.png'
 import BeardIcon from '/beard.png'
 import { useLocation } from 'react-router-dom'
 
@@ -23,6 +24,7 @@ export const HeroVideoComponent = () => {
             src={HeroVideo}
             // controls={true}
             autoPlay={true}
+            poster={HeroPoster}
             loop={true}
             // playsInline
             // muted

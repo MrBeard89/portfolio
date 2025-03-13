@@ -29,7 +29,7 @@
   object-fit: cover;
 }
 .video_wrapper .scroll_icon_container {
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
   z-index: 6;
   position: absolute;
   bottom: 0;
@@ -50,6 +50,6 @@
     transform: translateY(0rem);
   }
   100% {
-    transform: translateY(4rem);
+    transform: translateY(2rem);
   }
 }/*# sourceMappingURL=HeroVideo.css.map */
