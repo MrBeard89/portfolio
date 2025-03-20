@@ -19,9 +19,10 @@ import Node from '/tech-icons/nodejs.png'
 import Express from '/tech-icons/express.png'
 import Mongodb from '/tech-icons/mongodb_80756.png'
 import Git from '/tech-icons/git.jpg'
-import Firebase from '/tech-icons/firebase.png'
+import Google from '/tech-icons/google.png'
 import Vitest from '/tech-icons/vitest-icon.jpg'
 import Redux from '/tech-icons/redux-icon.png'
+import Tailwind from '/tech-icons/tailwind.png'
 import { useContext } from 'react'
 import { LanguageContext } from '../../context/LanguageContext'
 import { ThemeContext } from '@emotion/react'
@@ -85,18 +86,14 @@ export const Skills = () => {
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
-              <img
-                className='desktop-tech-icon-left'
-                src={ReactQuery}
-                alt='tech-icon for desktop'
-              />
-              <li className='brighter'>React Query</li>
+              <img className='desktop-tech-icon-left' src={React} alt='tech-icon for desktop' />
+              <li className='brighter'>React Native</li>
             </div>
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
               <img className='desktop-tech-icon-left' src={Redux} alt='tech-icon for desktop' />
-              <li className='brighter'>Redux | Context</li>
+              <li className='brighter'>Redux</li>
             </div>
 
             <div className='skill-element-container'>
@@ -116,11 +113,27 @@ export const Skills = () => {
               <img className='desktop-tech-icon-left' src={Bootstrap} alt='tech-icon for desktop' />
               <li className='brighter'>Bootstrap5</li>
             </div>
+
+            <div className='skill-element-container'>
+              <AiFillCaretRight className='right-arrow' />
+              <img className='desktop-tech-icon-left' src={Tailwind} alt='tech-icon for desktop' />
+              <li className='brighter'>TailwindCss</li>
+            </div>
           </ul>
 
           {/* Right Skill tree */}
 
           <ul className='right-skillset'>
+            <div className='skill-element-container'>
+              <AiFillCaretRight className='right-arrow' />
+              <img
+                className='desktop-tech-icon-right'
+                src={ReactQuery}
+                alt='tech-icon for desktop'
+              />
+              <li className='brighter'>React Query</li>
+            </div>
+
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
               <li>Node.Js</li>
@@ -147,8 +160,8 @@ export const Skills = () => {
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
-              <li className='brighter'>Firebase</li>
-              <img className='desktop-tech-icon-right' src={Firebase} alt='tech-icon for desktop' />
+              <li className='brighter'>GCP | Firebase</li>
+              <img className='desktop-tech-icon-right' src={Google} alt='tech-icon for desktop' />
             </div>
 
             <div className='skill-element-container'>
