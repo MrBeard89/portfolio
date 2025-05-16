@@ -83,7 +83,7 @@ export const Jobs = () => {
             <Typography variant='body1'>
               {i18n.text(language, i18n.MAP.jobs_typog_momo_2)}
             </Typography>
-            <Typography variant='body1'>
+            {/* <Typography variant='body1'>
               {i18n.text(language, i18n.MAP.jobs_typog_momo_3)}
             </Typography>
             <Typography variant='body1'>
@@ -91,7 +91,7 @@ export const Jobs = () => {
             </Typography>
             <Typography variant='body1'>
               {i18n.text(language, i18n.MAP.jobs_typog_momo_5)}
-            </Typography>
+            </Typography> */}
 
             <Box
               className='cover_letter_box'

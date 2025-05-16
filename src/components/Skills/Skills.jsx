@@ -56,7 +56,7 @@ export const Skills = () => {
           </p>
           <p>
             {i18n.text(language, i18n.MAP.skills_little)}
-            <span className='brighter'>{i18n.text(language, i18n.MAP.skills_photoshop)}</span> ,
+            <span className='brighter'>{i18n.text(language, i18n.MAP.skills_photoshop)}</span>
             <span className='brighter'>{i18n.text(language, i18n.MAP.skills_msoffice)}</span>
             {i18n.text(language, i18n.MAP.skills_text_5)}{' '}
             <p>

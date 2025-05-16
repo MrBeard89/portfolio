@@ -6,7 +6,7 @@
 .contact-wrapper .contact-container .email-container .contact-email-btn a {
   font-family: "Genos", Calibri, Ruda, sans-serif;
   color: #fdfd96;
-  background-color: #5a83c9;
+  background-color: #6084c3;
   border-bottom-right-radius: 1.5rem;
   border-top-left-radius: 1.5rem;
   padding: 1rem;
@@ -26,7 +26,7 @@
 }
 
 .contact-wrapper .contact-container .email-container .contact-text {
-  color: #324972;
+  color: #466eb3;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 6rem;
@@ -56,26 +56,26 @@
   background-image: linear-gradient(#112240, #020d1d);
   border-radius: 1rem;
   padding: 1rem;
-  border-block-end: 2px solid #5a83c9;
+  border-block-end: 2px solid #6084c3;
 }
 .contact-wrapper .contact-container .email-container .contact-container-title {
-  color: #5a83c9;
+  color: #6084c3;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 1.5rem;
 }
 .contact-wrapper .contact-container .email-container .contact-intro-text {
-  color: #5a83c9;
+  color: #6084c3;
 }
 .contact-wrapper .contact-container .email-container .contact-text {
   font-weight: 700;
 }
 .contact-wrapper .contact-container .email-container .contact-text .highlighted {
-  color: #45669e;
+  color: #aabaff;
 }
 .contact-wrapper .contact-container .email-container .contact-text:is(:hover, :active) {
-  color: #45669e;
+  color: #aabaff;
 }
 .contact-wrapper .contact-container .social-media {
   position: relative;
@@ -139,12 +139,12 @@
   color: #ffff00;
 }
 .contact-wrapper .contact-container .social-media p {
-  color: #324972;
+  color: #466eb3;
   font-size: 18px;
   font-weight: 700;
 }
 .contact-wrapper .contact-container .social-media p .full-name {
-  color: #45669e;
+  color: #aabaff;
 }
 
 @keyframes email-line-fade {

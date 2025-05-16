@@ -25,7 +25,7 @@
   color: #fdfd96;
   text-decoration: none;
   font-size: 20px;
-  background-color: #5a83c9;
+  background-color: #6084c3;
   border-bottom-right-radius: 1.5rem;
   border-top-left-radius: 1.5rem;
   padding: 1.3rem 2.3rem;
@@ -43,7 +43,7 @@
 }
 
 .projects-wrapper .projects-container .projects-container-title {
-  color: #5a83c9;
+  color: #6084c3;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -51,11 +51,11 @@
   border-radius: 1rem;
   padding: 0.5rem 0.5rem 5rem 0.5rem;
   margin-bottom: 2rem;
-  text-shadow: 1px 2px 1px #324972, 1px 3px 1px #324972, 1px 4px 1px #324972, 1px 5px 1px #324972, 1px 6px 1px #324972, 1px 18px 6px #020d1d;
+  text-shadow: 1px 2px 1px #466eb3, 1px 3px 1px #466eb3, 1px 4px 1px #466eb3, 1px 5px 1px #466eb3, 1px 6px 1px #466eb3, 1px 18px 6px #020d1d;
 }
 
 .projects-wrapper .projects-container .cards-wrapper .project-card .card-description {
-  color: #45669e;
+  color: #aabaff;
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 1.5rem;
@@ -72,8 +72,8 @@
   padding: 0.5rem;
   background-color: #112240;
   box-shadow: 0px 0px 15px 2px rgba(2, 12, 27, 0.7);
-  border-block-end: 3px solid #5a83c9;
-  color: #5a83c9;
+  border-block-end: 3px solid #6084c3;
+  color: #6084c3;
 }
 .projects-wrapper .project-card-teaser::before {
   position: absolute;
@@ -114,23 +114,23 @@
 .projects-wrapper .projects-container .cards-wrapper .project-card {
   z-index: 3;
   position: relative;
-  border-block-start: 3px solid #324972;
+  border-block-start: 3px solid #466eb3;
   border-radius: 1.3rem;
-  border-block-end: 3px solid #5a83c9;
+  border-block-end: 3px solid #6084c3;
   height: 396px;
   background-image: linear-gradient(#112240, #020d1d);
   box-shadow: 0px 0px 15px 2px rgba(2, 12, 27, 0.7);
   overflow: hidden;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card:hover {
-  border-block-end: 3px solid #5a83c9;
-  border-block-start: 3px solid #5a83c9;
+  border-block-end: 3px solid #6084c3;
+  border-block-start: 3px solid #6084c3;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card .card-title {
   background-color: transparent;
   text-align: center;
-  background-color: #324972;
-  color: #5a83c9;
+  background-color: #466eb3;
+  color: #6084c3;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   margin-bottom: 1rem;
@@ -164,7 +164,7 @@
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card .card-note {
   position: relative;
-  color: #45669e;
+  color: #aabaff;
   width: 280px;
   margin-bottom: 1rem;
   font-weight: 500;
@@ -194,7 +194,7 @@
   border-radius: 1rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  box-shadow: 0px 0px 35px 1px #324972;
+  box-shadow: 0px 0px 35px 1px #466eb3;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .github,
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .external-link {
@@ -205,13 +205,13 @@
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .github:is(:hover, :active),
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .external-link:is(:hover, :active) {
   color: #ffff00;
-  background-color: #5a83c9;
-  box-shadow: 0px 0px 35px 1px #324972;
+  background-color: #6084c3;
+  box-shadow: 0px 0px 35px 1px #466eb3;
   transition: 0.3s ease-in-out;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .github {
   text-align: center;
-  background-color: #324972;
+  background-color: #466eb3;
   transition: none;
   width: 148px;
   border-bottom-left-radius: 1rem;
@@ -223,7 +223,7 @@
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .external-link {
   text-align: center;
   transition: none;
-  background-color: #324972;
+  background-color: #466eb3;
   width: 148px;
   border-bottom-right-radius: 1rem;
 }
@@ -292,7 +292,7 @@
   .projects-container .cards-wrapper .project-card-teaser {
     background-color: #112240;
     box-shadow: 0px 0px 15px 2px rgba(2, 12, 27, 0.7);
-    border-block-end: 3px solid #5a83c9;
+    border-block-end: 3px solid #6084c3;
     align-items: flex-start !important;
     padding: 1rem;
   }
