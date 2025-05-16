@@ -57,7 +57,7 @@ export const Jobs = () => {
 
         <DialogContent
           sx={{
-            color: '#324972',
+            color: '#6084c3',
             fontSize: '20px',
             bgcolor: '#0c1e3a',
             fontFamily: "'Genos', Calibri, Ruda, sans-serif",
