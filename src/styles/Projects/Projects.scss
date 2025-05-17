@@ -78,8 +78,8 @@
         overflow: hidden;
 
         &:hover {
-          border-block-end: 3px solid v.$xxl-light-navy;
-          border-block-start: 3px solid v.$xxl-light-navy;
+          border-block-end: 3px solid v.$bluis-white;
+          border-block-start: 3px solid v.$bluis-white;
         }
 
         //Card title
@@ -87,7 +87,7 @@
           background-color: transparent;
           text-align: center;
           background-color: v.$lightest-navy;
-          color: v.$xxl-light-navy;
+          color: v.$light-navy;
           border-top-left-radius: 1rem;
           border-top-right-radius: 1rem;
           margin-bottom: 1rem;
@@ -178,7 +178,7 @@
 
             &:is(:hover, :active) {
               color: v.$yellow;
-              background-color: v.$xxl-light-navy;
+              background-color: v.$bluis-white;
               box-shadow: 0px 0px 35px 1px v.$lightest-navy;
               transition: 0.3s ease-in-out;
             }

@@ -54,7 +54,7 @@
   filter: hue-rotate(90deg);
 }
 .about-wrapper .about-container .about-introduction {
-  color: #6084c3;
+  color: #7391c7;
   font-size: 18px;
   font-weight: 400;
 }
@@ -69,7 +69,7 @@
   margin-bottom: 1.5rem;
 }
 .about-wrapper .about-container .about-profession span {
-  color: #6084c3;
+  color: #7391c7;
   letter-spacing: 2px;
   margin-left: 0.5rem;
 }
@@ -129,14 +129,14 @@
     width: 520px !important;
   }
   .about-container .about-img-container .img-border {
-    border: 3px solid #6084c3 !important;
+    border: 3px solid #7391c7 !important;
     bottom: 2.15rem !important;
     left: 2.8rem !important;
     border-radius: 50% !important;
     transition: 0.2s ease;
     width: 520px !important;
     height: 520px !important;
-    box-shadow: 0px 0px 85px 15px #6084c3;
+    box-shadow: 0px 0px 85px 15px #7391c7;
     opacity: 0.3;
   }
   .about-container .animated-arrow-down {
@@ -182,6 +182,6 @@
     position: absolute;
     left: 4rem;
     top: 1.34rem;
-    box-shadow: 0px 0px 85px 15px #6084c3 !important;
+    box-shadow: 0px 0px 85px 15px #7391c7 !important;
   }
 }/*# sourceMappingURL=About.css.map */

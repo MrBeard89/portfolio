@@ -25,7 +25,7 @@
   color: #fdfd96;
   text-decoration: none;
   font-size: 20px;
-  background-color: #6084c3;
+  background-color: #7391c7;
   border-bottom-right-radius: 1.5rem;
   border-top-left-radius: 1.5rem;
   padding: 1.3rem 2.3rem;
@@ -43,7 +43,7 @@
 }
 
 .projects-wrapper .projects-container .projects-container-title {
-  color: #6084c3;
+  color: #7391c7;
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -72,8 +72,8 @@
   padding: 0.5rem;
   background-color: #112240;
   box-shadow: 0px 0px 15px 2px rgba(2, 12, 27, 0.7);
-  border-block-end: 3px solid #6084c3;
-  color: #6084c3;
+  border-block-end: 3px solid #7391c7;
+  color: #7391c7;
 }
 .projects-wrapper .project-card-teaser::before {
   position: absolute;
@@ -116,21 +116,21 @@
   position: relative;
   border-block-start: 3px solid #6084c3;
   border-radius: 1.3rem;
-  border-block-end: 3px solid #6084c3;
+  border-block-end: 3px solid #7391c7;
   height: 396px;
   background-image: linear-gradient(#112240, #020d1d);
   box-shadow: 0px 0px 15px 2px rgba(2, 12, 27, 0.7);
   overflow: hidden;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card:hover {
-  border-block-end: 3px solid #6084c3;
-  border-block-start: 3px solid #6084c3;
+  border-block-end: 3px solid #aac9ff;
+  border-block-start: 3px solid #aac9ff;
 }
 .projects-wrapper .projects-container .cards-wrapper .project-card .card-title {
   background-color: transparent;
   text-align: center;
   background-color: #6084c3;
-  color: #6084c3;
+  color: #112240;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   margin-bottom: 1rem;
@@ -205,7 +205,7 @@
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .github:is(:hover, :active),
 .projects-wrapper .projects-container .cards-wrapper .project-card .icon-container .external-link:is(:hover, :active) {
   color: #ffff00;
-  background-color: #6084c3;
+  background-color: #aac9ff;
   box-shadow: 0px 0px 35px 1px #6084c3;
   transition: 0.3s ease-in-out;
 }
@@ -292,7 +292,7 @@
   .projects-container .cards-wrapper .project-card-teaser {
     background-color: #112240;
     box-shadow: 0px 0px 15px 2px rgba(2, 12, 27, 0.7);
-    border-block-end: 3px solid #6084c3;
+    border-block-end: 3px solid #7391c7;
     align-items: flex-start !important;
     padding: 1rem;
   }

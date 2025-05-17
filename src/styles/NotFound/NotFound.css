@@ -7,14 +7,14 @@
   height: 100vh;
 }
 .not_found_container .not_found_title {
-  color: #6084c3;
+  color: #7391c7;
   margin-bottom: 2rem;
 }
 .not_found_container .not_found_btn {
   padding: 1rem;
   outline: none;
   border-radius: 1rem;
-  border: 1px solid #6084c3;
+  border: 1px solid #7391c7;
 }
 .not_found_container .not_found_btn:hover {
   cursor: pointer;
