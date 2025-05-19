@@ -54,7 +54,6 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 20px;
-  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,6 +62,7 @@
   margin-bottom: 2rem;
   cursor: pointer;
   top: 2rem;
+  z-index: 5;
 }
 .navbar-wrapper #hover_download #hover_download_list {
   position: relative;
@@ -100,6 +100,7 @@
 }
 .navbar-wrapper .navbar-container .logo-container {
   margin-left: 1.3rem;
+  z-index: 5;
 }
 .navbar-wrapper .navbar-container .navlinks-container {
   display: none;
@@ -164,11 +165,6 @@
   border-radius: 2px;
   box-shadow: 0px 0px 10px 1px #ffff00;
 }
-.navbar-wrapper .navbar-container .navlinks .theme-toggle:is(:hover, :focus-visible) {
-  cursor: pointer;
-  border: 1px solid #ffff00;
-  background-color: #06011d;
-}
 .navbar-wrapper .navbar-container .navlinks .theme-toggle #darktheme-icon {
   font-size: 22px;
   background-color: transparent;
@@ -201,15 +197,28 @@
     transform: translateX(12rem);
   }
 }
+@keyframes cv_right {
+  0% {
+    transform: translateX(2rem);
+  }
+}
 @media only screen and (min-width: 992px) {
   #hover_download {
     top: unset !important;
     margin-bottom: unset !important;
+    flex-direction: row !important;
+    gap: 1rem !important;
+    background-color: #6084c3 !important;
+    padding-right: 0.5rem !important;
+    border-radius: 1rem !important;
   }
   #hover_download_list {
-    position: fixed !important;
+    position: relative !important;
     align-items: center;
-    top: 4rem;
+    flex-direction: row !important;
+    top: 0;
+    z-index: 5 !important;
+    animation: cv_right 1.5s cubic-bezier(0.19, 1, 0.22, 1);
   }
   #hover_download_list .hover_download_links {
     width: 90% !important;

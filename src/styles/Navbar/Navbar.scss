@@ -18,7 +18,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
-    width: fit-content;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,6 +27,7 @@
     margin-bottom: 2rem;
     cursor: pointer;
     top: 2rem;
+    z-index: 5;
 
     #hover_download_list {
       position: relative;
@@ -75,6 +76,7 @@
 
     .logo-container {
       margin-left: 1.3rem;
+      z-index: 5;
     }
     .navlinks-container {
       display: none;
@@ -166,11 +168,11 @@
           box-shadow: 0px 0px 10px 1px v.$yellow;
         }
 
-        &:is(:hover, :focus-visible) {
-          cursor: pointer;
-          border: 1px solid v.$yellow;
-          background-color: v.$navy-blue;
-        }
+        // &:is(:hover, :focus-visible) {
+        //   cursor: pointer;
+        //   border: 1px solid v.$yellow;
+        //   background-color: v.$navy-blue;
+        // }
 
         #darktheme-icon {
           font-size: v.$fz-xxl;
@@ -212,6 +214,12 @@
     transform: translateX(12rem);
   }
 }
+//CV animation
+@keyframes cv_right {
+  0% {
+    transform: translateX(2rem);
+  }
+}
 
 //Media Queries
 
@@ -221,12 +229,20 @@
   #hover_download {
     top: unset !important;
     margin-bottom: unset !important;
+    flex-direction: row !important;
+    gap: 1rem !important;
+    background-color: v.$lightest-navy !important;
+    padding-right: 0.5rem !important;
+    border-radius: 1rem !important;
   }
 
   #hover_download_list {
-    position: fixed !important;
+    position: relative !important;
     align-items: center;
-    top: 4rem;
+    flex-direction: row !important;
+    top: 0;
+    z-index: 5 !important;
+    animation: cv_right 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 
     .hover_download_links {
       width: 90% !important;

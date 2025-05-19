@@ -5,8 +5,8 @@
   "navbar_projects": "Projects",
   "navbar_contact": "Contact",
   "navbar_resume_btn": "Resume",
-  "navbar_resume_btn_en": "Kovács Norbert English",
-  "navbar_resume_btn_hu": "Kovács Norbert Hungarian",
+  "navbar_resume_btn_en": "EN",
+  "navbar_resume_btn_hu": "HU",
   "routing_404": "This menu unfortunatelly not available yet.",
   "routing_404_btn": "Go back to homepage!",
 
