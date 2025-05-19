@@ -120,7 +120,6 @@
   right: 0;
   list-style: none;
   background: transparent;
-  backdrop-filter: blur(20px);
   animation: goleft 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .navbar-wrapper .navbar-container .navlinks .mobile-menu {

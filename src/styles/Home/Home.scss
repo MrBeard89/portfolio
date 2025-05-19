@@ -27,6 +27,7 @@
         rotate: 180deg;
         width: 100%;
         object-fit: cover;
+        border-radius: 50%;
       }
     }
   }
@@ -195,7 +196,7 @@ $shadows-big: multiple-box-shadow(100);
     margin-top: -30rem !important;
   }
   .blackhole-center-container {
-    top: -15.5rem !important;
+    top: -16.5rem !important;
     .blackhole-container {
       width: 1200px !important;
     }
