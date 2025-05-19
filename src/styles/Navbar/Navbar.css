@@ -46,6 +46,7 @@
   top: 0;
   z-index: 5;
   transition: top 0.3s;
+  box-shadow: 0px 0px 15px 2px #4f26ad;
   background: transparent;
   backdrop-filter: blur(20px);
 }
@@ -210,7 +211,7 @@
     gap: 1rem !important;
     background-color: #6084c3 !important;
     padding-right: 0.5rem !important;
-    border-radius: 1rem !important;
+    border-radius: 0.5rem !important;
   }
   #hover_download_list {
     position: relative !important;

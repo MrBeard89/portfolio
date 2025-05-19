@@ -290,7 +290,9 @@
 @media only screen and (min-width: 992px) {
   .projects-container {
     width: v.$content-desktop992-width !important;
-
+    .more-to-see-container {
+      margin-bottom: -8rem;
+    }
     //Dekor yellow line
 
     // &::before {
@@ -313,7 +315,7 @@
     }
 
     .cards-wrapper {
-      gap: 14rem !important;
+      gap: 10rem !important;
 
       .new {
         display: block !important;

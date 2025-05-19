@@ -32,6 +32,7 @@ export const Home = () => {
           <Skills />
           <Projects />
           <Contact />
+          <div className='bottom-box-shadow'></div>
         </div>
       </div>
     </>

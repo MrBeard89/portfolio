@@ -278,13 +278,16 @@
   .projects-container {
     width: 750px !important;
   }
+  .projects-container .more-to-see-container {
+    margin-bottom: -8rem;
+  }
   .projects-container .projects-container-title {
     transition: 1s ease;
     font-size: 45px !important;
     margin-bottom: 5rem !important;
   }
   .projects-container .cards-wrapper {
-    gap: 14rem !important;
+    gap: 10rem !important;
   }
   .projects-container .cards-wrapper .new {
     display: block !important;
