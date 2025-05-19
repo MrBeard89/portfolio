@@ -105,7 +105,7 @@
       right: 0;
       list-style: none;
       background: transparent;
-      //backdrop-filter: blur(20px);
+      backdrop-filter: blur(20px);
 
       animation: goleft 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 
@@ -234,6 +234,9 @@
     background-color: v.$lightest-navy !important;
     padding-right: 0.5rem !important;
     border-radius: 0.5rem !important;
+  }
+  .navlinks {
+    backdrop-filter: unset !important;
   }
 
   #hover_download_list {
