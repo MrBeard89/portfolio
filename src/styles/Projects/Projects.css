@@ -33,7 +33,7 @@
 }
 .projects-wrapper .projects-container .cards-wrapper .more-to-see-container .more-btn a:is(:hover, :active) {
   color: #ffff00;
-  background-color: #0c1e3a;
+  background-color: #06011d;
   border-top-right-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
   border-bottom-right-radius: 0;
@@ -47,11 +47,11 @@
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 2px;
-  background-image: linear-gradient(#112240 5%, #020d1d 90%);
+  background-image: linear-gradient(#112240 5%, #050116 90%);
   border-radius: 1rem;
   padding: 0.5rem 0.5rem 5rem 0.5rem;
   margin-bottom: 2rem;
-  text-shadow: 1px 3px 1px #aac9ff, 1px 4px 1px #aac9ff, 1px 5px 1px #aac9ff, 1px 6px 1px #aac9ff, 1px 18px 6px #020d1d;
+  text-shadow: 1px 3px 1px #aac9ff, 1px 4px 1px #aac9ff, 1px 5px 1px #aac9ff, 1px 6px 1px #aac9ff, 1px 18px 6px #050116;
 }
 
 .projects-wrapper .projects-container .cards-wrapper .project-card .card-description {
@@ -118,7 +118,7 @@
   border-radius: 1.3rem;
   border-block-end: 3px solid #7391c7;
   height: 396px;
-  background-image: linear-gradient(#112240, #020d1d);
+  background-image: linear-gradient(#112240, #050116);
   box-shadow: 0px 0px 15px 2px rgba(2, 12, 27, 0.7);
   overflow: hidden;
 }
@@ -333,7 +333,7 @@
     min-width: 540px !important;
   }
   .projects-container .cards-wrapper .project-card .desktop-info-bar {
-    background-color: #0c1e3a !important;
+    background-color: #06011d !important;
     display: flex;
     flex-direction: column;
     gap: 1rem;

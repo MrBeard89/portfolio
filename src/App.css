@@ -7,12 +7,12 @@
 }
 
 body {
-  background-color: #0c1e3a;
+  background-color: #06011d;
 }
 
 /* Firefox */
 html {
-  scrollbar-color: #ffff00 #0c1e3a;
+  scrollbar-color: #ffff00 #06011d;
   scrollbar-width: thin;
   scrollbar-arrow-color: #ffff00;
   scroll-behavior: smooth;
@@ -23,20 +23,20 @@ html {
 ::-webkit-scrollbar {
   width: 12px;
   height: 8px;
-  background-color: #0c1e3a;
+  background-color: #06011d;
   color: #ffff00;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #0c1e3a;
+  background: #06011d;
   color: #ffff00;
   border-radius: 5px;
 }
 
 .dark {
-  background-color: #020d1d;
+  background-color: #050116;
 }
 
 .light {
-  background-color: #0c1e3a;
+  background-color: #06011d;
 }/*# sourceMappingURL=App.css.map */

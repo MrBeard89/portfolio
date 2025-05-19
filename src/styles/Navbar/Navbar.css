@@ -36,7 +36,7 @@
 }
 .navbar-wrapper .navbar-container .navlinks span:is(:hover, :active) {
   color: #ffff00;
-  background-color: #0c1e3a;
+  background-color: #06011d;
   border: 1px solid #ffff00;
 }
 
@@ -46,6 +46,8 @@
   top: 0;
   z-index: 5;
   transition: top 0.3s;
+  background: transparent;
+  backdrop-filter: blur(20px);
 }
 .navbar-wrapper #hover_download {
   position: relative;
@@ -86,7 +88,7 @@
   text-align: left;
 }
 .navbar-wrapper #hover_download #hover_download_list .hover_download_list_item:hover {
-  background-color: #0c1e3a;
+  background-color: #06011d;
   color: #aac9ff;
 }
 .navbar-wrapper .navbar-container {
@@ -94,6 +96,7 @@
   justify-content: space-between;
   height: 4rem;
   width: 100vw;
+  z-index: 5;
 }
 .navbar-wrapper .navbar-container .logo-container {
   margin-left: 1.3rem;
@@ -114,7 +117,8 @@
   top: 0;
   right: 0;
   list-style: none;
-  background-color: #112240;
+  background: transparent;
+  backdrop-filter: blur(20px);
   animation: goleft 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .navbar-wrapper .navbar-container .navlinks .mobile-menu {
@@ -128,6 +132,7 @@
   background-color: #112240;
   font-size: 20px;
   text-decoration: none;
+  background: transparent;
   letter-spacing: 2px;
   height: 5rem;
   width: 180px;
@@ -145,7 +150,7 @@
   border: 1px solid #fada5e;
   border-radius: 0.5rem;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
-  background-color: #6084c3;
+  background-color: #343434;
 }
 .navbar-wrapper .navbar-container .navlinks .theme-toggle::before {
   position: absolute;
@@ -162,7 +167,7 @@
 .navbar-wrapper .navbar-container .navlinks .theme-toggle:is(:hover, :focus-visible) {
   cursor: pointer;
   border: 1px solid #ffff00;
-  background-color: #0c1e3a;
+  background-color: #06011d;
 }
 .navbar-wrapper .navbar-container .navlinks .theme-toggle #darktheme-icon {
   font-size: 22px;
@@ -188,7 +193,7 @@
 .navbar-wrapper .navbar-container .navlinks .flag-toggle:is(:hover, :focus-visible) {
   cursor: pointer;
   border: 1px solid #ffff00;
-  background-color: #0c1e3a;
+  background-color: #06011d;
 }
 
 @keyframes goleft {

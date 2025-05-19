@@ -12,7 +12,6 @@ import Preloader from './components/Preloader/Preloader'
 import { Suspense, useEffect, useState } from 'react'
 import { Themecontext } from './context/Themecontext'
 import { LanguageContext } from './context/LanguageContext'
-import { HeroVideoComponent } from './components/HeroVideo/HeroVideo'
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark')
@@ -52,7 +51,7 @@ function App() {
             <div className={`App ${theme}`}>
               <Router>
                 <Navbar />
-                <HeroVideoComponent />
+                {/* <HeroVideoComponent /> */}
 
                 <Routes>
                   <Route path='/portfolio/' element={<Home />} />

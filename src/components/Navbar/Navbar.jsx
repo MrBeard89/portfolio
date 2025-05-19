@@ -20,6 +20,7 @@ import { BsLightbulbFill, BsLightbulbOff } from 'react-icons/bs'
 //Import Language Library
 import i18n from '../../utils/i18n'
 //
+
 //
 //
 export const Navbar = () => {
@@ -138,10 +139,11 @@ export const Navbar = () => {
 
                 <button
                   className='theme-toggle'
-                  onClick={() => {
-                    toggleIcon()
-                    toggleTheme()
-                  }}
+                  disabled
+                  // onClick={() => {
+                  //   toggleIcon()
+                  //   toggleTheme()
+                  // }}
                 >
                   {themeIcon === 'dark' ? (
                     <BsLightbulbOff id='darktheme-icon' />

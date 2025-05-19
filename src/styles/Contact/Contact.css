@@ -16,7 +16,7 @@
 }
 .contact-wrapper .contact-container .email-container .contact-email-btn a:is(:hover, :active) {
   color: #ffff00;
-  background-color: #0c1e3a;
+  background-color: #06011d;
   border-top-right-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
   border-bottom-right-radius: 0;
@@ -53,7 +53,7 @@
   align-items: left;
   gap: 1rem;
   margin-bottom: 8rem;
-  background-image: linear-gradient(#112240, #020d1d);
+  background-image: linear-gradient(#112240, #050116);
   border-radius: 1rem;
   padding: 1rem;
   border-block-end: 2px solid #7391c7;
