@@ -31,6 +31,8 @@ import { Jobs } from './components/Jobs'
 //Import Language Library
 import i18n from '../../utils/i18n'
 
+import SkillsBG from '/public/skills-bg.webm'
+
 export const Skills = () => {
   const { language } = useContext(LanguageContext)
 
@@ -75,6 +77,16 @@ export const Skills = () => {
         {/* Skill tree list Container */}
 
         <div className='skills-skillset-container'>
+          <div className='skills-bg-container'>
+            <video
+              src={SkillsBG}
+              autoPlay
+              loop
+              muted
+              //playsInline
+              className='skills-bg-video'
+            ></video>
+          </div>
           <ul className='left-skillset'>
             {/* Left Skill tree */}
 

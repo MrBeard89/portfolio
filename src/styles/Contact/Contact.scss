@@ -8,7 +8,7 @@
   align-items: center;
   margin-top: 3rem;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   height: fit-content;
 
   .contact-container {
@@ -16,6 +16,7 @@
     flex-direction: column;
     align-items: center;
     width: v.$content-mobile-width;
+    margin-top: 2rem;
 
     //Email Container
     .email-container {

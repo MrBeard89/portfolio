@@ -97,10 +97,21 @@
   justify-content: flex-start;
   gap: 2rem;
   width: 100%;
+  position: relative;
+  z-index: 5;
+}
+.skills-wrapper .skills-container .skills-skillset-container .skills-bg-container {
+  position: absolute;
+}
+.skills-wrapper .skills-container .skills-skillset-container .skills-bg-container .skills-bg-video {
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.5;
 }
 .skills-wrapper .skills-container .skills-skillset-container .skill-element-container {
   display: flex;
   align-items: center;
+  z-index: 5;
 }
 .skills-wrapper .skills-container .skills-skillset-container .skill-element-container .desktop-tech-icon-left,
 .skills-wrapper .skills-container .skills-skillset-container .skill-element-container .desktop-tech-icon-right {
@@ -114,6 +125,7 @@
   color: #aabaff;
   font-size: 18px;
   font-weight: 700;
+  z-index: 5;
 }
 .skills-wrapper .skills-container .skills-skillset-container .skill-element-container .brighter {
   color: #aac9ff;
