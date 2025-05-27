@@ -402,10 +402,10 @@
 @media only screen and (min-width: 1440px) {
   .projects-container {
     transition: 1s ease;
-    width: 1046px !important;
+    width: 1246px !important;
   }
   .projects-container .cards-wrapper {
     transition: 1s ease;
-    width: 1046px !important;
+    width: 1246px !important;
   }
 }/*# sourceMappingURL=Projects.css.map */
