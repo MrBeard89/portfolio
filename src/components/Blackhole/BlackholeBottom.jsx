@@ -2,17 +2,17 @@ import '../../styles/Blackhole/Blackhole.scss'
 
 import BlackholeVid from '../../../public/blackhole.webm'
 
-export const Blackhole = () => {
+export const BlackholeBottom = () => {
   return (
-    <div className='blackhole-center-container'>
-      <div className='blackhole-container'>
+    <div className='blackhole-bottom-wrapper'>
+      <div className='blackhole-bottom-container'>
         <video
           src={BlackholeVid}
           autoPlay
           loop
           muted
           //playsInline
-          className='blackhole-video'
+          className='blackhole-bottom-video'
         ></video>
       </div>
     </div>

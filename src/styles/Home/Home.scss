@@ -6,10 +6,14 @@
   color: v.$lightest-navy;
   position: relative;
 
-  .bottom-box-shadow {
-    height: 1px;
-    box-shadow: 0px 0px 15px 2px v.$blackhole-color;
-  }
+  // .bottom-box-shadow {
+  //   height: 1px;
+  //   box-shadow: 0px 0px 15px 2px v.$blackhole-color;
+  //   z-index: 1;
+  //   position: fixed;
+  //   bottom: 0px;
+  //   width: 100%;
+  // }
 
   .home-container {
     display: flex;

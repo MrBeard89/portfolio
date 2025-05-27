@@ -3,13 +3,14 @@ import { About } from '../About/About'
 import { Contact } from '../Contact/Contact'
 import { Projects } from '../Projects/Projects'
 import { Skills } from '../Skills/Skills'
-import { Blackhole } from '../Blackhole/Blackhole'
+import { BlackholeTop } from '../Blackhole/BlackholeTop'
+import { BlackholeBottom } from '../Blackhole/BlackholeBottom'
 
 export const Home = () => {
   return (
     <>
       <div className='home-wrapper'>
-        <Blackhole />
+        <BlackholeTop />
         <div className='home-container'>
           <div id='stars_fix'></div>
           <div id='stars'></div>
@@ -19,7 +20,8 @@ export const Home = () => {
           <Skills />
           <Projects />
           <Contact />
-          <div className='bottom-box-shadow'></div>
+          <BlackholeBottom />
+          {/* <div className='bottom-box-shadow'></div> */}
         </div>
       </div>
     </>

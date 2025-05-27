@@ -1,4 +1,7 @@
-.blackhole-center-container {
+@use '../../sass/variables' as v;
+
+//Blackhole top
+.blackhole-top-wrapper {
   display: flex;
   justify-content: center;
   position: relative;
@@ -6,11 +9,32 @@
   left: 0;
   z-index: 1 !important;
 
-  .blackhole-container {
+  .blackhole-top-container {
     position: sticky;
     width: 340px;
 
-    .blackhole-video {
+    .blackhole-top-video {
+      rotate: 180deg;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+}
+//Blackhole bottom
+.blackhole-bottom-wrapper {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: -6.5rem;
+  z-index: 1 !important;
+
+  .blackhole-bottom-container {
+    width: 340px;
+    height: 100%;
+
+    .blackhole-bottom-video {
       rotate: 180deg;
       width: 100%;
       object-fit: cover;
@@ -21,37 +45,64 @@
 
 //Media Queries
 @media only screen and (min-width: 768px) {
-  .blackhole-center-container {
+  .blackhole-top-wrapper {
     top: -6.3rem !important;
-    .blackhole-container {
+    .blackhole-top-container {
+      width: 600px !important;
+    }
+  }
+  .blackhole-bottom-wrapper {
+    bottom: -16.5rem !important;
+    .blackhole-bottom-container {
       width: 600px !important;
     }
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .blackhole-center-container {
+  .blackhole-top-wrapper {
     top: -11.5rem !important;
-    .blackhole-container {
+    .blackhole-top-container {
+      width: 900px !important;
+    }
+  }
+
+  .blackhole-bottom-wrapper {
+    bottom: -20.5rem !important;
+    .blackhole-bottom-container {
       width: 900px !important;
     }
   }
 }
 
 @media only screen and (min-width: 1200px) {
-  .blackhole-center-container {
+  .blackhole-top-wrapper {
     top: -14.8rem !important;
-    .blackhole-container {
+    .blackhole-top-container {
       width: 1100px !important;
+    }
+  }
+
+  .blackhole-bottom-wrapper {
+    bottom: -22rem !important;
+    .blackhole-bottom-container {
+      width: 1000px !important;
     }
   }
 }
 
 @media only screen and (min-width: 1300px) {
-  .blackhole-center-container {
+  .blackhole-top-wrapper {
     top: -16.5rem !important;
-    .blackhole-container {
+    .blackhole-top-container {
       width: 1200px !important;
+    }
+  }
+
+  .blackhole-bottom-wrapper {
+    bottom: -22rem !important;
+    .blackhole-bottom-container {
+      width: 1000px !important;
     }
   }
 }

@@ -69,10 +69,10 @@ export const Contact = () => {
           </div>
 
           {/* Sign */}
-          <p>
+          {/* <p className='sign'>
             {i18n.text(language, i18n.MAP.contact_footer_text)}
             <span className='full-name'>{i18n.text(language, i18n.MAP.contact_sign)}</span>
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
