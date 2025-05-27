@@ -39,4 +39,17 @@ html {
 
 .light {
   background-color: #06011d;
+}
+
+.fadeinApp {
+  animation: fadeinApp 1s ease-in-out;
+}
+
+@keyframes fadeinApp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=App.css.map */

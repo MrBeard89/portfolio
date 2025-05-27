@@ -2,16 +2,12 @@ import React from 'react'
 import '../../styles/Preloader/Preloader.scss'
 import Beard from '/beard.png'
 
-function Preloader({ loading }) {
+function Preloader() {
   return (
     <>
-      {!loading ? (
-        <div className='preloader-wrapper'>
-          <img className='beard_loader' src={Beard} alt='Beard' />
-        </div>
-      ) : (
-        ''
-      )}
+      <div className='preloader-wrapper'>
+        <img className='beard_loader' src={Beard} alt='Beard' />
+      </div>
     </>
   )
 }

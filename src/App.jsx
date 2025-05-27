@@ -45,10 +45,10 @@ function App() {
     <LanguageContext.Provider value={{ language, setLanguage, toggleLanguage }}>
       <Themecontext.Provider value={{ theme, setTheme, localStorage, toggleTheme }}>
         {!loading ? (
-          <Preloader loading={loading} />
+          <Preloader />
         ) : (
-          <Suspense fallback={<Preloader loading={loading} />}>
-            <div className={`App ${theme}`}>
+          <Suspense fallback={<Preloader />}>
+            <div className={`App ${theme} fadeinApp`}>
               <Router>
                 <Navbar />
                 {/* <HeroVideoComponent /> */}
