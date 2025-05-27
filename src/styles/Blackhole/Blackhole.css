@@ -1,0 +1,51 @@
+.blackhole-center-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -1.8rem;
+  left: 0;
+  z-index: 1 !important;
+}
+.blackhole-center-container .blackhole-container {
+  position: sticky;
+  width: 340px;
+}
+.blackhole-center-container .blackhole-container .blackhole-video {
+  rotate: 180deg;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .blackhole-center-container {
+    top: -6.3rem !important;
+  }
+  .blackhole-center-container .blackhole-container {
+    width: 600px !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .blackhole-center-container {
+    top: -11.5rem !important;
+  }
+  .blackhole-center-container .blackhole-container {
+    width: 900px !important;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .blackhole-center-container {
+    top: -14.8rem !important;
+  }
+  .blackhole-center-container .blackhole-container {
+    width: 1100px !important;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .blackhole-center-container {
+    top: -16.5rem !important;
+  }
+  .blackhole-center-container .blackhole-container {
+    width: 1200px !important;
+  }
+}/*# sourceMappingURL=Blackhole.css.map */

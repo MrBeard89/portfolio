@@ -3,26 +3,13 @@ import { About } from '../About/About'
 import { Contact } from '../Contact/Contact'
 import { Projects } from '../Projects/Projects'
 import { Skills } from '../Skills/Skills'
-
-import Blackhole from '/public/blackhole.webm'
+import { Blackhole } from '../Blackhole/Blackhole'
 
 export const Home = () => {
   return (
     <>
       <div className='home-wrapper'>
-        <div className='blackhole-center-container'>
-          <div className='blackhole-container'>
-            <video
-              src={Blackhole}
-              autoPlay
-              loop
-              muted
-              //playsInline
-              className='blackhole-video'
-            ></video>
-          </div>
-        </div>
-
+        <Blackhole />
         <div className='home-container'>
           <div id='stars_fix'></div>
           <div id='stars'></div>
