@@ -68,7 +68,7 @@ export const Navbar = () => {
         <div className={`navbar-wrapper ${theme === 'light' ? 'light' : 'dark'}`}>
           <div className='navbar-container'>
             <div className='logo-container'>
-              <HashLink smooth to='#about'>
+              <HashLink smooth to='/portfolio/'>
                 <Logo className='logo' />
               </HashLink>
             </div>
