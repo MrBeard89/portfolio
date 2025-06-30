@@ -17,10 +17,10 @@
   cursor: pointer;
 }
 
-.skills-wrapper .jobs-container .jobs-btn {
+.skills-wrapper .skills-container .jobs-container .jobs-btn {
   width: 80%;
 }
-.skills-wrapper .jobs-container .jobs-btn span {
+.skills-wrapper .skills-container .jobs-container .jobs-btn span {
   display: flex;
   justify-content: center;
   color: #fdfd96;
@@ -30,7 +30,7 @@
   padding: 1rem;
   font-size: 24px;
 }
-.skills-wrapper .jobs-container .jobs-btn span:is(:hover, :active) {
+.skills-wrapper .skills-container .jobs-container .jobs-btn span:is(:hover, :active) {
   color: #ffff00;
   background-color: #06011d;
   border: 1px solid #ffff00;
@@ -48,7 +48,7 @@
   margin-bottom: 2rem;
 }
 
-.skills-wrapper .jobs-skills-title {
+.skills-wrapper .skills-container .jobs-skills-title {
   color: #7391c7;
   font-size: 24px;
   font-weight: 700;
@@ -66,16 +66,17 @@
   z-index: 1;
   height: fit-content;
 }
-.skills-wrapper .jobs-container {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-bottom: 2rem;
-}
 .skills-wrapper .skills-container {
   margin-top: 3rem;
   position: relative;
   width: 300px;
+}
+.skills-wrapper .skills-container .jobs-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 2rem;
+  z-index: 5 !important;
 }
 .skills-wrapper .skills-container .skills-title {
   margin-bottom: 2rem;
@@ -96,16 +97,23 @@
   justify-content: flex-start;
   gap: 2rem;
   width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   position: relative;
   z-index: 5;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+  opacity: 0.9;
+  background-color: #050116;
 }
 .skills-wrapper .skills-container .skills-skillset-container .skills-bg-container {
   position: absolute;
 }
 .skills-wrapper .skills-container .skills-skillset-container .skills-bg-container .skills-bg-video {
+  display: none;
+  max-height: 420px;
   width: 100%;
   object-fit: cover;
-  opacity: 0.5;
 }
 .skills-wrapper .skills-container .skills-skillset-container .skill-element-container {
   display: flex;
@@ -140,8 +148,8 @@
     width: 450px !important;
   }
   .skills-container .skills-skillset-container {
+    justify-content: space-between !important;
     transition: 1s ease-in-out;
-    justify-content: center !important;
   }
   .skills-container .animated-arrow-down {
     left: 13rem !important;
@@ -150,6 +158,9 @@
 @media only screen and (min-width: 992px) {
   .skills-container {
     width: 750px !important;
+  }
+  .skills-container .skills-bg-video {
+    display: flex !important;
   }
   .skills-container .skill-element-container .desktop-tech-icon-left {
     position: absolute;
@@ -189,6 +200,7 @@
   .skills-container .skills-skillset-container {
     margin-top: 4rem;
     gap: 11rem !important;
+    justify-content: center !important;
   }
   .skills-container .skills-skillset-container li {
     font-size: 24px !important;

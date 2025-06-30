@@ -6,25 +6,26 @@
   @extend %flex-ai-column;
   height: fit-content;
 
-  .jobs-container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 2rem;
-
-    .jobs-btn {
-      @extend %jobs-btn;
-    }
-  }
-
-  .jobs-skills-title {
-    @extend %job-title-style;
-  }
-
   .skills-container {
     margin-top: 3rem;
     position: relative;
     width: v.$content-mobile-width;
+
+    .jobs-container {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-bottom: 2rem;
+      z-index: 5 !important;
+
+      .jobs-btn {
+        @extend %jobs-btn;
+      }
+    }
+
+    .jobs-skills-title {
+      @extend %job-title-style;
+    }
 
     .skills-title {
       @extend %title-style;
@@ -53,16 +54,24 @@
       justify-content: flex-start;
       gap: 2rem;
       width: 100%;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
       position: relative;
       z-index: 5;
+      margin-bottom: 4rem;
+      border-radius: 1rem;
+      opacity: 0.9;
+
+      background-color: v.$dark-navy-blue;
 
       .skills-bg-container {
         position: absolute;
 
         .skills-bg-video {
+          display: none;
+          max-height: 420px;
           width: 100%;
           object-fit: cover;
-          opacity: 0.5;
         }
       }
 
@@ -122,8 +131,8 @@
     width: v.$content-tablet-width !important;
 
     .skills-skillset-container {
+      justify-content: space-between !important;
       transition: 1s ease-in-out;
-      justify-content: center !important;
     }
 
     .animated-arrow-down {
@@ -135,6 +144,9 @@
 //*********************** Desktop 992px ***********************//
 @media only screen and (min-width: 992px) {
   .skills-container {
+    .skills-bg-video {
+      display: flex !important;
+    }
     width: v.$content-desktop992-width !important;
     //margin-top: 0 !important;
 
@@ -204,6 +216,7 @@
     .skills-skillset-container {
       margin-top: 4rem;
       gap: 11rem !important;
+      justify-content: center !important;
 
       li {
         font-size: v.$fz-xxxl !important;

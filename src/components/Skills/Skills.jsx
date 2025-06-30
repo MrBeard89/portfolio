@@ -72,8 +72,6 @@ export const Skills = () => {
           </p>
         </div>
 
-        <Jobs />
-
         {/* Skill tree list Container */}
 
         <div className='skills-skillset-container'>
@@ -87,9 +85,10 @@ export const Skills = () => {
               className='skills-bg-video'
             ></video>
           </div>
-          <ul className='left-skillset'>
-            {/* Left Skill tree */}
 
+          {/* Left Skill tree */}
+
+          <ul className='left-skillset'>
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
               <img className='desktop-tech-icon-left' src={React} alt='tech-icon for desktop' />
@@ -183,6 +182,10 @@ export const Skills = () => {
             </div>
           </ul>
         </div>
+
+        {/* Jobs tree */}
+
+        <Jobs />
 
         {/* Animated Arrow down */}
 
