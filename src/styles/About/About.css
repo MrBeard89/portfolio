@@ -1,6 +1,7 @@
 .about-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -20,7 +21,8 @@
 .about-wrapper {
   z-index: 1;
   height: fit-content;
-  margin-top: 8rem;
+  margin-top: -8rem;
+  height: 100vh;
 }
 .about-wrapper .about-container {
   position: relative;

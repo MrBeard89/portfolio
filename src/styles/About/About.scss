@@ -5,9 +5,10 @@
 
 .about-wrapper {
   z-index: 1;
-  @extend %flex-ai-column;
+  @extend %full-center-column;
   height: fit-content;
-  margin-top: 8rem;
+  margin-top: -8rem;
+  height: 100vh;
 
   .about-container {
     position: relative;
