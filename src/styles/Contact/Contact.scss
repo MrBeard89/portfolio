@@ -230,7 +230,7 @@
     .social-icons-trigger {
       display: flex !important;
       color: v.$grain-yellow;
-      animation: social-fade 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+      animation: social-fade 4s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
 
       .social-icons-trigger-icon {
         font-size: v.$fz-big-1;
@@ -260,7 +260,7 @@
     display: flex !important;
 
     .email-trigger {
-      animation: social-fade 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+      animation: social-fade 4s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
       .email-trigger-icon {
         font-size: v.$fz-big-1;
         color: v.$grain-yellow;

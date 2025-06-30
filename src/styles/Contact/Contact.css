@@ -204,7 +204,7 @@
   .social-icons-container .social-icons-trigger {
     display: flex !important;
     color: #fada5e;
-    animation: social-fade 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+    animation: social-fade 4s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
   }
   .social-icons-container .social-icons-trigger .social-icons-trigger-icon {
     font-size: 35px;
@@ -220,7 +220,7 @@
     display: flex !important;
   }
   .only-desktop-email-line .email-trigger {
-    animation: social-fade 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+    animation: social-fade 4s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
   }
   .only-desktop-email-line .email-trigger .email-trigger-icon {
     font-size: 35px;

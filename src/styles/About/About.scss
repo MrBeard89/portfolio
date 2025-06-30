@@ -7,8 +7,9 @@
   z-index: 1;
   @extend %full-center-column;
   height: fit-content;
-  margin-top: -8rem;
-  height: 100vh;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  height: fit-content;
 
   .about-container {
     position: relative;
