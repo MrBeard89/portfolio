@@ -5,11 +5,16 @@ import { LanguageContext } from '../../context/LanguageContext'
 //Importing Social Icons
 import { FiGithub, FiLinkedin, FiFacebook } from 'react-icons/fi'
 import { FaXTwitter } from 'react-icons/fa6'
-import { useContext } from 'react'
+import { IoShareSocialSharp } from 'react-icons/io5'
+import { MdMarkEmailUnread } from 'react-icons/md'
+
+import { useContext, useState } from 'react'
 //Import Language Library
 import i18n from '../../utils/i18n'
 
 export const Contact = () => {
+  const [socialTrigger, setSocialTrigger] = useState(false)
+  const [emailTrigger, setEmailTrigger] = useState(false)
   const { language } = useContext(LanguageContext)
   //
   return (
@@ -43,29 +48,44 @@ export const Contact = () => {
         {/* Social Media Container */}
         <div className='social-media'>
           {/* Social icon Container */}
-          <div className='social-icons-container'>
+          <div className={`social-icons-container ${socialTrigger ? 'social_apearance' : ''}`}>
             {/* Icons */}
+            <Link className='social-icons-trigger' onClick={() => setSocialTrigger(!socialTrigger)}>
+              <IoShareSocialSharp className='social-icons-trigger-icon' />
+            </Link>
+
             <Link to='https://github.com/MrBeard89' target='_blank'>
-              <FiGithub className='social-icons' />
+              <FiGithub
+                className={`social-icons ${socialTrigger ? 'social_icon_apearance' : ''}`}
+              />
             </Link>
             <Link to='https://www.linkedin.com/in/norbert-kov%C3%A1cs-6703ba26b/' target='_blank'>
-              <FiLinkedin className='social-icons' />
+              <FiLinkedin
+                className={`social-icons ${socialTrigger ? 'social_icon_apearance' : ''}`}
+              />
             </Link>
             <Link to='https://www.facebook.com/norbert.kovacs.12177/' target='_blank'>
-              <FiFacebook className='social-icons' />
+              <FiFacebook
+                className={`social-icons ${socialTrigger ? 'social_icon_apearance' : ''}`}
+              />
             </Link>
             <Link to='https://x.com/KovcsNorbe26504' target='_blank'>
-              <FaXTwitter className='social-icons' />
+              <FaXTwitter
+                className={`social-icons ${socialTrigger ? 'social_icon_apearance' : ''}`}
+              />
             </Link>
           </div>
 
-          <div className='only-desktop-email-line'>
-            <p className='email-line'>
+          <div className={`only-desktop-email-line ${emailTrigger ? 'email_line_apearance' : ''}`}>
+            <Link className='email-trigger' onClick={() => setEmailTrigger(!emailTrigger)}>
+              <MdMarkEmailUnread className='email-trigger-icon' />
+            </Link>
+            <p className={`email-line ${emailTrigger ? 'email_text_apearance' : ''}`}>
               <Link to='mailto:k.n.89@outlook.hu' rel='noopener noreferrer' target='_blank'>
                 k.n.89@outlook.hu
               </Link>
             </p>
-            <hr className='email-line-hr' />
+            {/* <hr className='email-line-hr' /> */}
           </div>
 
           {/* Sign */}

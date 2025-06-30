@@ -97,45 +97,45 @@
       //Right side send email line container
 
       .only-desktop-email-line {
-        transform: rotate(90deg);
         background-color: v.$light-navy;
-        padding: 1rem 9rem 1rem 1rem;
-        border-bottom-right-radius: 1rem;
+        padding: 1rem 2.5rem 1rem 1rem;
+        border-top-left-radius: 1rem;
         border-bottom-left-radius: 1rem;
-
-        height: fit-content;
-        width: fit-content;
+        height: 32px;
+        width: 15px;
         position: fixed;
-        right: -3rem;
-        bottom: 10.8rem;
         display: none;
-        opacity: 0;
         box-shadow: 0px 0px 15px 2px v.$navy-shadow;
 
         //Line
 
-        .email-line-hr {
-          position: fixed;
-          bottom: -1rem;
-          right: 3.5rem;
-          transform: rotate(90deg);
-          content: '';
-          width: 2px;
-          height: 85px;
-          background-color: v.$grain-yellow;
-          animation: email-line-fade 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
-          border-radius: 5px;
-          //margin-right: 0.5rem;
-        }
+        // .email-line-hr {
+        //   position: fixed;
+        //   bottom: -1rem;
+        //   right: 3.5rem;
+        //   transform: rotate(90deg);
+        //   content: '';
+        //   width: 2px;
+        //   height: 85px;
+        //   background-color: v.$grain-yellow;
+        //   animation: email-line-fade 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+        //   border-radius: 5px;
+        //   //margin-right: 0.5rem;
+        // }
 
         //Actual Link
 
         .email-line {
+          transform: rotate(90deg);
+          position: relative;
+          top: 8.5rem;
+          left: -8rem;
           height: fit-content;
+          display: none;
           a {
             letter-spacing: 3px;
             color: v.$grain-yellow;
-            display: inline-block;
+
             text-decoration: none;
             height: fit-content;
 
@@ -161,15 +161,39 @@
   }
 }
 
+//Trigger classes
+
+.social-icons-trigger {
+  display: none;
+  transition: 1s ease-in-out;
+}
+
+.social_apearance {
+  height: fit-content !important;
+  transition: 1s ease-in-out;
+}
+.social_icon_apearance {
+  display: flex !important;
+  transition: 1s ease-in-out;
+}
+.email_line_apearance {
+  height: 270px !important;
+  transition: 1s ease-in-out;
+}
+.email_text_apearance {
+  display: flex !important;
+  transition: 1s ease-in-out;
+}
+
 //Keyframes
 
-@keyframes email-line-fade {
+@keyframes social-fade {
   0% {
     opacity: 0;
   }
   50% {
     opacity: 1;
-    box-shadow: 0px 0px 20px 2px v.$grain-yellow;
+    color: v.$grain-yellow;
   }
   100% {
     opacity: 0;
@@ -190,28 +214,64 @@
     display: flex !important;
     flex-direction: column !important;
     gap: 2rem !important;
-    position: fixed !important;
-    left: 0 !important;
-    bottom: 0;
+    position: fixed;
+    left: 0;
+    top: 6rem;
+    height: 32px;
     border-top-left-radius: 0rem !important;
     border-bottom-left-radius: 0rem !important;
+
+    .social-icons {
+      font-size: v.$fz-xxxl !important;
+      padding-left: 0.3rem;
+      display: none;
+    }
+
+    .social-icons-trigger {
+      display: flex !important;
+      color: v.$grain-yellow;
+      animation: social-fade 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+
+      .social-icons-trigger-icon {
+        font-size: v.$fz-big-1;
+
+        &:is(:hover, :active) {
+          color: v.$yellow;
+        }
+      }
+    }
     //margin-left: 2rem;
 
-    &::after {
-      content: '';
-      width: 2px;
-      height: 85px;
-      background-color: v.$grain-yellow;
-      margin-left: 0.5rem;
-      animation: email-line-fade 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
-    }
+    // &::after {
+    //   content: '';
+    //   width: 2px;
+    //   height: 85px;
+    //   background-color: v.$grain-yellow;
+    //   margin-left: 0.5rem;
+    //   animation: email-line-fade 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+    // }
   }
 
   .only-desktop-email-line {
-    transition: 1s ease-in-out;
+    transition: unset !important;
     opacity: 1 !important;
-    right: -9rem !important;
+    top: 6rem;
+    right: 0rem !important;
     display: flex !important;
+
+    .email-trigger {
+      animation: social-fade 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite;
+      .email-trigger-icon {
+        font-size: v.$fz-big-1;
+        color: v.$grain-yellow;
+        &:is(:hover, :active) {
+          color: v.$yellow;
+        }
+      }
+    }
+    .email-line {
+      font-size: v.$fz-xxl !important;
+    }
   }
 }
 
