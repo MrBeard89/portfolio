@@ -41,7 +41,8 @@
   "jobs_title": "Munkáim",
   "jobs_cover_btn": "Ajánlólevél",
 
-  "jobs_typog_freelance": "Ebben a pár hónapban különböző megbízásokat fogadtam,ebbe beleértve bemutatkozó oldalakat,kisebb oldalak fejlesztését vállaltam.",
+  "jobs_typog_freelance": "Ebben a pár hónapban különböző megbízásokat fogadtam, beleértve bemutatkozó oldalakat, főképpen kisebb fejlesztésigényű webappok, weblapok fejlesztését vállaltam, pár designer munkával karöltve.",
+  "jobs_typog_freelance_after_momo": "Az IT válság engem is elért, így visszatértem a freelance megbízásokhoz. Megbízásaim között előfordult komolyabb webapplikáció is amihez Reduxot használtam vállvetve a React Query-vel. Upwork a platform, illetve a Fiverr , amin keresem a megbízásokat, munkákat. Főként designer és frontend munkákat vállalok. ",
 
   "contact_title": "Kapcsolat",
   "contact_intro_text": "Vedd fel a kapcsolatot",

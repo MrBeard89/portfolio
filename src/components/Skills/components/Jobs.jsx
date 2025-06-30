@@ -33,7 +33,7 @@ export const Jobs = () => {
           opacity: '0.9',
           position: 'relative',
           overflow: 'auto',
-          maxHeight: 600,
+          maxHeight: 660,
         }}
         subheader={<li />}
       >
@@ -50,11 +50,59 @@ export const Jobs = () => {
         >
           {i18n.text(language, i18n.MAP.jobs_title)}
         </ListSubheader>
+
+        {/* Freelance */}
+
         <ListItem alignItems='flex-start'>
           <ListItemText
             secondary={
               <>
-                {/* Money and More Zrt. */}
+                <Box sx={{ mb: '2rem', display: 'flex', flexDirection: 'column' }}>
+                  <Typography variant='h4' sx={{ color: '#fdfd96', marginBottom: '0.5rem' }}>
+                    Freelance
+                  </Typography>
+                  <span
+                    style={{
+                      color: '#45669e',
+                      marginBottom: '0.5rem',
+                      fontSize: '22px',
+                      fontFamily: "'Genos', Calibri, Ruda, sans-serif",
+                      fontWeight: '500',
+                    }}
+                  >
+                    Jan 2025 -
+                  </span>
+                  <Typography variant='body1' sx={{ mb: '0.5rem' }}>
+                    {/* {i18n.text(language, i18n.MAP.jobs_typog_momo_1)} */}
+                    <span style={{ color: '#fffafa' }}>
+                      React | JS - TS | Redux | React Query | Tailwind | SCSS | Jira | ChatGPT |
+                      BitBucket | SourceTree | Slack | Canva | Figma
+                    </span>
+                  </Typography>
+                  <Typography
+                    variant='body1'
+                    sx={{
+                      color: '#45669e',
+                      lineHeight: '1.2',
+                      fontFamily: "'Genos', Calibri, Ruda, sans-serif",
+                      fontSize: '22px',
+                      fontWeight: '500',
+                    }}
+                  >
+                    {i18n.text(language, i18n.MAP.jobs_typog_freelance_after_momo)}
+                  </Typography>
+                </Box>
+              </>
+            }
+          />
+        </ListItem>
+
+        {/* Money and More Zrt. */}
+
+        <ListItem alignItems='flex-start'>
+          <ListItemText
+            secondary={
+              <>
                 <Box
                   className='momo_container'
                   sx={{
@@ -171,49 +219,8 @@ export const Jobs = () => {
                   <Typography variant='body1' sx={{ mb: '0.5rem' }}>
                     {/* {i18n.text(language, i18n.MAP.jobs_typog_momo_1)} */}
                     <span style={{ color: '#fffafa' }}>
-                      React | Context | MUI | Jira | BitBucket | SourceTree | Slack
-                    </span>
-                  </Typography>
-                  <Typography
-                    variant='body1'
-                    sx={{
-                      color: '#45669e',
-                      lineHeight: '1.2',
-                      fontFamily: "'Genos', Calibri, Ruda, sans-serif",
-                      fontSize: '22px',
-                      fontWeight: '500',
-                    }}
-                  >
-                    {i18n.text(language, i18n.MAP.jobs_typog_freelance)}
-                  </Typography>
-                </Box>
-              </>
-            }
-          />
-        </ListItem>
-        <ListItem alignItems='flex-start'>
-          <ListItemText
-            secondary={
-              <>
-                <Box sx={{ mb: '2rem', display: 'flex', flexDirection: 'column' }}>
-                  <Typography variant='h4' sx={{ color: '#fdfd96', marginBottom: '0.5rem' }}>
-                    Freelance
-                  </Typography>
-                  <span
-                    style={{
-                      color: '#45669e',
-                      marginBottom: '0.5rem',
-                      fontSize: '22px',
-                      fontFamily: "'Genos', Calibri, Ruda, sans-serif",
-                      fontWeight: '500',
-                    }}
-                  >
-                    Mar 2023 - Aug 2023
-                  </span>
-                  <Typography variant='body1' sx={{ mb: '0.5rem' }}>
-                    {/* {i18n.text(language, i18n.MAP.jobs_typog_momo_1)} */}
-                    <span style={{ color: '#fffafa' }}>
-                      React | Context | MUI | Jira | BitBucket | SourceTree | Slack
+                      React | JS | Context | MUI | Jira | BitBucket | SourceTree | Slack | Canva |
+                      Figma
                     </span>
                   </Typography>
                   <Typography
