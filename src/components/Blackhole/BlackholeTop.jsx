@@ -1,6 +1,6 @@
 import '../../styles/Blackhole/Blackhole.scss'
 
-import BlackholeVid from '../../../public/blackhole.webm'
+import BlackholeVid from '/blackhole.webm'
 
 export const BlackholeTop = () => {
   return (

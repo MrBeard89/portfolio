@@ -31,7 +31,7 @@ import { Jobs } from './components/Jobs'
 //Import Language Library
 import i18n from '../../utils/i18n'
 
-import SkillsBG from '/public/skills-bg.webm'
+import SkillsBG from '/skills-bg.webm'
 
 export const Skills = () => {
   const { language } = useContext(LanguageContext)
