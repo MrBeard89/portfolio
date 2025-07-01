@@ -22,12 +22,13 @@
   z-index: 1;
   height: fit-content;
   margin-top: 6rem;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   height: fit-content;
 }
 .about-wrapper .about-container {
   position: relative;
   width: 300px;
+  padding-top: 4rem;
 }
 .about-wrapper .about-container .about-img-container {
   position: inherit;

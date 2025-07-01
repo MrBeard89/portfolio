@@ -118,14 +118,13 @@
   position: relative;
   top: 8.5rem;
   left: -8rem;
-  height: fit-content;
   display: none;
+  height: fit-content;
 }
 .contact-wrapper .contact-container .social-media .only-desktop-email-line .email-line a {
   letter-spacing: 3px;
   color: #fada5e;
   text-decoration: none;
-  height: fit-content;
 }
 .contact-wrapper .contact-container .social-media .only-desktop-email-line .email-line a:is(:hover, :active) {
   color: #ffff00;

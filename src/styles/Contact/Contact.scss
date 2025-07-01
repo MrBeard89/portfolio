@@ -106,6 +106,7 @@
         position: fixed;
         display: none;
         box-shadow: 0px 0px 15px 2px v.$navy-shadow;
+        //transition: 1s ease-in-out;
 
         //Line
 
@@ -130,14 +131,13 @@
           position: relative;
           top: 8.5rem;
           left: -8rem;
-          height: fit-content;
           display: none;
+          height: fit-content;
+
           a {
             letter-spacing: 3px;
             color: v.$grain-yellow;
-
             text-decoration: none;
-            height: fit-content;
 
             &:is(:hover, :active) {
               color: v.$yellow;

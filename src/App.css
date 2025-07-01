@@ -42,7 +42,7 @@ html {
 }
 
 .fadeinApp {
-  animation: fadeinApp 1s ease-in-out;
+  animation: fadeinApp 2s ease-in-out;
 }
 
 @keyframes fadeinApp {

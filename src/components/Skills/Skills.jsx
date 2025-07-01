@@ -46,21 +46,21 @@ export const Skills = () => {
         {/* Text Container  */}
 
         <div className='skills-text-container'>
-          <p>{i18n.text(language, i18n.MAP.skills_text_1)}</p>
+          {/* <p>{i18n.text(language, i18n.MAP.skills_text_1)}</p> */}
           <p>
             {i18n.text(language, i18n.MAP.skills_text_2)}
-            <span className='python-text'>{i18n.text(language, i18n.MAP.skills_node)}</span>
+            {/* <span className='python-text'>{i18n.text(language, i18n.MAP.skills_node)}</span> */}
             {i18n.text(language, i18n.MAP.skills_text_3)}
-            <span className='designer-text'>
+            {/* <span className='designer-text'>
               {i18n.text(language, i18n.MAP.skills_webdeveloper)}
             </span>
-            {i18n.text(language, i18n.MAP.skills_text_4)}
+            {i18n.text(language, i18n.MAP.skills_text_4)} */}
           </p>
           <p>
-            {i18n.text(language, i18n.MAP.skills_little)}
+            {/* {i18n.text(language, i18n.MAP.skills_little)}
             <span className='brighter'>{i18n.text(language, i18n.MAP.skills_photoshop)}</span>
             <span className='brighter'>{i18n.text(language, i18n.MAP.skills_msoffice)}</span>
-            {i18n.text(language, i18n.MAP.skills_text_5)}{' '}
+            {i18n.text(language, i18n.MAP.skills_text_5)}{' '} */}
             <p>
               {i18n.text(language, i18n.MAP.skills_text_6)}
               <span className='brighter'>{i18n.text(language, i18n.MAP.skills_text_7)}</span>
