@@ -192,4 +192,11 @@
     top: 1.34rem;
     box-shadow: 0px 0px 85px 15px #7391c7 !important;
   }
+}
+@media only screen and (min-width: 1800px) {
+  .about-container {
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+    height: 60vh !important;
+  }
 }/*# sourceMappingURL=About.css.map */
