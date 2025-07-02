@@ -96,6 +96,16 @@ export const Jobs = () => {
             }
           />
         </ListItem>
+         <Divider
+          variant='inset'
+          component='li'
+          sx={{
+            bgcolor: '#45669e',
+            ml: 'unset',
+            width: '100%',
+            //mb: '1rem',
+          }}
+        />
 
         {/* Money and More Zrt. */}
 
