@@ -16,8 +16,8 @@ import Scss from '/tech-icons/sass_icon-512.png'
 import Bootstrap from '/tech-icons/bootstrap.png'
 ////Right
 import Node from '/tech-icons/nodejs.png'
-import Express from '/tech-icons/express.png'
-import Mongodb from '/tech-icons/mongodb_80756.png'
+import PHP from '/tech-icons/php.png'
+import PostgreSQL from '/tech-icons/postgresql.png'
 import Git from '/tech-icons/git.jpg'
 import Google from '/tech-icons/google.png'
 import Vitest from '/tech-icons/vitest-icon.jpg'
@@ -153,14 +153,18 @@ export const Skills = () => {
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
-              <li>Express.Js</li>
-              <img className='desktop-tech-icon-right' src={Express} alt='tech-icon for desktop' />
+              <li>PHP</li>
+              <img className='desktop-tech-icon-right' src={PHP} alt='tech-icon for desktop' />
             </div>
 
             <div className='skill-element-container'>
               <AiFillCaretRight className='right-arrow' />
-              <li>MongoDB</li>
-              <img className='desktop-tech-icon-right' src={Mongodb} alt='tech-icon for desktop' />
+              <li>PostgreSQL</li>
+              <img
+                className='desktop-tech-icon-right'
+                src={PostgreSQL}
+                alt='tech-icon for desktop'
+              />
             </div>
 
             <div className='skill-element-container'>
