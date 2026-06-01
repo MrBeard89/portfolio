@@ -212,7 +212,7 @@ export const Jobs = () => {
                     {i18n.text(language, i18n.MAP.jobs_typog_momo_2)}
                   </Typography>
 
-                  <Box
+                  {/* <Box
                     className='cover_letter_box'
                     sx={[
                       {
@@ -245,7 +245,7 @@ export const Jobs = () => {
                         {i18n.text(language, i18n.MAP.jobs_cover_btn)}
                       </span>
                     </Link>
-                  </Box>
+                  </Box> */}
                 </Box>
               </>
             }
