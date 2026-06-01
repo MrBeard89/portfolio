@@ -111,7 +111,7 @@ export const Navbar = () => {
                     <div id='hover_download_list'>
                       <Link
                         className='hover_download_links'
-                        to='/portfolio/Kovács_Norbert_EN_CV.pdf'
+                        to='/portfolio/Kovacs_Norbert_Frontend_Developer_CV_v3.pdf'
                         target='_blank'
                         rel='noopener noreferrer'
                         download
@@ -120,7 +120,9 @@ export const Navbar = () => {
                           {i18n.text(language, i18n.MAP.navbar_resume_btn_en)}
                         </div>
                       </Link>
-                      <Link
+                      {/* Egyenlőre csak az angol önéletrajz tölthető le! */}
+
+                      {/* <Link
                         className='hover_download_links'
                         to='/portfolio/Kovács_Norbert_HU_CV.pdf'
                         target='_blank'
@@ -130,7 +132,7 @@ export const Navbar = () => {
                         <div className='hover_download_list_item'>
                           {i18n.text(language, i18n.MAP.navbar_resume_btn_hu)}
                         </div>
-                      </Link>
+                      </Link> */}
                     </div>
                   ) : (
                     ''
