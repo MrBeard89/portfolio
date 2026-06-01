@@ -47,7 +47,7 @@
   "contact_email_btn": "Küldj Emailt",
   "contact_footer_text": "Megtervezve és leprogramozva, ",
   "contact_sign": "Kovács Norbert",
-  "contact_at_work": "Jelenleg munkát keresek 2+ év tapasztalattal, ha felkeltettem az érdeklődésed küldj emailt, vagy vedd fel velem a kapcsolatot az elérhetőségeim egyikén!",
+  "contact_at_work": "Jelenleg munkát keresek 3+ év tapasztalattal, ha felkeltettem az érdeklődésed küldj emailt, vagy vedd fel velem a kapcsolatot az elérhetőségeim egyikén!",
 
   "projects_title": "Projektek",
   "projects_more_btn": "Több projekt itt",
@@ -91,19 +91,6 @@
       "imglinkmobile": "parteshirts-mobile.png",
       "imglinkdesktop": "parteshirts-desktop.png"
     },
-    {
-      "id": 5,
-      "latest": false,
-      "title": "Portfolio 2.0",
-      "description": "A projektet egy munkalehetőség próba feladata kapcsán irtam meg, törekedtem egy másik , letisztult design megalkotására. Az űrlapon frontend validációt használtam",
-      "note": "Ez a projekt reszponzív az összes felbontáson",
-      "tech": "HTML, CSS3, SCSS, ReactJs, React Router, Hash Link, React Icons library, Context Api, String format",
-      "projectlink": "https://github.com/MrBeard89/portfolio_2.0",
-      "livelink": "https://mrbeard89.github.io/portfolio_2.0/",
-      "imglinkmobile": "portfolio2-mobile.png",
-      "imglinkdesktop": "portfolio2-desktop.png"
-    },
-
     {
       "id": 4,
       "latest": false,
