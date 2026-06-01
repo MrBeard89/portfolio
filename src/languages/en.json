@@ -31,12 +31,13 @@
 
   "jobs_btn": "Jobs",
   "jobs_typog_momo_1": "Used technologies/tools .: ",
-  "jobs_typog_momo_2": "I learned a lot at Money and More. I coded a task manager system, for bank/insurance agents with a help of a Senior college. I coded in custom CRM - MIS systems, with agile development. My main task was the full development of custom components and the creation of complex forms. We coded this system into a mobile app with React + webView. Because we had many events, we developed a mobile app for managing access, with a help of React Native + Expo. In mid-October, my contract was terminated due to financial cost reduction.",
+  "jobs_typog_momo_2": "• Built reusable React UI components • Developed complex form systems for internal CRM platform for over 1500+ users • Implemented responsive UI using T ailwind and SCSS • Integrated APIs with React Query and Axios • Contributed to React Native mobile application (Event app) using Expo • Coded complex state managment webapp, and version controlled it, using Bitbucket, Sourcetree, and Jira",
   "jobs_title": "Jobs",
   "jobs_cover_btn": "Recommendation letter",
 
-  "jobs_typog_freelance": "In this few months , i got contracts for small projects and introductory pages, with few designer jobs as well.",
-  "jobs_typog_freelance_after_momo": "The IT crisis hit me too, so I returned to freelance assignments. Among my assignments, there was also a more serious web application for which I used Redux together with React Query. Upwork is the platform and Fiverr is where I look for assignments and jobs. Mostly i apply for designer and frontend jobs.",
+  "jobs_typog_freelance_after_momo": "• Delivered React and Next.js projects for international clients • Built UI implementations from Figma design files • Implemented state management using Zustand and React Query • Also worked with PHP related sites, and Wordpress",
+
+  "jobs_typog_freelance_myfactory": "• Developed social platform and marketplace UI • Component-based architecture using React and Tailwind and AI Agents like GPT , Claude Code.",
 
   "contact_title": "Contact",
   "contact_intro_text": "Get in Touch",

@@ -31,12 +31,13 @@
 
   "jobs_btn": "Munkáim",
   "jobs_typog_momo_1": "Használt technológiák/eszközök .: ",
-  "jobs_typog_momo_2": "A Money and More -nál rengeteget tanultam. Segítségemre volt ebben egy Senior kolléga, akivel közösen össze dolgozva hoztunk létre egy Feladat kezelő rendszert banki/biztosítási ügynököknek. Egyedi CRM - MIS rendszereken agilis módszertan alapján dolgoztunk. Egyedi komponensek teljes körű fejlesztése, valamint összetett űrlapok létrehozása volt a feladatom. Ezt a felületet tovább gondolva átültettük egy mobile appba is React segítségével + webViewal. Mivel sok rendezvényünk is volt, ezért ezekre az alkalmakra lefejlesztettünk egy beléptető rendszert is, amit React Native-ban irtunk meg Expo segítségével. Október közepén anyagi költségcsökkentés miatt felmondták a szerződésem.",
+  "jobs_typog_momo_2": "• Újrafelhasználható React UI komponenseket fejlesztettem • Komplex űrlaprendszereket fejlesztettem több mint 1500 felhasználó belső CRM platformjára • Reszponzív felhasználói felületet implementáltam Tailwind és SCSS használatával • Integrált API-kat React Query és Axios segítségével • Hozzájárulás a React Native mobilalkalmazáshoz (Event app) az Expo használatával • Komplex állapotkezelő webes alkalmazást kódoltam, és verziókövettem, Bitbucket, Sourcetree és Jira használatával",
   "jobs_title": "Munkáim",
   "jobs_cover_btn": "Ajánlólevél",
 
-  "jobs_typog_freelance": "Ebben a pár hónapban különböző megbízásokat fogadtam, beleértve bemutatkozó oldalakat, főképpen kisebb fejlesztésigényű webappok, weblapok fejlesztését vállaltam, pár designer munkával karöltve.",
-  "jobs_typog_freelance_after_momo": "Az IT válság engem is elért, így visszatértem a freelance megbízásokhoz. Megbízásaim között előfordult komolyabb webapplikáció is amihez Reduxot használtam vállvetve a React Query-vel. Upwork a platform, illetve a Fiverr , amin keresem a megbízásokat, munkákat. Főként designer és frontend munkákat vállalok. ",
+  "jobs_typog_freelance_after_momo": "• React és Next.js projekteket szállítottam nemzetközi ügyfeleknek • UI implementációkat készítettem Figma tervfájlokból • Állapotkezelést valósítottam meg Zustand és React Query használatával • PHP-hez kapcsolódó webhelyekkel és Wordpress-szel is dolgoztam",
+
+  "jobs_typog_freelance_myfactory": "• Fejlesztett közösségi platform és piactér felhasználói felület • Komponensalapú architektúra React és Tailwind, valamint AI ügynökök, például GPT és Claude Code használatával.",
 
   "contact_title": "Kapcsolat",
   "contact_intro_text": "Vedd fel a kapcsolatot",

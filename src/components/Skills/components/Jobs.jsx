@@ -51,6 +51,62 @@ export const Jobs = () => {
           {i18n.text(language, i18n.MAP.jobs_title)}
         </ListSubheader>
 
+        {/* Freelance at Myfactory.co*/}
+
+        <ListItem alignItems='flex-start'>
+          <ListItemText
+            secondary={
+              <>
+                <Box sx={{ mb: '2rem', display: 'flex', flexDirection: 'column' }}>
+                  <Typography variant='h4' sx={{ color: '#fdfd96', marginBottom: '0.5rem' }}>
+                    Freelance at Myfactory.co - Part Time
+                  </Typography>
+                  <span
+                    style={{
+                      color: '#45669e',
+                      marginBottom: '0.5rem',
+                      fontSize: '22px',
+                      fontFamily: "'Genos', Calibri, Ruda, sans-serif",
+                      fontWeight: '500',
+                    }}
+                  >
+                    Sep 2025 - Apr 2026
+                  </span>
+                  <Typography variant='body1' sx={{ mb: '0.5rem' }}>
+                    <span style={{ color: '#fffafa' }}>
+                      React-TS | NextJs | React Query | Zustand | Tailwind | Jira | Claudie Code |
+                      ChatGPT | BitBucket | SourceTree | Slack | Canva | Figma |
+                    </span>
+                  </Typography>
+
+                  <Typography
+                    variant='body1'
+                    sx={{
+                      color: '#45669e',
+                      lineHeight: '1.2',
+                      fontFamily: "'Genos', Calibri, Ruda, sans-serif",
+                      fontSize: '22px',
+                      fontWeight: '500',
+                    }}
+                  >
+                    {i18n.text(language, i18n.MAP.jobs_typog_freelance_myfactory)}
+                  </Typography>
+                </Box>
+              </>
+            }
+          />
+        </ListItem>
+        <Divider
+          variant='inset'
+          component='li'
+          sx={{
+            bgcolor: '#45669e',
+            ml: 'unset',
+            width: '100%',
+            //mb: '1rem',
+          }}
+        />
+
         {/* Freelance */}
 
         <ListItem alignItems='flex-start'>
@@ -70,15 +126,16 @@ export const Jobs = () => {
                       fontWeight: '500',
                     }}
                   >
-                    Jan 2025 -
+                    Aug 2024 - Sep 2025
                   </span>
                   <Typography variant='body1' sx={{ mb: '0.5rem' }}>
                     {/* {i18n.text(language, i18n.MAP.jobs_typog_momo_1)} */}
                     <span style={{ color: '#fffafa' }}>
-                      React | JS - TS | Redux | React Query | Tailwind | SCSS | Jira | ChatGPT |
-                      BitBucket | SourceTree | Slack | Canva | Figma
+                      React | NextJs | React Query | Zustand | Redux | PHP | Tailwind | Wordpress |
+                      Jira | ChatGPT | BitBucket | SourceTree | Slack | Canva | Figma
                     </span>
                   </Typography>
+
                   <Typography
                     variant='body1'
                     sx={{
@@ -96,7 +153,7 @@ export const Jobs = () => {
             }
           />
         </ListItem>
-         <Divider
+        <Divider
           variant='inset'
           component='li'
           sx={{
@@ -133,7 +190,7 @@ export const Jobs = () => {
                       fontWeight: '500',
                     }}
                   >
-                    Aug 2023 - Jan 2025
+                    Apr 2023 - Aug 2024
                   </span>
                   <Typography variant='body1' sx={{ mb: '0.5rem' }}>
                     {/* {i18n.text(language, i18n.MAP.jobs_typog_momo_1)} */}
@@ -204,52 +261,6 @@ export const Jobs = () => {
             //mb: '1rem',
           }}
         />
-
-        {/* Freelane */}
-
-        <ListItem alignItems='flex-start'>
-          <ListItemText
-            secondary={
-              <>
-                <Box sx={{ mb: '2rem', display: 'flex', flexDirection: 'column' }}>
-                  <Typography variant='h4' sx={{ color: '#fdfd96', marginBottom: '0.5rem' }}>
-                    Freelance
-                  </Typography>
-                  <span
-                    style={{
-                      color: '#45669e',
-                      marginBottom: '0.5rem',
-                      fontSize: '22px',
-                      fontFamily: "'Genos', Calibri, Ruda, sans-serif",
-                      fontWeight: '500',
-                    }}
-                  >
-                    Mar 2023 - Aug 2023
-                  </span>
-                  <Typography variant='body1' sx={{ mb: '0.5rem' }}>
-                    {/* {i18n.text(language, i18n.MAP.jobs_typog_momo_1)} */}
-                    <span style={{ color: '#fffafa' }}>
-                      React | JS | Context | MUI | Jira | BitBucket | SourceTree | Slack | Canva |
-                      Figma
-                    </span>
-                  </Typography>
-                  <Typography
-                    variant='body1'
-                    sx={{
-                      color: '#45669e',
-                      lineHeight: '1.2',
-                      fontFamily: "'Genos', Calibri, Ruda, sans-serif",
-                      fontSize: '22px',
-                      fontWeight: '500',
-                    }}
-                  >
-                    {i18n.text(language, i18n.MAP.jobs_typog_freelance)}
-                  </Typography>
-                </Box>
-              </>
-            }
-          />
-        </ListItem>
       </List>
     </div>
   )
