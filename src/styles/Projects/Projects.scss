@@ -73,9 +73,10 @@
         border-radius: 1.3rem;
         border-block-end: 3px solid v.$xxl-light-navy;
         height: v.$project-card-height-mobile;
-        width: 100vw/3;
+        width: 100%;
         background-image: linear-gradient(v.$light-navy, v.$dark-navy-blue);
         box-shadow: 0px 0px 15px 2px v.$navy-shadow;
+        margin-bottom: 2rem;
 
         //added because facebook compability issues
         //overflow: hidden;
@@ -433,7 +434,7 @@
 @media only screen and (min-width: 1200px) {
   .projects-container {
     transition: 1s ease;
-    width: v.$content-desktop1200-width !important;
+    //width: v.$content-desktop1200-width !important;
     //Dekor yellow line
 
     // &::before {
