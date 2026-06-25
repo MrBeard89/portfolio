@@ -76,10 +76,10 @@ export const Projects = () => {
         <div className='cards-wrapper'>
           {/* Mapping throw hu,en json files, depending on whats the language context value ! */}
 
-          <div className='project-card-teaser' style={{ height: '150px !important' }}>
+          {/* <div className='project-card-teaser' style={{ height: '150px !important' }}>
             <h3>{i18n.text(language, i18n.MAP['projects-teaser-title'])}</h3>
             <p>{i18n.text(language, i18n.MAP['projects-teaser-note'])}</p>
-          </div>
+          </div> */}
 
           {language === 'hu'
             ? languageHu.projects.map((data, index) => {
