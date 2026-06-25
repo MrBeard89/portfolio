@@ -182,19 +182,6 @@ export const Projects = () => {
                 )
               })}
 
-          {/* more projects container/btn */}
-          <div className='more-to-see-container'>
-            <button className='more-btn'>
-              <Link
-                to='https://github.com/MrBeard89?tab=repositories'
-                target='_blank'
-                aria-label='Link to my Repositories'
-              >
-                {i18n.text(language, i18n.MAP.projects_more_btn)}
-              </Link>
-            </button>
-          </div>
-
           {/* Animated Arrow down */}
 
           <HashLink smooth to='#contact'>

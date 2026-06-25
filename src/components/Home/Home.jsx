@@ -5,6 +5,7 @@ import { Projects } from '../Projects/Projects'
 import { Skills } from '../Skills/Skills'
 import { BlackholeTop } from '../Blackhole/BlackholeTop'
 import { BlackholeBottom } from '../Blackhole/BlackholeBottom'
+import { More } from '../More-Projects/More'
 
 export const Home = () => {
   return (
@@ -19,6 +20,7 @@ export const Home = () => {
           <About />
           <Skills />
           <Projects />
+          <More />
           <Contact />
           <BlackholeBottom />
           {/* <div className='bottom-box-shadow'></div> */}

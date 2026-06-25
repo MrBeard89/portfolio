@@ -218,18 +218,6 @@
         }
       }
 
-      //More projects btn
-
-      .more-to-see-container {
-        margin-top: 2rem;
-        display: flex;
-        justify-content: center;
-
-        .more-btn {
-          @extend %more-btn;
-        }
-      }
-
       //Animated arrow down
 
       .animated-arrow-down {
